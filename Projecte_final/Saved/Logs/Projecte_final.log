@@ -9955,3 +9955,52 @@ LogInit: Object subsystem initialized
 [2021.11.09-19.55.09:275][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
 [2021.11.09-19.55.09:775][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
 [2021.11.09-19.55.10:275][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.10:776][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.11:277][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.11:778][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.12:278][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.12:779][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.13:280][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.13:780][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.14:281][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.14:782][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.15:282][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.15:783][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.16:284][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.16:785][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.17:285][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.17:786][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.18:286][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.18:787][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.19:287][ 90]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.09-19.55.19:788][ 90]LogHttp: Warning: 0000026D09911D80: request failed, libcurl error: 35 (SSL connect error)
+[2021.11.09-19.55.19:788][ 90]LogHttp: Warning: 0000026D09911D80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2021.11.09-19.55.19:788][ 90]LogHttp: Warning: 0000026D09911D80: libcurl info message cache 1 (  Trying 34.234.226.255...)
+[2021.11.09-19.55.19:788][ 90]LogHttp: Warning: 0000026D09911D80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.234.226.255) port 443 (#38))
+[2021.11.09-19.55.19:788][ 90]LogHttp: Warning: 0000026D09911D80: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2021.11.09-19.55.19:788][ 90]LogHttp: Warning: 0000026D09911D80: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2021.11.09-19.55.19:788][ 90]LogHttp: Warning: 0000026D09911D80: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2021.11.09-19.55.19:788][ 90]LogHttp: Warning: 0000026D09911D80: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2021.11.09-19.55.19:788][ 90]LogHttp: Warning: 0000026D09911D80: libcurl info message cache 7 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2021.11.09-19.55.19:788][ 90]LogHttp: Warning: 0000026D09911D80: libcurl info message cache 8 (Closing connection 38)
+[2021.11.09-19.55.19:812][ 90]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2021.11.09-19.55.19:814][ 90]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2021.11.09-19.55.19:814][ 90]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2021.11.09-19.55.19:814][ 90]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2021.11.09-19.55.19:814][ 90]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2021.11.09-19.55.19:814][ 90]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2021.11.09-19.55.19:814][ 90]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2021.11.09-19.55.19:814][ 90]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2021.11.09-19.55.19:819][ 90]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2021.11.09-19.55.19:819][ 90]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2021.11.09-19.55.19:819][ 90]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2021.11.09-19.55.19:819][ 90]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2021.11.09-19.55.19:819][ 90]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2021.11.09-19.55.19:819][ 90]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2021.11.09-19.55.19:819][ 90]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2021.11.09-19.55.19:819][ 90]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2021.11.09-19.55.19:819][ 90]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2021.11.09-19.55.19:819][ 90]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2021.11.09-19.55.19:819][ 90]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2021.11.09-19.55.19:825][ 90]LogExit: Exiting.
+[2021.11.09-19.55.19:835][ 90]Log file closed, 11/09/21 20:55:19
