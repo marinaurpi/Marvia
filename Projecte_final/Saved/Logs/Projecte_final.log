@@ -4791,3 +4791,240 @@ LogInit: Object subsystem initialized
 [2021.11.28-23.01.58:734][130]LogSavePackage: Save=476.66ms
 [2021.11.28-23.01.58:734][130]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2_BuiltDataA679BF7044DCD71F7200A0A064E7FB41.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset'
 [2021.11.28-23.01.58:738][130]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset
+[2021.11.28-23.03.33:307][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleTower_Ruin_02_Supports2)
+[2021.11.28-23.04.58:544][848]Cmd: DELETE
+[2021.11.28-23.04.58:544][848]Cmd: ACTOR DELETE
+[2021.11.28-23.04.58:551][848]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.28-23.04.58:564][848]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2021.11.28-23.05.07:551][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleWall_Curved_Ruin_18)
+[2021.11.28-23.05.09:596][507]Cmd: DELETE
+[2021.11.28-23.05.09:596][507]Cmd: ACTOR DELETE
+[2021.11.28-23.05.09:603][507]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.28-23.05.09:616][507]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2021.11.28-23.05.14:592][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block01)
+[2021.11.28-23.05.37:373][148]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WoodenBarrel_Destroyed)
+[2021.11.28-23.05.38:389][206]Cmd: DELETE
+[2021.11.28-23.05.38:389][206]Cmd: ACTOR DELETE
+[2021.11.28-23.05.38:397][206]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.28-23.05.38:411][206]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2021.11.28-23.05.58:023][380]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_TrimFlat01)
+[2021.11.28-23.06.00:098][495]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_TrimFlat01)
+[2021.11.28-23.06.03:154][676]Cmd: TRANSACTION UNDO
+[2021.11.28-23.06.03:155][676]LogEditorTransaction: Undo Move Actors
+[2021.11.28-23.06.05:408][811]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerBox (TriggerBox2)
+[2021.11.28-23.06.20:952][738]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item5)
+[2021.11.28-23.06.21:927][795]Cmd: TRANSACTION UNDO
+[2021.11.28-23.06.21:927][795]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.28-23.06.32:883][450]LogEditorViewport: Clicking on Actor (LMB): Victory_C (Victory)
+[2021.11.28-23.06.38:548][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Exo_Cart_Damaged)
+[2021.11.28-23.06.39:498][799]Cmd: DELETE
+[2021.11.28-23.06.39:498][799]Cmd: ACTOR DELETE
+[2021.11.28-23.06.39:505][799]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.28-23.06.39:518][799]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2021.11.28-23.06.40:310][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD4)
+[2021.11.28-23.06.40:910][881]Cmd: DELETE
+[2021.11.28-23.06.40:911][881]Cmd: ACTOR DELETE
+[2021.11.28-23.06.40:917][881]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.28-23.06.40:929][881]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2021.11.28-23.07.03:608][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Exo_Decos_Door04)
+[2021.11.28-23.07.04:713][861]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Door_Frame02)
+[2021.11.28-23.07.05:617][912]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Set01_Facade4)
+[2021.11.28-23.07.06:515][963]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Set01_Facade03)
+[2021.11.28-23.07.07:265][  6]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Door_Frame_Column2)
+[2021.11.28-23.07.08:811][ 96]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Door_Frame_Column3)
+[2021.11.28-23.07.09:449][132]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Set01_Facade6)
+[2021.11.28-23.07.10:519][194]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Door_Frame_Column5)
+[2021.11.28-23.07.11:342][241]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Set01_Facade8)
+[2021.11.28-23.07.12:230][292]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Door_Frame_Column6)
+[2021.11.28-23.07.12:835][326]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Set01_Facade9)
+[2021.11.28-23.07.13:715][376]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Door_Frame_Column7)
+[2021.11.28-23.07.14:197][402]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Set01_Facade10)
+[2021.11.28-23.07.15:184][459]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Door_Frame_Column8)
+[2021.11.28-23.07.15:752][490]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Set01_Facade11)
+[2021.11.28-23.07.17:137][570]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Door_Frame_Column9)
+[2021.11.28-23.07.22:725][902]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Set01_Facade5)
+[2021.11.28-23.07.23:481][945]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Door_Frame_Column4)
+[2021.11.28-23.07.24:218][987]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Set01_Facade7)
+[2021.11.28-23.07.26:893][145]LogEditorViewport: Clicking on Actor (CTRL LMB): Victory_C (Victory)
+[2021.11.28-23.07.28:118][217]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block33)
+[2021.11.28-23.07.30:321][348]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block34)
+[2021.11.28-23.07.32:990][505]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block32)
+[2021.11.28-23.07.35:230][638]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block30)
+[2021.11.28-23.07.35:750][668]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block29)
+[2021.11.28-23.07.36:294][699]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block31)
+[2021.11.28-23.08.42:687][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block94)
+[2021.11.28-23.08.44:371][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.28-23.08.46:575][898]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block01)
+[2021.11.28-23.08.55:336][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_TrimFlat01)
+[2021.11.28-23.08.57:891][568]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerBox (TriggerBox2)
+[2021.11.28-23.09.23:556][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.28-23.09.24:624][ 93]LogSavePackage: Save=1051.08ms
+[2021.11.28-23.09.24:624][ 93]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2C9355CD0478AFC1D897E2BACE2B5638A.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap'
+[2021.11.28-23.09.24:626][ 93]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap
+[2021.11.28-23.09.24:646][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2_BuiltData" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset" SILENT=true
+[2021.11.28-23.09.25:203][ 93]LogSavePackage: Save=554.18ms
+[2021.11.28-23.09.25:203][ 93]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2_BuiltDataE1309EAA4667F97B1E1235B43B4D3719.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset'
+[2021.11.28-23.09.25:229][ 93]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset
+[2021.11.28-23.09.25:857][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Scrap_Bridge3)
+[2021.11.28-23.09.26:788][179]Cmd: DELETE
+[2021.11.28-23.09.26:788][179]Cmd: ACTOR DELETE
+[2021.11.28-23.09.26:796][179]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.28-23.09.26:811][179]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2021.11.28-23.09.40:650][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block92)
+[2021.11.28-23.09.45:334][ 91]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block93)
+[2021.11.28-23.09.46:251][143]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block82)
+[2021.11.28-23.09.49:090][306]Cmd: EDIT COPY
+[2021.11.28-23.09.49:455][327]Cmd: EDIT PASTE
+[2021.11.28-23.10.32:075][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.28-23.10.34:170][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block98)
+[2021.11.28-23.10.37:686][882]Cmd: TRANSACTION UNDO
+[2021.11.28-23.10.37:686][882]LogEditorTransaction: Undo Move Actors
+[2021.11.28-23.10.38:093][906]Cmd: TRANSACTION UNDO
+[2021.11.28-23.10.38:093][906]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.28-23.10.38:619][935]Cmd: TRANSACTION UNDO
+[2021.11.28-23.10.38:619][935]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.28-23.10.43:426][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD3)
+[2021.11.28-23.11.16:873][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block107)
+[2021.11.28-23.11.31:169][540]Cmd: EDIT COPY
+[2021.11.28-23.11.34:738][744]Cmd: EDIT PASTE
+[2021.11.28-23.11.50:007][653]Cmd: TRANSACTION UNDO
+[2021.11.28-23.11.50:007][653]LogEditorTransaction: Undo Move Actors
+[2021.11.28-23.11.50:431][678]Cmd: TRANSACTION UNDO
+[2021.11.28-23.11.50:431][678]LogEditorTransaction: Undo Move Actors
+[2021.11.28-23.11.52:180][782]Cmd: TRANSACTION UNDO
+[2021.11.28-23.11.52:180][782]LogEditorTransaction: Undo Move Actors
+[2021.11.28-23.12.28:099][925]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.11.28-23.12.40:385][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD16)
+[2021.11.28-23.12.52:010][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.28-23.13.06:578][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD_97)
+[2021.11.28-23.13.09:392][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Column_Large_Broken_5)
+[2021.11.28-23.13.14:269][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block99)
+[2021.11.28-23.13.15:406][508]Cmd: EDIT COPY
+[2021.11.28-23.13.15:774][530]Cmd: EDIT PASTE
+[2021.11.28-23.13.23:521][991]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item7)
+[2021.11.28-23.13.52:059][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleTower_Ruin_02_Supports2)
+[2021.11.28-23.13.53:050][755]Cmd: DELETE
+[2021.11.28-23.13.53:050][755]Cmd: ACTOR DELETE
+[2021.11.28-23.13.53:057][755]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.28-23.13.53:162][755]LogEditorActor: Deleted 1 Actors (0.112 secs)
+[2021.11.28-23.13.58:197][ 53]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Rubble_61)
+[2021.11.28-23.13.59:733][143]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block108)
+[2021.11.28-23.14.00:572][191]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block108)
+[2021.11.28-23.14.02:321][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Grass25)
+[2021.11.28-23.14.03:407][357]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Rubble_61)
+[2021.11.28-23.14.27:200][779]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item7)
+[2021.11.28-23.14.51:344][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block101)
+[2021.11.28-23.14.54:488][409]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item7)
+[2021.11.28-23.15.03:913][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block10)
+[2021.11.28-23.15.04:836][ 25]Cmd: DELETE
+[2021.11.28-23.15.04:836][ 25]Cmd: ACTOR DELETE
+[2021.11.28-23.15.04:843][ 25]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.28-23.15.04:856][ 25]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2021.11.28-23.15.05:657][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Grass7)
+[2021.11.28-23.15.05:962][ 89]Cmd: DELETE
+[2021.11.28-23.15.05:962][ 89]Cmd: ACTOR DELETE
+[2021.11.28-23.15.05:969][ 89]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.28-23.15.05:984][ 89]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2021.11.28-23.15.06:684][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Rubble_55)
+[2021.11.28-23.15.06:839][138]Cmd: DELETE
+[2021.11.28-23.15.06:839][138]Cmd: ACTOR DELETE
+[2021.11.28-23.15.06:849][138]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.28-23.15.06:862][138]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2021.11.28-23.15.08:453][234]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block01)
+[2021.11.28-23.15.08:679][245]Cmd: DELETE
+[2021.11.28-23.15.08:679][245]Cmd: ACTOR DELETE
+[2021.11.28-23.15.08:687][245]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.28-23.15.08:700][245]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2021.11.28-23.15.14:381][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_TrimFlat01)
+[2021.11.28-23.15.17:344][761]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_TrimFlat01)
+[2021.11.28-23.15.19:173][868]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block04)
+[2021.11.28-23.15.20:127][923]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox2)
+[2021.11.28-23.15.21:605][  4]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_TrimFlat01)
+[2021.11.28-23.15.22:548][ 59]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenBarrel_Intact)
+[2021.11.28-23.15.23:039][ 87]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Crate_Open_Intact)
+[2021.11.28-23.15.48:450][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleTower_10)
+[2021.11.28-23.15.49:873][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Exo_Crate_Open_Intact)
+[2021.11.28-23.15.51:048][756]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenBarrel_Intact)
+[2021.11.28-23.16.00:852][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_TrimFlat01)
+[2021.11.28-23.16.03:044][470]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerBox (TriggerBox2)
+[2021.11.28-23.16.04:247][540]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_TrimFlat01)
+[2021.11.28-23.16.16:014][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.28-23.16.29:505][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Exo_Crate_Open_Intact)
+[2021.11.28-23.16.31:026][137]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenBarrel_Intact)
+[2021.11.28-23.16.40:345][692]Cmd: DELETE
+[2021.11.28-23.16.40:345][692]Cmd: ACTOR DELETE
+[2021.11.28-23.16.40:352][692]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.28-23.16.40:352][692]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.28-23.16.40:365][692]LogEditorActor: Deleted 2 Actors (0.020 secs)
+[2021.11.28-23.17.07:530][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_TrimFlat01)
+[2021.11.28-23.17.09:016][409]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerBox (TriggerBox2)
+[2021.11.28-23.17.15:337][786]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.11.28-23.17.37:344][104]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item7)
+[2021.11.28-23.17.47:159][685]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.28-23.17.47:174][685]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.28-23.17.47:174][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.28-23.17.47:174][685]PIE: New page: PIE session: Nivell2 (Nov 29, 2021, 1:17:47 AM)
+[2021.11.28-23.17.47:174][685]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Nivell2
+[2021.11.28-23.17.47:227][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052368s)
+[2021.11.28-23.17.47:257][685]LogAIModule: Creating AISystem for world Nivell2
+[2021.11.28-23.17.47:272][685]LogPlayLevel: PIE: World Init took: (0.038227s)
+[2021.11.28-23.17.47:272][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Nivell2.Nivell2 to /Game/Levels/UEDPIE_0_Nivell2.Nivell2 (0.097360s)
+[2021.11.28-23.17.47:310][685]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.11.28-23.17.47:330][685]LogInit: FAudioDevice initialized.
+[2021.11.28-23.17.47:370][685]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.28-23.17.47:435][685]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell2.Nivell2 up for play (max tick rate 60) at 2021.11.29-00.17.47
+[2021.11.28-23.17.47:436][685]LogWorld: Bringing up level for play took: 0.026818
+[2021.11.28-23.17.47:486][685]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Nivell2 0.237
+[2021.11.28-23.17.47:487][685]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.28-23.17.51:764][925]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
+[2021.11.28-23.18.28:174][ 99]LogAudio: Warning: Detected orphaned looping sound 'Light01_Cue'.
+[2021.11.28-23.18.31:253][272]LogNet: Browse: /Game/Levels/Nivell1
+[2021.11.28-23.18.31:264][272]LogLoad: LoadMap: /Game/Levels/Nivell1
+[2021.11.28-23.18.43:275][272]LogAIModule: Creating AISystem for world Nivell1
+[2021.11.28-23.18.43:276][272]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.28-23.18.43:335][272]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell1.Nivell1 up for play (max tick rate 60) at 2021.11.29-00.18.43
+[2021.11.28-23.18.43:365][272]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+	Nivell1_C /Game/Levels/UEDPIE_0_Nivell1.Nivell1:PersistentLevel.Nivell1_C_0
+	Function /Game/Levels/UEDPIE_0_Nivell1.Nivell1_C:ExecuteUbergraph_Nivell1:0792
+[2021.11.28-23.18.43:365][272]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Nivell1' from node: Player Die in graph: EventGraph in object: Nivell1 with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2021.11.28-23.18.43:402][272]LogWorld: Bringing up level for play took: 0.125630
+[2021.11.28-23.18.43:430][272]LogLoad: Took 12.166371 seconds to LoadMap(/Game/Levels/Nivell1)
+[2021.11.28-23.18.43:543][273]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.28-23.18.43:604][273]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.28-23.18.51:309][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.28-23.18.52:065][729]LogSavePackage: Save=672.99ms
+[2021.11.28-23.18.52:065][729]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell262370D234F7F379AE0A9BBAE0DEDD3F1.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap'
+[2021.11.28-23.18.52:067][729]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap
+[2021.11.28-23.18.52:085][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2_BuiltData" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset" SILENT=true
+[2021.11.28-23.18.52:578][729]LogSavePackage: Save=475.32ms
+[2021.11.28-23.18.52:578][729]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2_BuiltData69F10F9C4CC5FEDC40AC7ABE185D2CCF.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset'
+[2021.11.28-23.18.52:581][729]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset
+[2021.11.28-23.19.18:488][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD16)
+[2021.11.28-23.19.39:661][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block108)
+[2021.11.28-23.19.40:982][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD16)
+[2021.11.28-23.20.07:280][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block99)
+[2021.11.28-23.20.08:133][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block108)
+[2021.11.28-23.20.10:301][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.28-23.20.10:938][613]LogSavePackage: Save=624.32ms
+[2021.11.28-23.20.10:938][613]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2A4C09F8643079D9481D343AA91F877A1.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap'
+[2021.11.28-23.20.10:940][613]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap
+[2021.11.28-23.20.10:957][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2_BuiltData" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset" SILENT=true
+[2021.11.28-23.20.11:355][613]LogSavePackage: Save=396.66ms
+[2021.11.28-23.20.11:356][613]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2_BuiltDataBC1650A54B2077809156CAB7D7CC9A08.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset'
+[2021.11.28-23.20.11:358][613]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset
+[2021.11.28-23.20.22:503][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.28-23.20.23:146][275]LogSavePackage: Save=628.77ms
+[2021.11.28-23.20.23:146][275]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2FBF347DD4BAF0EE569076FA94C02F546.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap'
+[2021.11.28-23.20.23:147][275]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap
+[2021.11.28-23.20.23:166][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2_BuiltData" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset" SILENT=true
+[2021.11.28-23.20.23:606][275]LogSavePackage: Save=439.31ms
+[2021.11.28-23.20.23:606][275]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2_BuiltDataD637F11A4B55D035889924A6FFD34469.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset'
+[2021.11.28-23.20.23:609][275]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset
+[2021.11.28-23.20.31:853][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.28-23.20.32:506][764]LogSavePackage: Save=636.39ms
+[2021.11.28-23.20.32:506][764]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2F57E16B645123155B0C996BE97AC3560.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap'
+[2021.11.28-23.20.32:507][764]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap
+[2021.11.28-23.20.32:525][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2_BuiltData" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset" SILENT=true
+[2021.11.28-23.20.32:934][764]LogSavePackage: Save=408.47ms
+[2021.11.28-23.20.32:934][764]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2_BuiltData6B00091A40DF2386E570C98149CA97C5.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset'
+[2021.11.28-23.20.32:937][764]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset
