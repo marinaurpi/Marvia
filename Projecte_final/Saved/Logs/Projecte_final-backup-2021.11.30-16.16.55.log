@@ -1,0 +1,1213 @@
+﻿Log file open, 11/29/21 15:59:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Projecte_final
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1999130252) SRandInit(-1999130252).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.235049
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: D:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2021.11.29-14.59.37:101][  0]LogInit: Selected Device Profile: [Windows]
+[2021.11.29-14.59.37:101][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.11.29-14.59.37:123][  0]LogInit: Computer: LAPTOP-A1QJH46E
+[2021.11.29-14.59.37:123][  0]LogInit: User: marin
+[2021.11.29-14.59.37:123][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.11.29-14.59.37:123][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.11.29-14.59.37:123][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2021.11.29-14.59.37:123][  0]LogMemory: Platform Memory Stats for Windows
+[2021.11.29-14.59.37:123][  0]LogMemory: Process Physical Memory: 274.82 MB used, 274.83 MB peak
+[2021.11.29-14.59.37:123][  0]LogMemory: Process Virtual Memory: 270.50 MB used, 270.50 MB peak
+[2021.11.29-14.59.37:123][  0]LogMemory: Physical Memory: 4982.42 MB used,  3097.82 MB free, 8080.24 MB total
+[2021.11.29-14.59.37:123][  0]LogMemory: Virtual Memory: 4769.01 MB used,  3097.82 MB free, 134217728.00 MB total
+[2021.11.29-14.59.37:251][  0]LogInit: Using OS detected language (ca-ES).
+[2021.11.29-14.59.37:251][  0]LogInit: Using OS detected locale (ca-ES).
+[2021.11.29-14.59.37:254][  0]LogTextLocalizationManager: No localization for 'ca-ES' exists, so 'en' will be used for the language.
+[2021.11.29-14.59.37:254][  0]LogTextLocalizationManager: No localization for 'ca-ES' exists, so 'en' will be used for the locale.
+[2021.11.29-14.59.37:574][  0]LogInit: Setting process to per monitor DPI aware
+[2021.11.29-14.59.38:300][  0]LogD3D11RHI: D3D11 adapters:
+[2021.11.29-14.59.38:403][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2021.11.29-14.59.38:403][  0]LogD3D11RHI:       4019/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.11.29-14.59.38:415][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.11.29-14.59.38:415][  0]LogD3D11RHI:       128/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.11.29-14.59.38:418][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.11.29-14.59.38:418][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.11.29-14.59.38:418][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.11.29-14.59.38:422][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.11.29-14.59.38:422][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2021.11.29-14.59.38:422][  0]LogWindows: EnumDisplayDevices:
+[2021.11.29-14.59.38:423][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2021.11.29-14.59.38:423][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.11.29-14.59.38:423][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.11.29-14.59.38:423][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2021.11.29-14.59.38:423][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.11.29-14.59.38:423][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2021.11.29-14.59.38:423][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.11.29-14.59.38:423][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.11.29-14.59.38:423][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
+[2021.11.29-14.59.38:475][  0]LogD3D11RHI: Async texture creation enabled
+[2021.11.29-14.59.38:488][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.11.29-14.59.38:489][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Intermediate/Shaders/WorkingDirectory/24276/).
+[2021.11.29-14.59.38:489][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/marin/AppData/Local/Temp/UnrealShaderWorkingDir/B718556743E2C0DB7E75A49FCF25ACD2/'.
+[2021.11.29-14.59.38:489][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.11.29-14.59.39:327][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2021.11.29-14.59.39:373][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2021.11.29-14.59.39:418][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2021.11.29-14.59.39:463][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2021.11.29-14.59.39:509][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2021.11.29-14.59.39:554][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2021.11.29-14.59.39:601][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2021.11.29-14.59.39:647][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2021.11.29-14.59.39:684][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2021.11.29-14.59.39:728][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2021.11.29-14.59.39:779][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2021.11.29-14.59.39:835][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2021.11.29-14.59.39:882][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2021.11.29-14.59.39:929][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2021.11.29-14.59.40:023][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2021.11.29-14.59.40:023][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2021.11.29-14.59.40:068][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.11.29-14.59.40:103][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2021.11.29-14.59.40:186][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2021.11.29-14.59.40:210][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2021.11.29-14.59.40:254][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2021.11.29-14.59.40:298][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2021.11.29-14.59.40:342][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2021.11.29-14.59.40:386][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2021.11.29-14.59.40:386][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.11.29-14.59.40:784][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.11.29-14.59.40:842][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/marin/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2021.11.29-14.59.40:842][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/marin/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2021.11.29-14.59.40:842][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.11.29-14.59.40:842][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.11.29-14.59.40:843][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.11.29-14.59.40:843][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.11.29-14.59.40:856][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.11.29-14.59.40:868][  0]LogDerivedDataCache: Using Local data cache path C:/Users/marin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.11.29-14.59.40:876][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.11.29-14.59.40:877][  0]LogSlate: Using Freetype 2.6.0
+[2021.11.29-14.59.40:877][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.11.29-14.59.40:877][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.11.29-14.59.41:171][  0]LogInit: Selected Device Profile: [Windows]
+[2021.11.29-14.59.41:452][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2021.11.29-14.59.41:487][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2021.11.29-14.59.41:487][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.11.29-14.59.41:487][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2021.11.29-14.59.41:487][  0]LogMeshReduction: No automatic mesh merging module available
+[2021.11.29-14.59.41:487][  0]LogMeshMerging: No automatic mesh merging module available
+[2021.11.29-14.59.41:510][  0]LogNetVersion: Projecte_final , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4128612215)
+[2021.11.29-14.59.41:661][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2021.11.29-14.59.42:097][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.065847 seconds
+[2021.11.29-14.59.42:102][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2021.11.29-14.59.42:102][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2021.11.29-14.59.42:102][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.11.29-14.59.42:149][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2021.11.29-14.59.44:503][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.11.29-14.59.44:540][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.11.29-14.59.45:124][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2021.11.29-14.59.45:487][  0]SourceControl: Source control is disabled
+[2021.11.29-14.59.45:487][  0]SourceControl: Source control is disabled
+[2021.11.29-14.59.45:531][  0]SourceControl: Source control is disabled
+[2021.11.29-14.59.45:575][  0]SourceControl: Source control is disabled
+[2021.11.29-14.59.46:264][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.11.29-14.59.46:489][  0]LogOcInput: OculusInput pre-init called
+[2021.11.29-14.59.46:736][  0]LogEngine: Initializing Engine...
+[2021.11.29-14.59.46:738][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.11.29-14.59.46:917][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.11.29-14.59.46:917][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2021.11.29-14.59.47:030][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.11.29-14.59.47:044][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.11.29-14.59.48:322][  0]LogInit: FAudioDevice initialized.
+[2021.11.29-14.59.48:376][  0]LogDerivedDataCache: Saved boot cache 0.05s 78MB C:/Users/marin/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2021.11.29-14.59.48:385][  0]LogInit: Texture streaming: Enabled
+[2021.11.29-14.59.48:472][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.11.29-14.59.48:583][  0]LogInit: Transaction tracking system initialized
+[2021.11.29-14.59.48:857][  0]BlueprintLog: New page: Editor Load
+[2021.11.29-14.59.49:619][  0]LocalizationService: Localization service is disabled
+[2021.11.29-14.59.50:358][  0]LogConsoleResponse: Display: 
+[2021.11.29-14.59.50:586][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.11.29-14.59.50:586][  0]LogCook: Display: Mobile HDR setting 1
+[2021.11.29-14.59.50:586][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2021.11.29-14.59.50:813][  0]LogFileCache: Scanning file cache for directory 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/' took 0.03s
+[2021.11.29-14.59.51:586][  0]SourceControl: Source control is disabled
+[2021.11.29-14.59.51:587][  0]Cmd: MAP LOAD FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.29-14.59.51:862][  0]LightingResults: New page: Lighting Build
+[2021.11.29-14.59.51:897][  0]MapCheck: New page: Map Check
+[2021.11.29-14.59.51:897][  0]LightingResults: New page: Lighting Build
+[2021.11.29-14.59.55:090][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.29-14.59.55:168][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.29-14.59.55:186][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.29-14.59.55:234][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.215ms to complete.
+[2021.11.29-14.59.55:234][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 3.648
+[2021.11.29-14.59.55:849][  0]LogCollectionManager: Loaded 0 collections in 0.000909 seconds
+[2021.11.29-14.59.56:069][  0]LogFileCache: Scanning file cache for directory 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Collections/' took 0.01s
+[2021.11.29-14.59.56:069][  0]LogFileCache: Scanning file cache for directory 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Developers/marin/Collections/' took 0.01s
+[2021.11.29-14.59.56:069][  0]LogFileCache: Scanning file cache for directory 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Collections/' took 0.01s
+[2021.11.29-14.59.56:069][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2021.11.29-14.59.56:081][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2363 classes and 519 folders.
+[2021.11.29-14.59.56:201][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.11.29-14.59.57:382][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.11.29-14.59.57:464][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2021.11.29-14.59.57:806][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.11.29-14.59.57:815][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.11.29-14.59.57:868][  0]LogSlate: Took 0.023704 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.11.29-14.59.58:367][  0]LogRenderer: Reallocating scene render targets to support 864x384 Format 10 NumSamples 1 (Frame:1).
+[2021.11.29-14.59.58:898][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2021.11.29-14.59.58:898][  0]LogLoad: (Engine Initialization) Total time: 24.33 seconds
+[2021.11.29-14.59.58:898][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.11.29-14.59.58:898][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2021.11.29-14.59.58:960][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.11.29-14.59.59:109][  1]LogAssetRegistry: Asset discovery search completed in 17.4701 seconds
+[2021.11.29-14.59.59:113][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2021.11.29-14.59.59:113][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2021.11.29-14.59.59:208][  1]LogSlate: Took 0.013772 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.11.29-15.00.02:870][205]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.11.29-15.00.03:708][205]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.11.29-15.00.09:635][205]LogAIModule: Creating AISystem for world Nivell2
+[2021.11.29-15.00.09:805][205]Cmd: MAP LOAD FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.29-15.00.09:805][205]LightingResults: New page: Lighting Build
+[2021.11.29-15.00.09:806][205]LoadErrors: New page: Loading map: Nivell2.umap
+[2021.11.29-15.00.09:807][205]MapCheck: New page: Map Check
+[2021.11.29-15.00.09:807][205]LightingResults: New page: Lighting Build
+[2021.11.29-15.00.09:847][205]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.29-15.00.09:876][205]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.29-15.00.09:941][205]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.964ms to complete.
+[2021.11.29-15.00.09:941][205]LogFileHelpers: Loading map 'Nivell2' took 0.136
+[2021.11.29-15.00.36:500][764]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-15.00.37:092][764]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.00.37:108][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-15.00.37:117][764]PIE: New page: PIE session: Nivell2 (Nov 29, 2021, 5:00:37 PM)
+[2021.11.29-15.00.37:117][764]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Nivell2
+[2021.11.29-15.00.37:172][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054964s)
+[2021.11.29-15.00.37:173][764]LogAIModule: Creating AISystem for world Nivell2
+[2021.11.29-15.00.37:173][764]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2021.11.29-15.00.37:173][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Nivell2.Nivell2 to /Game/Levels/UEDPIE_0_Nivell2.Nivell2 (0.055783s)
+[2021.11.29-15.00.37:210][764]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.11.29-15.00.37:226][764]LogInit: FAudioDevice initialized.
+[2021.11.29-15.00.37:277][764]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-15.00.37:328][764]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell2.Nivell2 up for play (max tick rate 60) at 2021.11.29-16.00.37
+[2021.11.29-15.00.37:329][764]LogWorld: Bringing up level for play took: 0.006319
+[2021.11.29-15.00.37:401][764]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2021.11.29-15.00.37:484][764]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Nivell2 0.425
+[2021.11.29-15.00.37:485][764]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.00.49:279][462]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
+[2021.11.29-15.01.03:087][283]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 2/7
+[2021.11.29-15.01.16:143][ 66]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 3/7
+[2021.11.29-15.01.23:531][510]LogHttp: Warning: 0000023909925D80: request failed, libcurl error: 35 (SSL connect error)
+[2021.11.29-15.01.23:531][510]LogHttp: Warning: 0000023909925D80: libcurl info message cache 0 (  Trying 54.144.207.214...)
+[2021.11.29-15.01.23:531][510]LogHttp: Warning: 0000023909925D80: libcurl info message cache 1 (Connected to datarouter.ol.epicgames.com (54.144.207.214) port 443 (#0))
+[2021.11.29-15.01.23:531][510]LogHttp: Warning: 0000023909925D80: libcurl info message cache 2 (ALPN, offering http/1.1)
+[2021.11.29-15.01.23:531][510]LogHttp: Warning: 0000023909925D80: libcurl info message cache 3 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2021.11.29-15.01.23:531][510]LogHttp: Warning: 0000023909925D80: libcurl info message cache 4 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2021.11.29-15.01.23:531][510]LogHttp: Warning: 0000023909925D80: libcurl info message cache 5 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2021.11.29-15.01.23:531][510]LogHttp: Warning: 0000023909925D80: libcurl info message cache 6 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2021.11.29-15.01.23:531][510]LogHttp: Warning: 0000023909925D80: libcurl info message cache 7 (Closing connection 0)
+[2021.11.29-15.01.46:328][877]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 4/7
+[2021.11.29-15.02.19:251][852]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 5/7
+[2021.11.29-15.02.43:170][287]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.02.43:207][287]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.02.45:523][425]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-15.02.45:536][425]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.02.45:536][425]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-15.02.45:536][425]PIE: New page: PIE session: Nivell2 (Nov 29, 2021, 5:02:45 PM)
+[2021.11.29-15.02.45:537][425]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Nivell2
+[2021.11.29-15.02.45:553][425]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016148s)
+[2021.11.29-15.02.45:553][425]LogAIModule: Creating AISystem for world Nivell2
+[2021.11.29-15.02.45:554][425]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2021.11.29-15.02.45:554][425]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Nivell2.Nivell2 to /Game/Levels/UEDPIE_0_Nivell2.Nivell2 (0.017133s)
+[2021.11.29-15.02.45:573][425]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.11.29-15.02.45:586][425]LogInit: FAudioDevice initialized.
+[2021.11.29-15.02.45:616][425]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-15.02.45:622][425]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell2.Nivell2 up for play (max tick rate 60) at 2021.11.29-16.02.45
+[2021.11.29-15.02.45:623][425]LogWorld: Bringing up level for play took: 0.005415
+[2021.11.29-15.02.45:625][425]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Nivell2 0.565
+[2021.11.29-15.02.45:625][425]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.02.49:163][636]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
+[2021.11.29-15.03.00:415][311]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 2/7
+[2021.11.29-15.03.08:399][790]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 3/7
+[2021.11.29-15.03.23:450][693]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 4/7
+[2021.11.29-15.03.41:119][753]LogAudio: Warning: Detected orphaned looping sound 'Light01_Cue'.
+[2021.11.29-15.03.44:118][933]LogNet: Browse: /Game/Levels/Nivell1
+[2021.11.29-15.03.44:118][933]LogLoad: LoadMap: /Game/Levels/Nivell1
+[2021.11.29-15.03.52:011][933]LogAIModule: Creating AISystem for world Nivell1
+[2021.11.29-15.03.52:012][933]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-15.03.52:286][933]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell1.Nivell1 up for play (max tick rate 60) at 2021.11.29-16.03.52
+[2021.11.29-15.03.52:362][933]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+	Nivell1_C /Game/Levels/UEDPIE_0_Nivell1.Nivell1:PersistentLevel.Nivell1_C_0
+	Function /Game/Levels/UEDPIE_0_Nivell1.Nivell1_C:ExecuteUbergraph_Nivell1:0792
+[2021.11.29-15.03.52:373][933]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Nivell1' from node: Player Die in graph: EventGraph in object: Nivell1 with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2021.11.29-15.03.52:408][933]LogWorld: Bringing up level for play took: 0.388065
+[2021.11.29-15.03.52:425][933]LogLoad: Took 8.306175 seconds to LoadMap(/Game/Levels/Nivell1)
+[2021.11.29-15.03.52:442][934]LogHttp: Warning: 000002390C6CDA80: request failed, libcurl error: 35 (SSL connect error)
+[2021.11.29-15.03.52:442][934]LogHttp: Warning: 000002390C6CDA80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2021.11.29-15.03.52:442][934]LogHttp: Warning: 000002390C6CDA80: libcurl info message cache 1 (  Trying 18.232.241.143...)
+[2021.11.29-15.03.52:442][934]LogHttp: Warning: 000002390C6CDA80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.232.241.143) port 443 (#1))
+[2021.11.29-15.03.52:442][934]LogHttp: Warning: 000002390C6CDA80: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2021.11.29-15.03.52:442][934]LogHttp: Warning: 000002390C6CDA80: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2021.11.29-15.03.52:442][934]LogHttp: Warning: 000002390C6CDA80: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2021.11.29-15.03.52:442][934]LogHttp: Warning: 000002390C6CDA80: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2021.11.29-15.03.52:442][934]LogHttp: Warning: 000002390C6CDA80: libcurl info message cache 7 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2021.11.29-15.03.52:442][934]LogHttp: Warning: 000002390C6CDA80: libcurl info message cache 8 (Closing connection 1)
+[2021.11.29-15.03.52:497][934]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.03.52:544][934]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.04.13:729][183]LogEditorViewport: Clicking on Actor (LMB): Victory_C (Victory)
+[2021.11.29-15.04.18:760][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Exo_Decos_Set01_Facade5)
+[2021.11.29-15.04.20:236][481]LogEditorViewport: Clicking on Actor (LMB): Victory_C (Victory)
+[2021.11.29-15.04.34:856][334]LogEditorViewport: Clicking on Actor (LMB): Victory_C (Victory)
+[2021.11.29-15.05.00:100][818]Cmd: TRANSACTION UNDO
+[2021.11.29-15.05.00:100][818]LogEditorTransaction: Undo Scale Actors
+[2021.11.29-15.05.00:130][818]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.11.29-15.05.00:480][839]Cmd: TRANSACTION UNDO
+[2021.11.29-15.05.00:480][839]LogEditorTransaction: Undo Scale Actors
+[2021.11.29-15.05.00:969][868]Cmd: TRANSACTION UNDO
+[2021.11.29-15.05.00:969][868]LogEditorTransaction: Undo Move Actors
+[2021.11.29-15.05.13:910][597]LogEditorViewport: Clicking on Actor (LMB): Victory_C (Victory2)
+[2021.11.29-15.05.15:401][686]LogEditorViewport: Clicking on Actor (LMB): Victory_C (Victory)
+[2021.11.29-15.05.16:541][750]Cmd: DELETE
+[2021.11.29-15.05.16:541][750]Cmd: ACTOR DELETE
+[2021.11.29-15.05.16:841][750]LogEditorActor: Deleted Actor: Victory_C
+[2021.11.29-15.05.16:853][750]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2021.11.29-15.05.18:549][849]LogEditorViewport: Clicking on Actor (LMB): Victory_C (Victory2)
+[2021.11.29-15.06.08:057][817]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-15.06.08:070][817]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.06.08:070][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-15.06.08:071][817]PIE: New page: PIE session: Nivell2 (Nov 29, 2021, 5:06:08 PM)
+[2021.11.29-15.06.08:072][817]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Nivell2
+[2021.11.29-15.06.08:089][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017283s)
+[2021.11.29-15.06.08:089][817]LogAIModule: Creating AISystem for world Nivell2
+[2021.11.29-15.06.08:090][817]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2021.11.29-15.06.08:090][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Nivell2.Nivell2 to /Game/Levels/UEDPIE_0_Nivell2.Nivell2 (0.018191s)
+[2021.11.29-15.06.08:110][817]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.11.29-15.06.08:124][817]LogInit: FAudioDevice initialized.
+[2021.11.29-15.06.08:154][817]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-15.06.08:160][817]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell2.Nivell2 up for play (max tick rate 60) at 2021.11.29-16.06.08
+[2021.11.29-15.06.08:161][817]LogWorld: Bringing up level for play took: 0.005491
+[2021.11.29-15.06.08:163][817]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Nivell2 -0.897
+[2021.11.29-15.06.08:163][817]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.06.12:102][ 52]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
+[2021.11.29-15.06.17:207][359]LogHttp: Warning: 000002392C2A8580: request failed, libcurl error: 35 (SSL connect error)
+[2021.11.29-15.06.17:207][359]LogHttp: Warning: 000002392C2A8580: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2021.11.29-15.06.17:207][359]LogHttp: Warning: 000002392C2A8580: libcurl info message cache 1 (  Trying 54.167.14.174...)
+[2021.11.29-15.06.17:207][359]LogHttp: Warning: 000002392C2A8580: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.167.14.174) port 443 (#2))
+[2021.11.29-15.06.17:207][359]LogHttp: Warning: 000002392C2A8580: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2021.11.29-15.06.17:207][359]LogHttp: Warning: 000002392C2A8580: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2021.11.29-15.06.17:207][359]LogHttp: Warning: 000002392C2A8580: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2021.11.29-15.06.17:207][359]LogHttp: Warning: 000002392C2A8580: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2021.11.29-15.06.17:207][359]LogHttp: Warning: 000002392C2A8580: libcurl info message cache 7 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2021.11.29-15.06.17:207][359]LogHttp: Warning: 000002392C2A8580: libcurl info message cache 8 (Closing connection 2)
+[2021.11.29-15.06.39:690][707]LogAudio: Warning: Detected orphaned looping sound 'Light01_Cue'.
+[2021.11.29-15.06.42:859][886]LogPackageName: SearchForPackageOnDisk took   0.083s, but failed to resolve None.umap.
+[2021.11.29-15.06.42:945][887]LogPackageName: SearchForPackageOnDisk took   0.081s, but failed to resolve None.umap.
+[2021.11.29-15.06.42:945][887]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2021.11.29-15.06.42:965][887]LogNet: Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2021.11.29-15.06.42:965][887]LogNet: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/FirstPersonBP/Maps/FirstPersonExampleMap'. Shutting down PIE.
+[2021.11.29-15.06.42:965][887]PIE: Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/FirstPersonBP/Maps/FirstPersonExampleMap'. Shutting down PIE.
+[2021.11.29-15.06.42:965][887]LogNet: Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2021.11.29-15.06.42:965][887]LogNet: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/FirstPersonBP/Maps/FirstPersonExampleMap'. Shutting down PIE.
+[2021.11.29-15.06.42:965][887]PIE: Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/FirstPersonBP/Maps/FirstPersonExampleMap'. Shutting down PIE.
+[2021.11.29-15.06.42:968][887]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.06.43:000][887]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.07.13:701][720]LogEditorViewport: Clicking on Actor (LMB): Victory_C (Victory2)
+[2021.11.29-15.07.26:105][458]LogEditorViewport: Clicking on Actor (context menu): Victory_C (Victory2)
+[2021.11.29-15.07.32:380][778]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2021.11.29-15.07.33:913][778]LogSlate: Took 0.018053 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.11.29-15.07.34:293][779]LogSlate: Took 0.005866 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.11.29-15.08.17:856][324]MapCheck: New page: Map Check
+[2021.11.29-15.08.18:259][324]Cmd: MAP REBUILD ALLVISIBLE
+[2021.11.29-15.08.18:261][324]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.11.29-15.08.18:609][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2021.11.29-15.08.18:718][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_4, compiling. 
+[2021.11.29-15.08.18:732][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_FloorTrims, compiling. 
+[2021.11.29-15.08.18:737][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Floors_Block, compiling. 
+[2021.11.29-15.08.18:743][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy 2, compiling. 
+[2021.11.29-15.08.18:748][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_StoneWall, compiling. 
+[2021.11.29-15.08.18:754][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Pillars, compiling. 
+[2021.11.29-15.08.18:760][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Decos_Door_Frame, compiling. 
+[2021.11.29-15.08.18:765][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Decos_Door, compiling. 
+[2021.11.29-15.08.18:770][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_PLains_Scrap_Bridge, compiling. 
+[2021.11.29-15.08.18:776][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Villa_Plaster_1, compiling. 
+[2021.11.29-15.08.18:781][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Decos_Facade01, compiling. 
+[2021.11.29-15.08.18:786][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_PLains_Castle_WroughtIron, compiling. 
+[2021.11.29-15.08.18:791][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Villa_Pillar_1, compiling. 
+[2021.11.29-15.08.18:796][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Floortile2, compiling. 
+[2021.11.29-15.08.18:801][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Ocean, compiling. 
+[2021.11.29-15.08.18:807][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Env_Plains_Mountain01, compiling. 
+[2021.11.29-15.08.18:813][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_LargeRock, compiling. 
+[2021.11.29-15.08.18:819][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Cliff1, compiling. 
+[2021.11.29-15.08.18:825][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_PLains_Fern01, compiling. 
+[2021.11.29-15.08.18:832][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Env_Ice_Deco2_Flags, compiling. 
+[2021.11.29-15.08.18:840][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bush, compiling. 
+[2021.11.29-15.08.18:846][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Pillars02_Inst, compiling. 
+[2021.11.29-15.08.18:854][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Plains_Pillars03_Inst, compiling. 
+[2021.11.29-15.08.18:862][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TreeBark, compiling. 
+[2021.11.29-15.08.18:869][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Cherry_Tree, compiling. 
+[2021.11.29-15.08.18:880][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Exo_Crate_Open, compiling. 
+[2021.11.29-15.08.18:887][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_WoodenBarrel_01, compiling. 
+[2021.11.29-15.08.18:891][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fire_01_Add_6X6_INST, compiling. 
+[2021.11.29-15.08.18:896][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Flare_09_Inst, compiling. 
+[2021.11.29-15.08.18:901][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fire_02_Trans_Pan_INST, compiling. 
+[2021.11.29-15.08.18:906][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_CandleFlame_01_INST, compiling. 
+[2021.11.29-15.08.18:913][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Opaque_Hammer_Spin, compiling. 
+[2021.11.29-15.08.18:919][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Pew, compiling. 
+[2021.11.29-15.08.18:924][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_AuraCircle_02_INST, compiling. 
+[2021.11.29-15.08.18:929][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glow_Vertical_Trans_INST, compiling. 
+[2021.11.29-15.08.18:935][324]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Swipe_Mesh_Add_2Sided_01_INST, compiling. 
+[2021.11.29-15.08.22:151][324]TextureStreamingBuild: Display: Compiling optional shaders took 3.557 seconds.
+[2021.11.29-15.08.22:514][324]LogLevel: Display: Export Material TexCoord Scales took 0.363 seconds.
+[2021.11.29-15.08.22:564][324]TextureStreamingBuild: Display: Build Texture Streaming took 0.048 seconds.
+[2021.11.29-15.08.22:608][324]LogEditorBuildUtils: Build time 0:04
+[2021.11.29-15.08.40:742][311]LogHttp: Warning: 00000239B7A57A00: request failed, libcurl error: 35 (SSL connect error)
+[2021.11.29-15.08.40:742][311]LogHttp: Warning: 00000239B7A57A00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2021.11.29-15.08.40:742][311]LogHttp: Warning: 00000239B7A57A00: libcurl info message cache 1 (  Trying 54.204.62.6...)
+[2021.11.29-15.08.40:742][311]LogHttp: Warning: 00000239B7A57A00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.204.62.6) port 443 (#3))
+[2021.11.29-15.08.40:742][311]LogHttp: Warning: 00000239B7A57A00: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2021.11.29-15.08.40:742][311]LogHttp: Warning: 00000239B7A57A00: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2021.11.29-15.08.40:742][311]LogHttp: Warning: 00000239B7A57A00: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2021.11.29-15.08.40:742][311]LogHttp: Warning: 00000239B7A57A00: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2021.11.29-15.08.40:742][311]LogHttp: Warning: 00000239B7A57A00: libcurl info message cache 7 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2021.11.29-15.08.40:742][311]LogHttp: Warning: 00000239B7A57A00: libcurl info message cache 8 (Closing connection 3)
+[2021.11.29-15.09.47:452][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.29-15.09.48:440][297]LogSavePackage: Save=888.79ms
+[2021.11.29-15.09.48:440][297]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2D339023E474D9437E82173AB4F377521.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap'
+[2021.11.29-15.09.48:461][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap
+[2021.11.29-15.09.48:481][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2_BuiltData" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset" SILENT=true
+[2021.11.29-15.09.48:919][297]LogSavePackage: Save=415.55ms
+[2021.11.29-15.09.48:919][297]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2_BuiltDataADD4582C42C0797F8C3AB7BFBE2A0DDC.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset'
+[2021.11.29-15.09.48:926][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset
+[2021.11.29-15.10.01:030][988]LogAIModule: Creating AISystem for world Nivell1
+[2021.11.29-15.10.01:063][988]Cmd: MAP LOAD FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.29-15.10.01:063][988]LightingResults: New page: Lighting Build
+[2021.11.29-15.10.01:063][988]LoadErrors: New page: Loading map: Nivell1.umap
+[2021.11.29-15.10.01:066][988]MapCheck: New page: Map Check
+[2021.11.29-15.10.01:066][988]LightingResults: New page: Lighting Build
+[2021.11.29-15.10.01:272][988]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.29-15.10.01:306][988]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.29-15.10.01:384][988]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.682ms to complete.
+[2021.11.29-15.10.01:385][988]LogFileHelpers: Loading map 'Nivell1' took 0.323
+[2021.11.29-15.10.19:410][ 15]LogAIModule: Creating AISystem for world Nivell2
+[2021.11.29-15.10.19:447][ 15]Cmd: MAP LOAD FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.29-15.10.19:447][ 15]LightingResults: New page: Lighting Build
+[2021.11.29-15.10.19:447][ 15]LoadErrors: New page: Loading map: Nivell2.umap
+[2021.11.29-15.10.19:449][ 15]MapCheck: New page: Map Check
+[2021.11.29-15.10.19:450][ 15]LightingResults: New page: Lighting Build
+[2021.11.29-15.10.19:489][ 15]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.29-15.10.19:529][ 15]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.29-15.10.19:606][ 15]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.738ms to complete.
+[2021.11.29-15.10.19:606][ 15]LogFileHelpers: Loading map 'Nivell2' took 0.160
+[2021.11.29-15.11.06:375][738]LogHttp: Warning: 00000239B66DF100: request failed, libcurl error: 35 (SSL connect error)
+[2021.11.29-15.11.06:375][738]LogHttp: Warning: 00000239B66DF100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2021.11.29-15.11.06:375][738]LogHttp: Warning: 00000239B66DF100: libcurl info message cache 1 (  Trying 3.210.186.137...)
+[2021.11.29-15.11.06:375][738]LogHttp: Warning: 00000239B66DF100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.210.186.137) port 443 (#4))
+[2021.11.29-15.11.06:375][738]LogHttp: Warning: 00000239B66DF100: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2021.11.29-15.11.06:375][738]LogHttp: Warning: 00000239B66DF100: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2021.11.29-15.11.06:375][738]LogHttp: Warning: 00000239B66DF100: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2021.11.29-15.11.06:375][738]LogHttp: Warning: 00000239B66DF100: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2021.11.29-15.11.06:375][738]LogHttp: Warning: 00000239B66DF100: libcurl info message cache 7 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2021.11.29-15.11.06:375][738]LogHttp: Warning: 00000239B66DF100: libcurl info message cache 8 (Closing connection 4)
+[2021.11.29-15.11.37:082][558]LogEditorViewport: Clicking on Actor (LMB): Victory_C (Victory2)
+[2021.11.29-15.11.52:266][446]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-15.11.52:284][446]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.11.52:284][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-15.11.52:284][446]PIE: New page: PIE session: Nivell2 (Nov 29, 2021, 5:11:52 PM)
+[2021.11.29-15.11.52:284][446]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Nivell2
+[2021.11.29-15.11.52:301][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016338s)
+[2021.11.29-15.11.52:301][446]LogAIModule: Creating AISystem for world Nivell2
+[2021.11.29-15.11.52:302][446]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2021.11.29-15.11.52:302][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Nivell2.Nivell2 to /Game/Levels/UEDPIE_0_Nivell2.Nivell2 (0.017200s)
+[2021.11.29-15.11.52:338][446]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.11.29-15.11.52:355][446]LogInit: FAudioDevice initialized.
+[2021.11.29-15.11.52:384][446]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-15.11.52:391][446]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell2.Nivell2 up for play (max tick rate 60) at 2021.11.29-16.11.52
+[2021.11.29-15.11.52:391][446]LogWorld: Bringing up level for play took: 0.005631
+[2021.11.29-15.11.52:393][446]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Nivell2 -0.666
+[2021.11.29-15.11.52:394][446]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.11.56:602][697]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
+[2021.11.29-15.12.22:442][246]LogAudio: Warning: Detected orphaned looping sound 'Light01_Cue'.
+[2021.11.29-15.12.25:441][426]LogNet: Browse: /Game/Levels/Nivell2
+[2021.11.29-15.12.25:441][426]LogLoad: LoadMap: /Game/Levels/Nivell2
+[2021.11.29-15.12.25:464][426]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Nivell2
+[2021.11.29-15.12.25:481][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016700s)
+[2021.11.29-15.12.25:482][426]LogAIModule: Creating AISystem for world Nivell2
+[2021.11.29-15.12.25:482][426]LogPlayLevel: PIE: World Init took: (0.000591s)
+[2021.11.29-15.12.25:482][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Nivell2.Nivell2 to /Game/Levels/UEDPIE_0_Nivell2.Nivell2 (0.017660s)
+[2021.11.29-15.12.25:482][426]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-15.12.25:488][426]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell2.Nivell2 up for play (max tick rate 60) at 2021.11.29-16.12.25
+[2021.11.29-15.12.25:489][426]LogWorld: Bringing up level for play took: 0.005749
+[2021.11.29-15.12.25:491][426]LogLoad: Took 0.049694 seconds to LoadMap(/Game/Levels/UEDPIE_0_Nivell2)
+[2021.11.29-15.12.34:039][939]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
+[2021.11.29-15.12.36:055][ 60]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.12.36:091][ 60]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.12.37:943][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.29-15.12.38:584][168]LogSavePackage: Save=621.73ms
+[2021.11.29-15.12.38:585][168]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2982374814E5247DBB354BA99DAED78F8.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap'
+[2021.11.29-15.12.38:586][168]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap
+[2021.11.29-15.12.38:603][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2_BuiltData" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset" SILENT=true
+[2021.11.29-15.12.39:164][168]LogSavePackage: Save=559.35ms
+[2021.11.29-15.12.39:164][168]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2_BuiltData6BCB33FF4723C6A8CDBF39B0230E0F5A.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset'
+[2021.11.29-15.12.39:166][168]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset
+[2021.11.29-15.12.46:462][589]LogAIModule: Creating AISystem for world Nivell1
+[2021.11.29-15.12.46:498][589]Cmd: MAP LOAD FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.29-15.12.46:498][589]LightingResults: New page: Lighting Build
+[2021.11.29-15.12.46:498][589]LoadErrors: New page: Loading map: Nivell1.umap
+[2021.11.29-15.12.46:501][589]MapCheck: New page: Map Check
+[2021.11.29-15.12.46:501][589]LightingResults: New page: Lighting Build
+[2021.11.29-15.12.46:537][589]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.29-15.12.46:573][589]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.29-15.12.46:653][589]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.838ms to complete.
+[2021.11.29-15.12.46:653][589]LogFileHelpers: Loading map 'Nivell1' took 0.155
+[2021.11.29-15.13.02:828][556]LogEditorViewport: Clicking on Actor (LMB): Victory_C (Victory)
+[2021.11.29-15.13.09:700][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell1" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.29-15.13.10:327][966]LogSavePackage: Save=608.34ms
+[2021.11.29-15.13.10:327][966]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell19BAD4D184612245E8ABBD6A44433C005.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell1.umap'
+[2021.11.29-15.13.10:359][966]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell1.umap
+[2021.11.29-15.13.10:375][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell1_BuiltData" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell1_BuiltData.uasset" SILENT=true
+[2021.11.29-15.13.10:979][966]LogSavePackage: Save=555.99ms
+[2021.11.29-15.13.10:979][966]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell1_BuiltData49143D40463EA563F28A60A175357F5D.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell1_BuiltData.uasset'
+[2021.11.29-15.13.10:983][966]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell1_BuiltData.uasset
+[2021.11.29-15.13.32:863][278]LogHttp: Warning: 000002390CCB7A00: request failed, libcurl error: 35 (SSL connect error)
+[2021.11.29-15.13.32:863][278]LogHttp: Warning: 000002390CCB7A00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2021.11.29-15.13.32:863][278]LogHttp: Warning: 000002390CCB7A00: libcurl info message cache 1 (  Trying 3.226.70.166...)
+[2021.11.29-15.13.32:863][278]LogHttp: Warning: 000002390CCB7A00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.226.70.166) port 443 (#5))
+[2021.11.29-15.13.32:863][278]LogHttp: Warning: 000002390CCB7A00: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2021.11.29-15.13.32:863][278]LogHttp: Warning: 000002390CCB7A00: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2021.11.29-15.13.32:863][278]LogHttp: Warning: 000002390CCB7A00: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2021.11.29-15.13.32:863][278]LogHttp: Warning: 000002390CCB7A00: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2021.11.29-15.13.32:863][278]LogHttp: Warning: 000002390CCB7A00: libcurl info message cache 7 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2021.11.29-15.13.32:863][278]LogHttp: Warning: 000002390CCB7A00: libcurl info message cache 8 (Closing connection 5)
+[2021.11.29-15.13.55:131][605]LogLinker: Warning: Can't find file '/Game/Levels/Nivell0_BuiltData'
+[2021.11.29-15.13.55:131][605]LogLinker: Warning: Can't find file for asset '/Game/Levels/Nivell0_BuiltData' while loading ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell0.umap.
+[2021.11.29-15.13.55:131][605]LoadErrors: Error: /Game/Levels/Nivell0 : Can't find file for asset. /Game/Levels/Nivell0_BuiltData
+[2021.11.29-15.13.55:149][605]LogLinker: Warning: Can't find file '/Game/Levels/Nivell0_BuiltData'
+[2021.11.29-15.13.55:149][605]LogLinker: Warning: Can't find file for asset '/Game/Levels/Nivell0_BuiltData' while loading ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell0.umap.
+[2021.11.29-15.13.55:197][605]LogLinker: Warning: Can't find file '/Game/Levels/Nivell0_BuiltData'
+[2021.11.29-15.13.55:197][605]LogLinker: Warning: Can't find file for asset '/Game/Levels/Nivell0_BuiltData' while loading NULL.
+[2021.11.29-15.13.55:197][605]LogLinker: Warning: Can't find file '/Game/Levels/Nivell0_BuiltData'
+[2021.11.29-15.13.55:197][605]LogLinker: Warning: Can't find file for asset '/Game/Levels/Nivell0_BuiltData' while loading NULL.
+[2021.11.29-15.13.55:231][605]LogLinker: Warning: Can't find file '/Game/Levels/Nivell0_BuiltData'
+[2021.11.29-15.13.55:231][605]LoadErrors: Failed to load /Game/Levels/Nivell0_BuiltData.Nivell0_BuiltData Referenced by PersistentLevel
+[2021.11.29-15.13.55:231][605]LogLinker: Warning: Can't find file for asset '/Game/Levels/Nivell0_BuiltData' while loading NULL.
+[2021.11.29-15.13.55:284][605]LogAIModule: Creating AISystem for world Nivell0
+[2021.11.29-15.13.55:313][605]Cmd: MAP LOAD FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell0.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.29-15.13.55:313][605]LightingResults: New page: Lighting Build
+[2021.11.29-15.13.55:314][605]LoadErrors: New page: Loading map: Nivell0.umap
+[2021.11.29-15.13.55:316][605]MapCheck: New page: Map Check
+[2021.11.29-15.13.55:316][605]LightingResults: New page: Lighting Build
+[2021.11.29-15.13.55:348][605]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.29-15.13.55:382][605]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.29-15.13.55:461][605]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.479ms to complete.
+[2021.11.29-15.13.55:461][605]LogFileHelpers: Loading map 'Nivell0' took 0.149
+[2021.11.29-15.13.56:570][659]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-15.13.56:584][659]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Nivell0.Nivell0:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell0.Nivell0:PersistentLevel.Nivell0' with GeneratedClass '/Game/Levels/Nivell0.Nivell0_C' with ClassGeneratedBy '/Game/Levels/Nivell0.Nivell0:PersistentLevel.Nivell0'
+[2021.11.29-15.13.56:584][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-15.13.56:585][659]PIE: New page: PIE session: Nivell0 (Nov 29, 2021, 5:13:56 PM)
+[2021.11.29-15.13.56:585][659]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Nivell0
+[2021.11.29-15.13.56:600][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014809s)
+[2021.11.29-15.13.56:600][659]LogAIModule: Creating AISystem for world Nivell0
+[2021.11.29-15.13.56:600][659]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2021.11.29-15.13.56:601][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Nivell0.Nivell0 to /Game/Levels/UEDPIE_0_Nivell0.Nivell0 (0.015873s)
+[2021.11.29-15.13.56:628][659]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.11.29-15.13.56:643][659]LogInit: FAudioDevice initialized.
+[2021.11.29-15.13.56:674][659]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-15.13.56:677][659]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell0.Nivell0 up for play (max tick rate 60) at 2021.11.29-16.13.56
+[2021.11.29-15.13.56:678][659]LogWorld: Bringing up level for play took: 0.003463
+[2021.11.29-15.13.56:680][659]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Nivell0 -0.379
+[2021.11.29-15.13.56:680][659]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Nivell0.Nivell0:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell0.Nivell0:PersistentLevel.Nivell0' with GeneratedClass '/Game/Levels/Nivell0.Nivell0_C' with ClassGeneratedBy '/Game/Levels/Nivell0.Nivell0:PersistentLevel.Nivell0'
+[2021.11.29-15.14.16:476][844]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
+[2021.11.29-15.14.24:466][323]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 2/3
+[2021.11.29-15.14.27:267][491]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 3/3
+[2021.11.29-15.14.30:318][674]LogAudio: Warning: Detected orphaned looping sound 'Light01_Cue'.
+[2021.11.29-15.14.30:485][684]LogAudio: Warning: Detected orphaned looping sound 'Light01_Cue'.
+[2021.11.29-15.14.33:318][854]LogNet: Browse: /Game/Levels/Nivell1
+[2021.11.29-15.14.33:318][854]LogLoad: LoadMap: /Game/Levels/Nivell1
+[2021.11.29-15.14.33:698][854]LogAIModule: Creating AISystem for world Nivell1
+[2021.11.29-15.14.33:698][854]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-15.14.33:710][854]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell1.Nivell1 up for play (max tick rate 60) at 2021.11.29-16.14.33
+[2021.11.29-15.14.33:710][854]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+	Nivell1_C /Game/Levels/UEDPIE_0_Nivell1.Nivell1:PersistentLevel.Nivell1_C_1
+	Function /Game/Levels/UEDPIE_0_Nivell1.Nivell1_C:ExecuteUbergraph_Nivell1:0792
+[2021.11.29-15.14.33:710][854]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Nivell1' from node: Player Die in graph: EventGraph in object: Nivell1 with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2021.11.29-15.14.33:711][854]LogWorld: Bringing up level for play took: 0.011822
+[2021.11.29-15.14.33:712][854]LogLoad: Took 0.394630 seconds to LoadMap(/Game/Levels/Nivell1)
+[2021.11.29-15.14.37:417][ 71]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
+[2021.11.29-15.14.45:735][570]LogNet: Browse: /Game/Levels/Nivell1
+[2021.11.29-15.14.45:735][570]LogLoad: LoadMap: /Game/Levels/Nivell1
+[2021.11.29-15.14.46:349][570]LogAIModule: Creating AISystem for world Nivell1
+[2021.11.29-15.14.46:349][570]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-15.14.46:360][570]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell1.Nivell1 up for play (max tick rate 60) at 2021.11.29-16.14.46
+[2021.11.29-15.14.46:360][570]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+	Nivell1_C /Game/Levels/UEDPIE_0_Nivell1.Nivell1:PersistentLevel.Nivell1_C_1
+	Function /Game/Levels/UEDPIE_0_Nivell1.Nivell1_C:ExecuteUbergraph_Nivell1:0792
+[2021.11.29-15.14.46:361][570]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Nivell1' from node: Player Die in graph: EventGraph in object: Nivell1 with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
+[2021.11.29-15.14.46:361][570]LogWorld: Bringing up level for play took: 0.010883
+[2021.11.29-15.14.46:363][570]LogLoad: Took 0.627187 seconds to LoadMap(/Game/Levels/Nivell1)
+[2021.11.29-15.14.49:907][776]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
+[2021.11.29-15.14.59:941][378]LogAudio: Warning: Detected orphaned looping sound 'Light01_Cue'.
+[2021.11.29-15.15.00:075][386]LogAudio: Warning: Detected orphaned looping sound 'Light01_Cue'.
+[2021.11.29-15.15.02:939][558]LogNet: Browse: /Game/Levels/Nivell2
+[2021.11.29-15.15.02:940][558]LogLoad: LoadMap: /Game/Levels/Nivell2
+[2021.11.29-15.15.03:633][558]LogAIModule: Creating AISystem for world Nivell2
+[2021.11.29-15.15.03:633][558]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-15.15.03:645][558]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell2.Nivell2 up for play (max tick rate 60) at 2021.11.29-16.15.03
+[2021.11.29-15.15.03:646][558]LogWorld: Bringing up level for play took: 0.011793
+[2021.11.29-15.15.03:647][558]LogLoad: Took 0.707331 seconds to LoadMap(/Game/Levels/Nivell2)
+[2021.11.29-15.15.07:109][761]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
+[2021.11.29-15.15.16:691][336]LogNet: Browse: /Game/Levels/Nivell2
+[2021.11.29-15.15.16:692][336]LogLoad: LoadMap: /Game/Levels/Nivell2
+[2021.11.29-15.15.17:202][336]LogAIModule: Creating AISystem for world Nivell2
+[2021.11.29-15.15.17:202][336]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-15.15.17:215][336]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell2.Nivell2 up for play (max tick rate 60) at 2021.11.29-16.15.17
+[2021.11.29-15.15.17:215][336]LogWorld: Bringing up level for play took: 0.012122
+[2021.11.29-15.15.17:217][336]LogLoad: Took 0.525528 seconds to LoadMap(/Game/Levels/Nivell2)
+[2021.11.29-15.15.22:845][669]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Nivell0.Nivell0:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell0.Nivell0:PersistentLevel.Nivell0' with GeneratedClass '/Game/Levels/Nivell0.Nivell0_C' with ClassGeneratedBy '/Game/Levels/Nivell0.Nivell0:PersistentLevel.Nivell0'
+[2021.11.29-15.15.22:880][669]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Nivell0.Nivell0:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell0.Nivell0:PersistentLevel.Nivell0' with GeneratedClass '/Game/Levels/Nivell0.Nivell0_C' with ClassGeneratedBy '/Game/Levels/Nivell0.Nivell0:PersistentLevel.Nivell0'
+[2021.11.29-15.15.25:828][816]LogAIModule: Creating AISystem for world Nivell2
+[2021.11.29-15.15.25:861][816]Cmd: MAP LOAD FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.29-15.15.25:861][816]LightingResults: New page: Lighting Build
+[2021.11.29-15.15.25:861][816]LoadErrors: New page: Loading map: Nivell2.umap
+[2021.11.29-15.15.25:863][816]MapCheck: New page: Map Check
+[2021.11.29-15.15.25:863][816]LightingResults: New page: Lighting Build
+[2021.11.29-15.15.25:898][816]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.29-15.15.25:933][816]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.29-15.15.26:014][816]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.552ms to complete.
+[2021.11.29-15.15.26:014][816]LogFileHelpers: Loading map 'Nivell2' took 0.154
+[2021.11.29-15.15.35:942][405]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.11.29-15.15.52:780][402]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.29-15.15.56:788][640]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.11.29-15.15.58:428][737]LogHttp: Warning: 000002392B6C9780: request failed, libcurl error: 35 (SSL connect error)
+[2021.11.29-15.15.58:428][737]LogHttp: Warning: 000002392B6C9780: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2021.11.29-15.15.58:428][737]LogHttp: Warning: 000002392B6C9780: libcurl info message cache 1 (  Trying 54.85.148.225...)
+[2021.11.29-15.15.58:428][737]LogHttp: Warning: 000002392B6C9780: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.85.148.225) port 443 (#6))
+[2021.11.29-15.15.58:428][737]LogHttp: Warning: 000002392B6C9780: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2021.11.29-15.15.58:428][737]LogHttp: Warning: 000002392B6C9780: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2021.11.29-15.15.58:428][737]LogHttp: Warning: 000002392B6C9780: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2021.11.29-15.15.58:428][737]LogHttp: Warning: 000002392B6C9780: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2021.11.29-15.15.58:428][737]LogHttp: Warning: 000002392B6C9780: libcurl info message cache 7 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2021.11.29-15.15.58:428][737]LogHttp: Warning: 000002392B6C9780: libcurl info message cache 8 (Closing connection 6)
+[2021.11.29-15.16.06:021][181]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleWall_Ruin_3)
+[2021.11.29-15.16.07:406][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock4)
+[2021.11.29-15.16.24:214][260]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.11.29-15.16.30:856][655]Cmd: TRANSACTION UNDO
+[2021.11.29-15.16.30:856][655]LogEditorTransaction: Undo Move Actors
+[2021.11.29-15.16.38:127][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.29-15.16.38:779][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.29-15.16.39:441][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.29-15.16.40:386][214]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.29-15.16.41:837][300]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2021.11.29-15.16.59:107][320]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.29-15.16.59:121][320]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.16.59:121][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.29-15.16.59:121][320]PIE: New page: PIE session: Nivell2 (Nov 29, 2021, 5:16:59 PM)
+[2021.11.29-15.16.59:121][320]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Nivell2
+[2021.11.29-15.16.59:138][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016368s)
+[2021.11.29-15.16.59:139][320]LogAIModule: Creating AISystem for world Nivell2
+[2021.11.29-15.16.59:139][320]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2021.11.29-15.16.59:139][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Nivell2.Nivell2 to /Game/Levels/UEDPIE_0_Nivell2.Nivell2 (0.017321s)
+[2021.11.29-15.16.59:162][320]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.11.29-15.16.59:177][320]LogInit: FAudioDevice initialized.
+[2021.11.29-15.16.59:208][320]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.29-15.16.59:214][320]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell2.Nivell2 up for play (max tick rate 60) at 2021.11.29-16.16.59
+[2021.11.29-15.16.59:215][320]LogWorld: Bringing up level for play took: 0.005660
+[2021.11.29-15.16.59:217][320]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Nivell2 0.158
+[2021.11.29-15.16.59:217][320]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.17.02:677][526]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
+[2021.11.29-15.17.17:728][429]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.17.17:767][429]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Nivell2.Nivell2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2' with GeneratedClass '/Game/Levels/Nivell2.Nivell2_C' with ClassGeneratedBy '/Game/Levels/Nivell2.Nivell2:PersistentLevel.Nivell2'
+[2021.11.29-15.17.36:806][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Plains_Mountain_2)
+[2021.11.29-15.17.37:743][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleTower_10)
+[2021.11.29-15.17.38:215][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block85)
+[2021.11.29-15.17.54:426][514]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2021.11.29-15.18.24:543][290]LogHttp: Warning: 00000239B6ECC100: request failed, libcurl error: 35 (SSL connect error)
+[2021.11.29-15.18.24:543][290]LogHttp: Warning: 00000239B6ECC100: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2021.11.29-15.18.24:543][290]LogHttp: Warning: 00000239B6ECC100: libcurl info message cache 1 (  Trying 54.210.247.250...)
+[2021.11.29-15.18.24:543][290]LogHttp: Warning: 00000239B6ECC100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.210.247.250) port 443 (#7))
+[2021.11.29-15.18.24:543][290]LogHttp: Warning: 00000239B6ECC100: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2021.11.29-15.18.24:543][290]LogHttp: Warning: 00000239B6ECC100: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2021.11.29-15.18.24:543][290]LogHttp: Warning: 00000239B6ECC100: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2021.11.29-15.18.24:543][290]LogHttp: Warning: 00000239B6ECC100: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2021.11.29-15.18.24:543][290]LogHttp: Warning: 00000239B6ECC100: libcurl info message cache 7 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2021.11.29-15.18.24:543][290]LogHttp: Warning: 00000239B6ECC100: libcurl info message cache 8 (Closing connection 7)
+[2021.11.29-15.20.22:884][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.29-15.20.23:543][381]LogSavePackage: Save=636.57ms
+[2021.11.29-15.20.23:543][381]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2BFA1A302447DE726A800038F1BFD8D62.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap'
+[2021.11.29-15.20.23:545][381]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap
+[2021.11.29-15.20.23:563][381]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2_BuiltData" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset" SILENT=true
+[2021.11.29-15.20.24:338][381]LogSavePackage: Save=411.10ms
+[2021.11.29-15.20.24:338][381]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2_BuiltData7B374FD9436D1C197993D4A7FDF528D4.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset'
+[2021.11.29-15.20.24:341][381]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset
+[2021.11.29-15.20.48:577][832]LogHttp: Warning: 00000239B6289D80: request failed, libcurl error: 35 (SSL connect error)
+[2021.11.29-15.20.48:577][832]LogHttp: Warning: 00000239B6289D80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2021.11.29-15.20.48:577][832]LogHttp: Warning: 00000239B6289D80: libcurl info message cache 1 (  Trying 52.0.207.159...)
+[2021.11.29-15.20.48:577][832]LogHttp: Warning: 00000239B6289D80: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.0.207.159) port 443 (#8))
+[2021.11.29-15.20.48:577][832]LogHttp: Warning: 00000239B6289D80: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2021.11.29-15.20.48:577][832]LogHttp: Warning: 00000239B6289D80: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2021.11.29-15.20.48:577][832]LogHttp: Warning: 00000239B6289D80: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2021.11.29-15.20.48:577][832]LogHttp: Warning: 00000239B6289D80: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2021.11.29-15.20.48:577][832]LogHttp: Warning: 00000239B6289D80: libcurl info message cache 7 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2021.11.29-15.20.48:577][832]LogHttp: Warning: 00000239B6289D80: libcurl info message cache 8 (Closing connection 8)
+[2021.11.29-15.22.56:571][510]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.11.29-15.23.13:417][517]LogHttp: Warning: 00000239B8B95180: request failed, libcurl error: 35 (SSL connect error)
+[2021.11.29-15.23.13:417][517]LogHttp: Warning: 00000239B8B95180: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2021.11.29-15.23.13:417][517]LogHttp: Warning: 00000239B8B95180: libcurl info message cache 1 (  Trying 52.205.225.16...)
+[2021.11.29-15.23.13:417][517]LogHttp: Warning: 00000239B8B95180: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.205.225.16) port 443 (#9))
+[2021.11.29-15.23.13:417][517]LogHttp: Warning: 00000239B8B95180: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2021.11.29-15.23.13:417][517]LogHttp: Warning: 00000239B8B95180: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2021.11.29-15.23.13:417][517]LogHttp: Warning: 00000239B8B95180: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2021.11.29-15.23.13:417][517]LogHttp: Warning: 00000239B8B95180: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2021.11.29-15.23.13:417][517]LogHttp: Warning: 00000239B8B95180: libcurl info message cache 7 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2021.11.29-15.23.13:417][517]LogHttp: Warning: 00000239B8B95180: libcurl info message cache 8 (Closing connection 9)
+[2021.11.29-15.23.47:609][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.29-15.23.48:285][564]LogSavePackage: Save=656.43ms
+[2021.11.29-15.23.48:285][564]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell24570AC4B401FFCA11CB84F93BA0989E4.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap'
+[2021.11.29-15.23.48:286][564]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap
+[2021.11.29-15.23.48:304][564]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2_BuiltData" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset" SILENT=true
+[2021.11.29-15.23.48:693][564]LogSavePackage: Save=387.72ms
+[2021.11.29-15.23.48:693][564]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2_BuiltData72C3DB694320ADDCEDF375AC62645B79.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset'
+[2021.11.29-15.23.48:695][564]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_BuiltData.uasset
+[2021.11.29-15.25.36:883][ 52]LogHttp: Warning: 0000023944071480: request failed, libcurl error: 35 (SSL connect error)
+[2021.11.29-15.25.36:883][ 52]LogHttp: Warning: 0000023944071480: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2021.11.29-15.25.36:883][ 52]LogHttp: Warning: 0000023944071480: libcurl info message cache 1 (  Trying 44.193.141.77...)
+[2021.11.29-15.25.36:883][ 52]LogHttp: Warning: 0000023944071480: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (44.193.141.77) port 443 (#10))
+[2021.11.29-15.25.36:883][ 52]LogHttp: Warning: 0000023944071480: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2021.11.29-15.25.36:883][ 52]LogHttp: Warning: 0000023944071480: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2021.11.29-15.25.36:883][ 52]LogHttp: Warning: 0000023944071480: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2021.11.29-15.25.36:884][ 52]LogHttp: Warning: 0000023944071480: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2021.11.29-15.25.36:884][ 52]LogHttp: Warning: 0000023944071480: libcurl info message cache 7 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2021.11.29-15.25.36:884][ 52]LogHttp: Warning: 0000023944071480: libcurl info message cache 8 (Closing connection 10)
+[2021.11.29-15.26.38:468][711]Cmd: QUIT_EDITOR
+[2021.11.29-15.26.38:792][711]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.11.29-15.26.38:801][711]LogExit: Preparing to exit.
+[2021.11.29-15.26.39:385][711]LogDirectoryWatcher: A directory notification for 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/' was aborted.
+[2021.11.29-15.26.39:705][711]LogExit: Editor shut down
+[2021.11.29-15.26.39:707][711]LogExit: Transaction tracking system shut down
+[2021.11.29-15.26.39:832][711]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2021.11.29-15.26.39:833][711]LogDirectoryWatcher: A directory notification for '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/' was aborted.
+[2021.11.29-15.26.39:833][711]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2021.11.29-15.26.39:833][711]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2021.11.29-15.26.39:833][711]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2021.11.29-15.26.39:833][711]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2021.11.29-15.26.39:833][711]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2021.11.29-15.26.39:966][711]LogExit: Object subsystem successfully closed.
+[2021.11.29-15.26.39:994][711]LogD3D11RHI: Shutdown
+[2021.11.29-15.26.39:994][711]LogD3D11RHI: CleanupD3DDevice
+[2021.11.29-15.26.39:996][711]LogD3D11RHI: ~FD3D11DynamicRHI
+[2021.11.29-15.26.40:009][711]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (554)
+[2021.11.29-15.26.40:009][711]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
+[2021.11.29-15.26.40:009][711]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
+[2021.11.29-15.26.40:284][711]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2021.11.29-15.26.40:284][711]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
+[2021.11.29-15.26.40:284][711]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
+[2021.11.29-15.26.40:323][711]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2021.11.29-15.26.40:328][711]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
+[2021.11.29-15.26.40:328][711]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
+[2021.11.29-15.26.40:328][711]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
+[2021.11.29-15.26.40:328][711]LogDirectoryWatcher: A directory notification for 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Collections/' was aborted.
+[2021.11.29-15.26.40:328][711]LogDirectoryWatcher: A directory notification for 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Developers/marin/Collections/' was aborted.
+[2021.11.29-15.26.40:328][711]LogDirectoryWatcher: A directory notification for 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Collections/' was aborted.
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2021.11.29-15.26.40:329][711]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2021.11.29-15.26.40:502][711]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2021.11.29-15.26.40:502][711]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2021.11.29-15.26.40:502][711]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2021.11.29-15.26.40:502][711]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2021.11.29-15.26.40:502][711]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2021.11.29-15.26.40:838][711]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2021.11.29-15.26.40:839][711]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2021.11.29-15.26.40:839][711]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2021.11.29-15.26.40:839][711]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2021.11.29-15.26.40:839][711]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2021.11.29-15.26.40:839][711]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2021.11.29-15.26.40:839][711]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2021.11.29-15.26.40:839][711]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2021.11.29-15.26.40:892][711]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2021.11.29-15.26.40:892][711]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2021.11.29-15.26.40:892][711]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2021.11.29-15.26.40:892][711]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2021.11.29-15.26.40:892][711]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2021.11.29-15.26.40:892][711]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2021.11.29-15.26.40:892][711]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2021.11.29-15.26.40:892][711]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2021.11.29-15.26.40:892][711]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2021.11.29-15.26.40:892][711]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2021.11.29-15.26.40:897][711]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2021.11.29-15.26.40:897][711]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2021.11.29-15.26.40:897][711]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2021.11.29-15.26.40:897][711]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2021.11.29-15.26.40:897][711]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2021.11.29-15.26.40:897][711]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2021.11.29-15.26.40:897][711]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2021.11.29-15.26.40:897][711]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2021.11.29-15.26.40:897][711]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2021.11.29-15.26.40:897][711]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2021.11.29-15.26.40:897][711]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2021.11.29-15.26.40:897][711]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2021.11.29-15.26.40:898][711]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2021.11.29-15.26.40:898][711]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2021.11.29-15.26.40:898][711]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2021.11.29-15.26.40:898][711]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2021.11.29-15.26.40:898][711]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2021.11.29-15.26.40:898][711]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2021.11.29-15.26.40:898][711]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2021.11.29-15.26.40:898][711]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2021.11.29-15.26.41:145][711]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2021.11.29-15.26.41:146][711]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2021.11.29-15.26.41:146][711]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2021.11.29-15.26.41:146][711]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2021.11.29-15.26.41:146][711]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2021.11.29-15.26.41:146][711]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2021.11.29-15.26.41:146][711]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2021.11.29-15.26.41:146][711]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2021.11.29-15.26.41:146][711]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2021.11.29-15.26.41:146][711]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2021.11.29-15.26.41:146][711]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2021.11.29-15.26.41:146][711]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2021.11.29-15.26.41:146][711]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2021.11.29-15.26.41:146][711]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2021.11.29-15.26.41:146][711]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2021.11.29-15.26.41:147][711]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2021.11.29-15.26.41:147][711]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2021.11.29-15.26.41:147][711]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2021.11.29-15.26.41:147][711]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2021.11.29-15.26.41:147][711]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2021.11.29-15.26.41:147][711]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2021.11.29-15.26.41:147][711]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2021.11.29-15.26.41:147][711]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2021.11.29-15.26.41:147][711]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2021.11.29-15.26.41:147][711]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2021.11.29-15.26.41:147][711]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2021.11.29-15.26.41:248][711]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2021.11.29-15.26.41:348][711]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2021.11.29-15.26.41:348][711]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2021.11.29-15.26.41:348][711]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2021.11.29-15.26.41:348][711]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2021.11.29-15.26.41:348][711]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2021.11.29-15.26.41:348][711]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2021.11.29-15.26.41:349][711]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2021.11.29-15.26.41:349][711]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2021.11.29-15.26.41:349][711]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2021.11.29-15.26.41:349][711]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2021.11.29-15.26.41:350][711]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2021.11.29-15.26.41:350][711]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2021.11.29-15.26.41:350][711]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2021.11.29-15.26.41:350][711]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2021.11.29-15.26.41:350][711]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2021.11.29-15.26.41:350][711]LogModuleManager: Shutting down and abandoning module Media (221)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2021.11.29-15.26.41:358][711]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module Core (172)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2021.11.29-15.26.41:360][711]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2021.11.29-15.26.41:361][711]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2021.11.29-15.26.41:420][711]LogDerivedDataCache: Shutdown
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2021.11.29-15.26.41:420][711]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2021.11.29-15.26.41:421][711]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2021.11.29-15.26.41:421][711]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.11.29-15.26.41:421][711]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB98884AE-40F7-1169-1F7E-61A97CBF482E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=6dfce82b44f189f08de65ab5f7dedad6%7C4ae5b97337744d9da48fed58afc8efee%7C3db05947-95cf-4cfe-8fdf-1537ccd9508b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2021.11.29-15.26.41:421][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.41:922][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.42:423][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.42:924][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.43:425][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.43:926][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.44:427][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.44:928][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.45:428][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.45:928][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.46:430][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.46:930][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.47:431][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.47:932][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.48:433][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.48:933][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.49:434][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.49:934][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.50:435][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.50:936][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.51:437][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.51:938][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.52:439][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.52:940][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.53:441][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.53:942][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.54:442][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.54:943][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.55:443][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.55:944][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.56:444][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.56:945][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.57:446][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.57:947][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.58:448][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.58:948][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.59:449][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.26.59:950][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.27.00:450][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.27.00:951][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.27.01:452][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.27.01:953][711]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2021.11.29-15.27.02:454][711]LogHttp: Warning: 00000239B6EB8280: request failed, libcurl error: 35 (SSL connect error)
+[2021.11.29-15.27.02:454][711]LogHttp: Warning: 00000239B6EB8280: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2021.11.29-15.27.02:454][711]LogHttp: Warning: 00000239B6EB8280: libcurl info message cache 1 (  Trying 35.170.143.176...)
+[2021.11.29-15.27.02:454][711]LogHttp: Warning: 00000239B6EB8280: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (35.170.143.176) port 443 (#11))
+[2021.11.29-15.27.02:454][711]LogHttp: Warning: 00000239B6EB8280: libcurl info message cache 3 (ALPN, offering http/1.1)
+[2021.11.29-15.27.02:454][711]LogHttp: Warning: 00000239B6EB8280: libcurl info message cache 4 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2021.11.29-15.27.02:454][711]LogHttp: Warning: 00000239B6EB8280: libcurl info message cache 5 (TLSv1.2 (OUT), TLS header, Certificate Status (22):)
+[2021.11.29-15.27.02:454][711]LogHttp: Warning: 00000239B6EB8280: libcurl info message cache 6 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2021.11.29-15.27.02:454][711]LogHttp: Warning: 00000239B6EB8280: libcurl info message cache 7 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2021.11.29-15.27.02:454][711]LogHttp: Warning: 00000239B6EB8280: libcurl info message cache 8 (Closing connection 11)
+[2021.11.29-15.27.02:476][711]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2021.11.29-15.27.02:477][711]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2021.11.29-15.27.02:477][711]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2021.11.29-15.27.02:477][711]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2021.11.29-15.27.02:477][711]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2021.11.29-15.27.02:477][711]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2021.11.29-15.27.02:477][711]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2021.11.29-15.27.02:477][711]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2021.11.29-15.27.02:478][711]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2021.11.29-15.27.02:478][711]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2021.11.29-15.27.02:478][711]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2021.11.29-15.27.02:478][711]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2021.11.29-15.27.02:478][711]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2021.11.29-15.27.02:478][711]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2021.11.29-15.27.02:478][711]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2021.11.29-15.27.02:478][711]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2021.11.29-15.27.02:478][711]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2021.11.29-15.27.02:478][711]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2021.11.29-15.27.02:478][711]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2021.11.29-15.27.02:484][711]LogExit: Exiting.
+[2021.11.29-15.27.02:492][711]Log file closed, 11/29/21 16:27:02
