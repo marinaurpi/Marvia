@@ -1,4 +1,4 @@
-﻿Log file open, 11/24/21 23:06:08
+﻿Log file open, 11/30/21 16:16:56
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Projecte_final
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-517753075) SRandInit(-517753074).
+LogInit: Display: RandInit(640966862) SRandInit(640966862).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.235250
+LogStats: Stats thread started at 0.372357
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -196,645 +196,1324 @@ LogInit: Base directory: D:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2021.11.24-22.06.09:825][  0]LogInit: Selected Device Profile: [Windows]
-[2021.11.24-22.06.09:825][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.11.24-22.06.09:833][  0]LogInit: Computer: LAPTOP-A1QJH46E
-[2021.11.24-22.06.09:833][  0]LogInit: User: marin
-[2021.11.24-22.06.09:833][  0]LogInit: CPU Page size=4096, Cores=6
-[2021.11.24-22.06.09:833][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.11.24-22.06.09:833][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2021.11.24-22.06.09:833][  0]LogMemory: Platform Memory Stats for Windows
-[2021.11.24-22.06.09:833][  0]LogMemory: Process Physical Memory: 275.26 MB used, 275.27 MB peak
-[2021.11.24-22.06.09:833][  0]LogMemory: Process Virtual Memory: 270.25 MB used, 270.25 MB peak
-[2021.11.24-22.06.09:833][  0]LogMemory: Physical Memory: 5666.14 MB used,  2414.09 MB free, 8080.24 MB total
-[2021.11.24-22.06.09:833][  0]LogMemory: Virtual Memory: 4769.01 MB used,  2414.09 MB free, 134217728.00 MB total
-[2021.11.24-22.06.09:971][  0]LogInit: Using OS detected language (ca-ES).
-[2021.11.24-22.06.09:971][  0]LogInit: Using OS detected locale (ca-ES).
-[2021.11.24-22.06.09:974][  0]LogTextLocalizationManager: No localization for 'ca-ES' exists, so 'en' will be used for the language.
-[2021.11.24-22.06.09:974][  0]LogTextLocalizationManager: No localization for 'ca-ES' exists, so 'en' will be used for the locale.
-[2021.11.24-22.06.10:323][  0]LogInit: Setting process to per monitor DPI aware
-[2021.11.24-22.06.10:768][  0]LogD3D11RHI: D3D11 adapters:
-[2021.11.24-22.06.10:877][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2021.11.24-22.06.10:877][  0]LogD3D11RHI:       4019/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2021.11.24-22.06.10:892][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2021.11.24-22.06.10:892][  0]LogD3D11RHI:       128/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2021.11.24-22.06.10:894][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.11.24-22.06.10:894][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.11.24-22.06.10:894][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.11.24-22.06.10:900][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.11.24-22.06.10:900][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2021.11.24-22.06.10:900][  0]LogWindows: EnumDisplayDevices:
-[2021.11.24-22.06.10:900][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2021.11.24-22.06.10:900][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2021.11.24-22.06.10:900][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2021.11.24-22.06.10:901][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2021.11.24-22.06.10:901][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2021.11.24-22.06.10:901][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2021.11.24-22.06.10:901][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2021.11.24-22.06.10:901][  0]LogD3D11RHI:      Driver Date: Unknown
-[2021.11.24-22.06.10:901][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
-[2021.11.24-22.06.10:957][  0]LogD3D11RHI: Async texture creation enabled
-[2021.11.24-22.06.10:973][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.11.24-22.06.10:974][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Intermediate/Shaders/WorkingDirectory/14552/).
-[2021.11.24-22.06.10:974][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/marin/AppData/Local/Temp/UnrealShaderWorkingDir/9E6B2E1B48E3B7AB549D009A5633FE44/'.
-[2021.11.24-22.06.10:974][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.11.24-22.06.11:884][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2021.11.24-22.06.11:933][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2021.11.24-22.06.11:984][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2021.11.24-22.06.12:032][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2021.11.24-22.06.12:083][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2021.11.24-22.06.12:131][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2021.11.24-22.06.12:180][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2021.11.24-22.06.12:230][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2021.11.24-22.06.12:273][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2021.11.24-22.06.12:321][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2021.11.24-22.06.12:369][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2021.11.24-22.06.12:421][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2021.11.24-22.06.12:471][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2021.11.24-22.06.12:520][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2021.11.24-22.06.12:623][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2021.11.24-22.06.12:623][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2021.11.24-22.06.12:670][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2021.11.24-22.06.12:706][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2021.11.24-22.06.12:794][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2021.11.24-22.06.12:820][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2021.11.24-22.06.12:868][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2021.11.24-22.06.12:917][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2021.11.24-22.06.12:965][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2021.11.24-22.06.13:013][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2021.11.24-22.06.13:013][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.11.24-22.06.13:446][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.11.24-22.06.13:511][  0]LogDerivedDataCache: Loaded boot cache 0.07s 78MB C:/Users/marin/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2021.11.24-22.06.13:511][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/marin/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2021.11.24-22.06.13:511][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.11.24-22.06.13:511][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.11.24-22.06.13:511][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.11.24-22.06.13:511][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.11.24-22.06.13:526][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.11.24-22.06.13:538][  0]LogDerivedDataCache: Using Local data cache path C:/Users/marin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.11.24-22.06.13:548][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2021.11.24-22.06.13:549][  0]LogSlate: Using Freetype 2.6.0
-[2021.11.24-22.06.13:549][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.11.24-22.06.13:549][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.11.24-22.06.13:882][  0]LogInit: Selected Device Profile: [Windows]
-[2021.11.24-22.06.14:205][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2021.11.24-22.06.14:244][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2021.11.24-22.06.14:244][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.11.24-22.06.14:244][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2021.11.24-22.06.14:244][  0]LogMeshReduction: No automatic mesh merging module available
-[2021.11.24-22.06.14:244][  0]LogMeshMerging: No automatic mesh merging module available
-[2021.11.24-22.06.14:269][  0]LogNetVersion: Projecte_final , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4128612215)
-[2021.11.24-22.06.14:427][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
-[2021.11.24-22.06.14:855][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.022958 seconds
-[2021.11.24-22.06.14:860][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2021.11.24-22.06.14:860][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2021.11.24-22.06.14:860][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.11.24-22.06.14:914][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2021.11.24-22.06.17:876][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.11.24-22.06.17:920][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.11.24-22.06.18:649][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2021.11.24-22.06.19:151][  0]SourceControl: Source control is disabled
-[2021.11.24-22.06.19:152][  0]SourceControl: Source control is disabled
-[2021.11.24-22.06.19:239][  0]SourceControl: Source control is disabled
-[2021.11.24-22.06.19:312][  0]SourceControl: Source control is disabled
-[2021.11.24-22.06.20:216][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.11.24-22.06.20:499][  0]LogOcInput: OculusInput pre-init called
-[2021.11.24-22.06.20:843][  0]LogEngine: Initializing Engine...
-[2021.11.24-22.06.20:845][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.11.24-22.06.21:075][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2021.11.24-22.06.21:075][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2021.11.24-22.06.21:219][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.11.24-22.06.21:235][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2021.11.24-22.06.21:262][  0]LogInit: FAudioDevice initialized.
-[2021.11.24-22.06.21:317][  0]LogDerivedDataCache: Saved boot cache 0.06s 78MB C:/Users/marin/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2021.11.24-22.06.21:329][  0]LogInit: Texture streaming: Enabled
-[2021.11.24-22.06.21:432][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.11.24-22.06.21:567][  0]LogInit: Transaction tracking system initialized
-[2021.11.24-22.06.21:911][  0]BlueprintLog: New page: Editor Load
-[2021.11.24-22.06.22:896][  0]LocalizationService: Localization service is disabled
-[2021.11.24-22.06.23:765][  0]LogConsoleResponse: Display: 
-[2021.11.24-22.06.23:954][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.11.24-22.06.23:954][  0]LogCook: Display: Mobile HDR setting 1
-[2021.11.24-22.06.23:954][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2021.11.24-22.06.24:698][  0]LogFileCache: Scanning file cache for directory 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/' took 0.03s
-[2021.11.24-22.06.25:300][  0]SourceControl: Source control is disabled
-[2021.11.24-22.06.25:300][  0]Cmd: MAP LOAD FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.11.24-22.06.25:337][  0]LightingResults: New page: Lighting Build
-[2021.11.24-22.06.25:380][  0]MapCheck: New page: Map Check
-[2021.11.24-22.06.25:380][  0]LightingResults: New page: Lighting Build
-[2021.11.24-22.06.27:971][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2021.11.24-22.06.27:979][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.11.24-22.06.27:995][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.11.24-22.06.28:055][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.737ms to complete.
-[2021.11.24-22.06.28:055][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.755
-[2021.11.24-22.06.28:250][  0]LogCollectionManager: Loaded 0 collections in 0.001032 seconds
-[2021.11.24-22.06.28:348][  0]LogFileCache: Scanning file cache for directory 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Collections/' took 0.01s
-[2021.11.24-22.06.28:348][  0]LogFileCache: Scanning file cache for directory 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Developers/marin/Collections/' took 0.01s
-[2021.11.24-22.06.28:348][  0]LogFileCache: Scanning file cache for directory 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Collections/' took 0.01s
-[2021.11.24-22.06.28:348][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2021.11.24-22.06.28:357][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2363 classes and 519 folders.
-[2021.11.24-22.06.28:435][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.11.24-22.06.29:605][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.11.24-22.06.29:662][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2021.11.24-22.06.29:723][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.11.24-22.06.29:724][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.11.24-22.06.29:738][  0]LogSlate: Took 0.009977 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.11.24-22.06.29:955][  0]LogRenderer: Reallocating scene render targets to support 864x384 Format 10 NumSamples 1 (Frame:1).
-[2021.11.24-22.06.30:173][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2021.11.24-22.06.30:173][  0]LogLoad: (Engine Initialization) Total time: 22.71 seconds
-[2021.11.24-22.06.30:173][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.11.24-22.06.30:173][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2021.11.24-22.06.30:528][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.11.24-22.06.30:556][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2021.11.24-22.06.32:517][  7]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.06.32:517][  7]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.06.32:517][  7]LogPackageName: SearchForPackageOnDisk took   0.084s, but failed to resolve JW_FlameDungeon.
-[2021.11.24-22.06.32:517][  7]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" could not be resolved.
-[2021.11.24-22.06.32:517][  7]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.06.32:517][  7]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.06.32:517][  7]LogPackageName: SearchForPackageOnDisk took   0.084s, but failed to resolve JW_FlameDungeon.
-[2021.11.24-22.06.32:517][  7]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" could not be resolved.
-[2021.11.24-22.06.37:183][ 21]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.06.37:183][ 21]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.06.37:516][ 22]LogPackageName: SearchForPackageOnDisk took   0.085s, but failed to resolve StaticMesh'FX_Meshes_IB.
-[2021.11.24-22.06.37:516][ 22]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" could not be resolved.
-[2021.11.24-22.06.37:850][ 23]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.06.37:850][ 23]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.06.38:183][ 24]LogPackageName: SearchForPackageOnDisk took   0.087s, but failed to resolve JW_Ice_Mountain.
-[2021.11.24-22.06.38:183][ 24]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
-[2021.11.24-22.06.38:517][ 25]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.06.38:517][ 25]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.06.38:517][ 25]LogPackageName: SearchForPackageOnDisk took   0.082s, but failed to resolve FX_Meshes.
-[2021.11.24-22.06.38:517][ 25]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
-[2021.11.24-22.06.38:517][ 25]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.06.38:517][ 25]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.06.38:851][ 26]LogPackageName: SearchForPackageOnDisk took   0.084s, but failed to resolve FX_Meshes.
-[2021.11.24-22.06.38:851][ 26]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
-[2021.11.24-22.06.38:851][ 26]LogPackageName: Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.06.38:851][ 26]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.06.39:183][ 27]LogPackageName: SearchForPackageOnDisk took   0.088s, but failed to resolve 'FX_Ambient.
-[2021.11.24-22.06.39:183][ 27]LogPackageName: Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" could not be resolved.
-[2021.11.24-22.06.39:183][ 27]LogPackageName: Warning: String asset reference "CastleEffects.TouchToMoveArrow" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.06.39:183][ 27]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.06.39:516][ 28]LogPackageName: SearchForPackageOnDisk took   0.118s, but failed to resolve CastleEffects.
-[2021.11.24-22.06.39:516][ 28]LogPackageName: Warning: String asset reference "CastleEffects.TouchToMoveArrow" could not be resolved.
-[2021.11.24-22.06.40:518][ 31]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.06.40:518][ 31]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.06.40:849][ 32]LogPackageName: SearchForPackageOnDisk took   0.087s, but failed to resolve StaticMesh'FX_Meshes.
-[2021.11.24-22.06.40:849][ 32]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" could not be resolved.
-[2021.11.24-22.06.40:849][ 32]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.06.40:849][ 32]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.06.40:849][ 32]LogPackageName: SearchForPackageOnDisk took   0.084s to resolve m_FogSheet_02.
-[2021.11.24-22.06.41:516][ 34]LogPackageName: Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.06.41:516][ 34]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.06.41:516][ 34]LogPackageName: SearchForPackageOnDisk took   0.082s, but failed to resolve FX_Test_LAN.
-[2021.11.24-22.06.41:516][ 34]LogPackageName: Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" could not be resolved.
-[2021.11.24-22.06.43:516][ 40]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.06.43:517][ 40]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.06.43:850][ 41]LogPackageName: SearchForPackageOnDisk took   0.084s to resolve m_FogSheet_02.
-[2021.11.24-22.06.43:850][ 41]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.06.43:850][ 41]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.06.43:850][ 41]LogPackageName: SearchForPackageOnDisk took   0.088s to resolve m_FogSheet_02.
-[2021.11.24-22.06.43:850][ 41]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.06.43:850][ 41]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.06.43:850][ 41]LogPackageName: SearchForPackageOnDisk took   0.087s to resolve m_FogSheet_02.
-[2021.11.24-22.07.09:582][661]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.09:582][661]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.09:683][667]LogPackageName: SearchForPackageOnDisk took   0.095s, but failed to resolve JW_Ice_Mountain.
-[2021.11.24-22.07.09:683][667]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
-[2021.11.24-22.07.09:782][673]LogPackageName: Warning: String asset reference "S_Survival_CA_Chicken_02.SM.S_Survival_CA_Chicken_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.09:782][673]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.09:884][679]LogPackageName: SearchForPackageOnDisk took   0.103s to resolve S_Survival_CA_Chicken_02.
-[2021.11.24-22.07.10:900][740]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.10:900][740]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.10:999][746]LogPackageName: SearchForPackageOnDisk took   0.090s, but failed to resolve JW_Ice_Mountain.
-[2021.11.24-22.07.10:999][746]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
-[2021.11.24-22.07.11:067][750]LogPackageName: Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.11:067][750]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.11:149][755]LogPackageName: SearchForPackageOnDisk took   0.095s, but failed to resolve Env_ALL_Artifacts.
-[2021.11.24-22.07.11:149][755]LogPackageName: Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
-[2021.11.24-22.07.12:433][832]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.12:433][832]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.12:549][839]LogPackageName: SearchForPackageOnDisk took   0.106s, but failed to resolve S_ClothTarps_03.
-[2021.11.24-22.07.12:550][839]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
-[2021.11.24-22.07.13:544][897]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2021.11.24-22.07.22:564][436]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2021.11.24-22.07.23:497][436]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.11.24-22.07.28:302][436]LogAIModule: Creating AISystem for world Nivell1
-[2021.11.24-22.07.28:388][436]Cmd: MAP LOAD FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.11.24-22.07.28:388][436]LightingResults: New page: Lighting Build
-[2021.11.24-22.07.28:389][436]LoadErrors: New page: Loading map: Nivell1.umap
-[2021.11.24-22.07.28:400][436]MapCheck: New page: Map Check
-[2021.11.24-22.07.28:400][436]LightingResults: New page: Lighting Build
-[2021.11.24-22.07.28:431][436]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.11.24-22.07.28:491][436]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.11.24-22.07.28:584][436]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 94.072ms to complete.
-[2021.11.24-22.07.28:585][436]LogFileHelpers: Loading map 'Nivell1' took 0.198
-[2021.11.24-22.07.29:467][482]LogAssetRegistry: Asset discovery search completed in 75.0616 seconds
-[2021.11.24-22.07.29:474][482]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
-[2021.11.24-22.07.30:123][520]LogTemp: Repeating last play command: Selected Viewport
-[2021.11.24-22.07.30:198][520]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.30:199][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.30:291][520]LogPackageName: SearchForPackageOnDisk took   0.093s, but failed to resolve JW_FlameDungeon.
-[2021.11.24-22.07.30:291][520]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" could not be resolved.
-[2021.11.24-22.07.30:292][520]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.30:292][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.30:379][520]LogPackageName: SearchForPackageOnDisk took   0.087s, but failed to resolve JW_FlameDungeon.
-[2021.11.24-22.07.30:379][520]LogPackageName: Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" could not be resolved.
-[2021.11.24-22.07.30:425][520]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.30:425][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.30:518][520]LogPackageName: SearchForPackageOnDisk took   0.093s, but failed to resolve StaticMesh'FX_Meshes_IB.
-[2021.11.24-22.07.30:518][520]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" could not be resolved.
-[2021.11.24-22.07.30:524][520]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.30:524][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.30:614][520]LogPackageName: SearchForPackageOnDisk took   0.091s, but failed to resolve JW_Ice_Mountain.
-[2021.11.24-22.07.30:614][520]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
-[2021.11.24-22.07.30:618][520]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.30:618][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.30:709][520]LogPackageName: SearchForPackageOnDisk took   0.091s, but failed to resolve FX_Meshes.
-[2021.11.24-22.07.30:710][520]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
-[2021.11.24-22.07.30:710][520]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.30:710][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.30:805][520]LogPackageName: SearchForPackageOnDisk took   0.095s, but failed to resolve FX_Meshes.
-[2021.11.24-22.07.30:805][520]LogPackageName: Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
-[2021.11.24-22.07.30:808][520]LogPackageName: Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.30:808][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.30:905][520]LogPackageName: SearchForPackageOnDisk took   0.097s, but failed to resolve 'FX_Ambient.
-[2021.11.24-22.07.30:905][520]LogPackageName: Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" could not be resolved.
-[2021.11.24-22.07.30:906][520]LogPackageName: Warning: String asset reference "CastleEffects.TouchToMoveArrow" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.30:906][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.30:997][520]LogPackageName: SearchForPackageOnDisk took   0.092s, but failed to resolve CastleEffects.
-[2021.11.24-22.07.30:997][520]LogPackageName: Warning: String asset reference "CastleEffects.TouchToMoveArrow" could not be resolved.
-[2021.11.24-22.07.31:008][520]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.31:008][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.31:106][520]LogPackageName: SearchForPackageOnDisk took   0.098s, but failed to resolve StaticMesh'FX_Meshes.
-[2021.11.24-22.07.31:106][520]LogPackageName: Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" could not be resolved.
-[2021.11.24-22.07.31:106][520]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.31:106][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.31:195][520]LogPackageName: SearchForPackageOnDisk took   0.088s to resolve m_FogSheet_02.
-[2021.11.24-22.07.31:200][520]LogPackageName: Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.31:200][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.31:295][520]LogPackageName: SearchForPackageOnDisk took   0.095s, but failed to resolve FX_Test_LAN.
-[2021.11.24-22.07.31:295][520]LogPackageName: Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" could not be resolved.
-[2021.11.24-22.07.31:309][520]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.31:309][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.31:402][520]LogPackageName: SearchForPackageOnDisk took   0.093s to resolve m_FogSheet_02.
-[2021.11.24-22.07.31:402][520]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.31:402][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.31:499][520]LogPackageName: SearchForPackageOnDisk took   0.096s to resolve m_FogSheet_02.
-[2021.11.24-22.07.31:499][520]LogPackageName: Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.31:499][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.31:589][520]LogPackageName: SearchForPackageOnDisk took   0.090s to resolve m_FogSheet_02.
-[2021.11.24-22.07.31:931][520]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.31:931][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.32:015][520]LogPackageName: SearchForPackageOnDisk took   0.084s, but failed to resolve JW_Ice_Mountain.
-[2021.11.24-22.07.32:015][520]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
-[2021.11.24-22.07.32:016][520]LogPackageName: Warning: String asset reference "S_Survival_CA_Chicken_02.SM.S_Survival_CA_Chicken_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.32:016][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.32:103][520]LogPackageName: SearchForPackageOnDisk took   0.087s to resolve S_Survival_CA_Chicken_02.
-[2021.11.24-22.07.32:110][520]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.32:110][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.32:202][520]LogPackageName: SearchForPackageOnDisk took   0.091s, but failed to resolve JW_Ice_Mountain.
-[2021.11.24-22.07.32:202][520]LogPackageName: Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
-[2021.11.24-22.07.32:202][520]LogPackageName: Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.32:202][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.32:293][520]LogPackageName: SearchForPackageOnDisk took   0.090s, but failed to resolve Env_ALL_Artifacts.
-[2021.11.24-22.07.32:293][520]LogPackageName: Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
-[2021.11.24-22.07.32:306][520]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
-[2021.11.24-22.07.32:306][520]LogPackageName: Warning: Please consider resaving package in order to speed-up loading.
-[2021.11.24-22.07.32:401][520]LogPackageName: SearchForPackageOnDisk took   0.095s, but failed to resolve S_ClothTarps_03.
-[2021.11.24-22.07.32:401][520]LogPackageName: Warning: String asset reference "S_ClothTarps_03.SM.Mesh.S_ClothTarps_03" could not be resolved.
-[2021.11.24-22.07.32:599][520]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Nivell1.Nivell1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell1.Nivell1:PersistentLevel.Nivell1' with GeneratedClass '/Game/Levels/Nivell1.Nivell1_C' with ClassGeneratedBy '/Game/Levels/Nivell1.Nivell1:PersistentLevel.Nivell1'
-[2021.11.24-22.07.32:599][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.11.24-22.07.32:628][520]PIE: New page: PIE session: Nivell1 (Nov 25, 2021, 12:07:32 AM)
-[2021.11.24-22.07.32:628][520]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Nivell1
-[2021.11.24-22.07.32:649][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020963s)
-[2021.11.24-22.07.32:649][520]LogAIModule: Creating AISystem for world Nivell1
-[2021.11.24-22.07.32:650][520]LogPlayLevel: PIE: World Init took: (0.000597s)
-[2021.11.24-22.07.32:650][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Nivell1.Nivell1 to /Game/Levels/UEDPIE_0_Nivell1.Nivell1 (0.021861s)
-[2021.11.24-22.07.32:670][520]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2021.11.24-22.07.32:686][520]LogInit: FAudioDevice initialized.
-[2021.11.24-22.07.32:732][520]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2021.11.24-22.07.32:739][520]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell1.Nivell1 up for play (max tick rate 60) at 2021.11.24-23.07.32
-[2021.11.24-22.07.32:740][520]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
-	Nivell1_C /Game/Levels/UEDPIE_0_Nivell1.Nivell1:PersistentLevel.Nivell1_C_0
-	Function /Game/Levels/Nivell1.Nivell1_C:ExecuteUbergraph_Nivell1:0792
-[2021.11.24-22.07.32:740][520]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Nivell1' from node: Player Die in graph: EventGraph in object: Nivell1 with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
-[2021.11.24-22.07.32:740][520]LogWorld: Bringing up level for play took: 0.006925
-[2021.11.24-22.07.32:804][520]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2021.11.24-22.07.32:807][520]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Nivell1 -0.578
-[2021.11.24-22.07.32:807][520]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Nivell1.Nivell1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell1.Nivell1:PersistentLevel.Nivell1' with GeneratedClass '/Game/Levels/Nivell1.Nivell1_C' with ClassGeneratedBy '/Game/Levels/Nivell1.Nivell1:PersistentLevel.Nivell1'
-[2021.11.24-22.07.36:230][711]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
-[2021.11.24-22.08.09:530][684]LogNet: Browse: /Game/Levels/Nivell1
-[2021.11.24-22.08.09:531][684]LogLoad: LoadMap: /Game/Levels/Nivell1
-[2021.11.24-22.08.09:548][684]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Nivell1
-[2021.11.24-22.08.09:564][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016342s)
-[2021.11.24-22.08.09:565][684]LogAIModule: Creating AISystem for world Nivell1
-[2021.11.24-22.08.09:565][684]LogPlayLevel: PIE: World Init took: (0.000591s)
-[2021.11.24-22.08.09:565][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Nivell1.Nivell1 to /Game/Levels/UEDPIE_0_Nivell1.Nivell1 (0.017238s)
-[2021.11.24-22.08.09:565][684]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2021.11.24-22.08.09:572][684]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell1.Nivell1 up for play (max tick rate 60) at 2021.11.24-23.08.09
-[2021.11.24-22.08.09:572][684]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
-	Nivell1_C /Game/Levels/UEDPIE_0_Nivell1.Nivell1:PersistentLevel.Nivell1_C_0
-	Function /Game/Levels/Nivell1.Nivell1_C:ExecuteUbergraph_Nivell1:0792
-[2021.11.24-22.08.09:573][684]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2 from function: 'ExecuteUbergraph_Nivell1' from node: Player Die in graph: EventGraph in object: Nivell1 with description: Accessed None trying to read property K2Node_DynamicCast_AsFirst_Person_Character2
-[2021.11.24-22.08.09:573][684]LogWorld: Bringing up level for play took: 0.007226
-[2021.11.24-22.08.09:576][684]LogLoad: Took 0.045602 seconds to LoadMap(/Game/Levels/UEDPIE_0_Nivell1)
-[2021.11.24-22.08.09:706][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Nivell1.Nivell1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell1.Nivell1:PersistentLevel.Nivell1' with GeneratedClass '/Game/Levels/Nivell1.Nivell1_C' with ClassGeneratedBy '/Game/Levels/Nivell1.Nivell1:PersistentLevel.Nivell1'
-[2021.11.24-22.08.09:745][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Nivell1.Nivell1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell1.Nivell1:PersistentLevel.Nivell1' with GeneratedClass '/Game/Levels/Nivell1.Nivell1_C' with ClassGeneratedBy '/Game/Levels/Nivell1.Nivell1:PersistentLevel.Nivell1'
-[2021.11.24-22.08.22:138][428]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2021.11.24-22.08.22:329][429]Cmd: QUIT_EDITOR
-[2021.11.24-22.08.22:397][429]LogExit: Preparing to exit.
-[2021.11.24-22.08.23:009][429]LogDirectoryWatcher: A directory notification for 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/' was aborted.
-[2021.11.24-22.08.23:033][429]LogExit: Editor shut down
-[2021.11.24-22.08.23:037][429]LogExit: Transaction tracking system shut down
-[2021.11.24-22.08.23:203][429]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2021.11.24-22.08.23:203][429]LogDirectoryWatcher: A directory notification for '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/' was aborted.
-[2021.11.24-22.08.23:203][429]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2021.11.24-22.08.23:203][429]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2021.11.24-22.08.23:203][429]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2021.11.24-22.08.23:203][429]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2021.11.24-22.08.23:203][429]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2021.11.24-22.08.23:242][429]LogExit: Object subsystem successfully closed.
-[2021.11.24-22.08.23:262][429]LogD3D11RHI: Shutdown
-[2021.11.24-22.08.23:262][429]LogD3D11RHI: CleanupD3DDevice
-[2021.11.24-22.08.23:263][429]LogD3D11RHI: ~FD3D11DynamicRHI
-[2021.11.24-22.08.23:277][429]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
-[2021.11.24-22.08.23:277][429]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2021.11.24-22.08.23:277][429]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2021.11.24-22.08.23:277][429]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2021.11.24-22.08.23:277][429]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2021.11.24-22.08.23:277][429]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2021.11.24-22.08.23:277][429]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2021.11.24-22.08.23:277][429]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2021.11.24-22.08.23:277][429]LogDirectoryWatcher: A directory notification for 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Collections/' was aborted.
-[2021.11.24-22.08.23:277][429]LogDirectoryWatcher: A directory notification for 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Developers/marin/Collections/' was aborted.
-[2021.11.24-22.08.23:278][429]LogDirectoryWatcher: A directory notification for 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Collections/' was aborted.
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2021.11.24-22.08.23:278][429]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2021.11.24-22.08.23:279][429]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2021.11.24-22.08.23:279][429]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2021.11.24-22.08.23:279][429]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2021.11.24-22.08.23:279][429]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2021.11.24-22.08.23:279][429]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2021.11.24-22.08.23:279][429]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2021.11.24-22.08.23:367][429]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2021.11.24-22.08.23:367][429]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2021.11.24-22.08.23:367][429]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2021.11.24-22.08.23:367][429]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2021.11.24-22.08.23:367][429]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2021.11.24-22.08.23:367][429]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2021.11.24-22.08.23:367][429]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2021.11.24-22.08.23:367][429]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2021.11.24-22.08.23:367][429]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2021.11.24-22.08.23:367][429]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2021.11.24-22.08.23:367][429]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2021.11.24-22.08.23:367][429]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2021.11.24-22.08.23:367][429]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2021.11.24-22.08.23:367][429]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2021.11.24-22.08.23:367][429]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2021.11.24-22.08.23:368][429]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2021.11.24-22.08.23:368][429]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2021.11.24-22.08.23:368][429]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2021.11.24-22.08.23:368][429]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2021.11.24-22.08.23:368][429]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2021.11.24-22.08.23:368][429]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2021.11.24-22.08.23:368][429]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2021.11.24-22.08.23:368][429]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2021.11.24-22.08.23:368][429]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2021.11.24-22.08.23:423][429]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2021.11.24-22.08.23:531][429]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2021.11.24-22.08.23:532][429]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2021.11.24-22.08.23:533][429]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2021.11.24-22.08.23:533][429]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2021.11.24-22.08.23:533][429]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2021.11.24-22.08.23:533][429]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2021.11.24-22.08.23:533][429]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2021.11.24-22.08.23:533][429]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2021.11.24-22.08.23:533][429]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2021.11.24-22.08.23:533][429]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2021.11.24-22.08.23:533][429]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2021.11.24-22.08.23:533][429]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2021.11.24-22.08.23:533][429]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2021.11.24-22.08.23:634][429]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2021.11.24-22.08.23:949][429]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2021.11.24-22.08.23:949][429]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2021.11.24-22.08.23:949][429]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2021.11.24-22.08.23:949][429]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2021.11.24-22.08.23:949][429]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2021.11.24-22.08.23:949][429]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2021.11.24-22.08.23:950][429]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2021.11.24-22.08.23:950][429]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2021.11.24-22.08.23:950][429]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2021.11.24-22.08.23:950][429]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2021.11.24-22.08.23:951][429]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2021.11.24-22.08.23:951][429]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2021.11.24-22.08.23:951][429]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2021.11.24-22.08.23:951][429]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2021.11.24-22.08.23:951][429]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2021.11.24-22.08.23:951][429]LogModuleManager: Shutting down and abandoning module Media (221)
-[2021.11.24-22.08.23:957][429]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2021.11.24-22.08.23:957][429]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2021.11.24-22.08.23:957][429]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2021.11.24-22.08.23:957][429]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2021.11.24-22.08.23:957][429]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2021.11.24-22.08.23:957][429]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2021.11.24-22.08.23:957][429]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2021.11.24-22.08.23:957][429]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2021.11.24-22.08.23:957][429]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2021.11.24-22.08.23:957][429]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2021.11.24-22.08.23:957][429]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2021.11.24-22.08.23:957][429]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2021.11.24-22.08.23:958][429]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2021.11.24-22.08.23:958][429]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2021.11.24-22.08.23:958][429]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2021.11.24-22.08.23:958][429]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2021.11.24-22.08.23:960][429]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2021.11.24-22.08.23:960][429]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2021.11.24-22.08.23:960][429]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2021.11.24-22.08.23:960][429]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2021.11.24-22.08.23:960][429]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2021.11.24-22.08.23:960][429]LogModuleManager: Shutting down and abandoning module Core (172)
-[2021.11.24-22.08.23:960][429]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2021.11.24-22.08.23:960][429]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2021.11.24-22.08.23:961][429]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2021.11.24-22.08.23:961][429]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2021.11.24-22.08.23:961][429]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2021.11.24-22.08.23:961][429]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2021.11.24-22.08.23:961][429]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2021.11.24-22.08.23:961][429]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2021.11.24-22.08.23:961][429]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2021.11.24-22.08.23:961][429]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2021.11.24-22.08.23:961][429]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2021.11.24-22.08.23:976][429]LogDerivedDataCache: Shutdown
-[2021.11.24-22.08.23:976][429]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2021.11.24-22.08.23:976][429]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2021.11.24-22.08.23:976][429]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2021.11.24-22.08.23:976][429]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2021.11.24-22.08.23:976][429]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2021.11.24-22.08.23:976][429]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2021.11.24-22.08.23:976][429]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2021.11.24-22.08.23:976][429]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2021.11.24-22.08.23:976][429]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2021.11.24-22.08.23:976][429]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2021.11.24-22.08.23:977][429]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2021.11.24-22.08.23:977][429]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2021.11.24-22.08.23:977][429]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE7EB2C1-493D-AFA5-178F-BD9E763DCAC6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=6dfce82b44f189f08de65ab5f7dedad6%7C4ae5b97337744d9da48fed58afc8efee%7C3db05947-95cf-4cfe-8fdf-1537ccd9508b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2021.11.24-22.08.24:006][429]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2021.11.24-22.08.24:007][429]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2021.11.24-22.08.24:007][429]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2021.11.24-22.08.24:007][429]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2021.11.24-22.08.24:007][429]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2021.11.24-22.08.24:007][429]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2021.11.24-22.08.24:007][429]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2021.11.24-22.08.24:007][429]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2021.11.24-22.08.24:008][429]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2021.11.24-22.08.24:008][429]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2021.11.24-22.08.24:008][429]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2021.11.24-22.08.24:008][429]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2021.11.24-22.08.24:008][429]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2021.11.24-22.08.24:008][429]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2021.11.24-22.08.24:008][429]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2021.11.24-22.08.24:008][429]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2021.11.24-22.08.24:008][429]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2021.11.24-22.08.24:008][429]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2021.11.24-22.08.24:008][429]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2021.11.24-22.08.24:012][429]LogExit: Exiting.
-[2021.11.24-22.08.24:020][429]Log file closed, 11/24/21 23:08:24
+[2021.11.30-15.17.00:592][  0]LogInit: Selected Device Profile: [Windows]
+[2021.11.30-15.17.00:592][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.11.30-15.17.00:638][  0]LogInit: Computer: LAPTOP-A1QJH46E
+[2021.11.30-15.17.00:638][  0]LogInit: User: marin
+[2021.11.30-15.17.00:638][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.11.30-15.17.00:638][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.11.30-15.17.00:638][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2021.11.30-15.17.00:638][  0]LogMemory: Platform Memory Stats for Windows
+[2021.11.30-15.17.00:638][  0]LogMemory: Process Physical Memory: 273.53 MB used, 273.53 MB peak
+[2021.11.30-15.17.00:639][  0]LogMemory: Process Virtual Memory: 272.53 MB used, 272.53 MB peak
+[2021.11.30-15.17.00:639][  0]LogMemory: Physical Memory: 5787.88 MB used,  2292.36 MB free, 8080.24 MB total
+[2021.11.30-15.17.00:639][  0]LogMemory: Virtual Memory: 4771.07 MB used,  2292.36 MB free, 134217728.00 MB total
+[2021.11.30-15.17.01:028][  0]LogInit: Using OS detected language (ca-ES).
+[2021.11.30-15.17.01:028][  0]LogInit: Using OS detected locale (ca-ES).
+[2021.11.30-15.17.01:031][  0]LogTextLocalizationManager: No localization for 'ca-ES' exists, so 'en' will be used for the language.
+[2021.11.30-15.17.01:032][  0]LogTextLocalizationManager: No localization for 'ca-ES' exists, so 'en' will be used for the locale.
+[2021.11.30-15.17.01:656][  0]LogInit: Setting process to per monitor DPI aware
+[2021.11.30-15.17.02:298][  0]LogD3D11RHI: D3D11 adapters:
+[2021.11.30-15.17.02:537][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2021.11.30-15.17.02:537][  0]LogD3D11RHI:       4019/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.11.30-15.17.02:591][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.11.30-15.17.02:591][  0]LogD3D11RHI:       128/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.11.30-15.17.02:599][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.11.30-15.17.02:599][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.11.30-15.17.02:599][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.11.30-15.17.02:620][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.11.30-15.17.02:620][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2021.11.30-15.17.02:620][  0]LogWindows: EnumDisplayDevices:
+[2021.11.30-15.17.02:621][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2021.11.30-15.17.02:622][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.11.30-15.17.02:623][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.11.30-15.17.02:624][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2021.11.30-15.17.02:624][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.11.30-15.17.02:624][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2021.11.30-15.17.02:624][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.11.30-15.17.02:624][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.11.30-15.17.02:624][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
+[2021.11.30-15.17.02:789][  0]LogD3D11RHI: Async texture creation enabled
+[2021.11.30-15.17.02:807][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.11.30-15.17.02:810][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Intermediate/Shaders/WorkingDirectory/23512/).
+[2021.11.30-15.17.02:810][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/marin/AppData/Local/Temp/UnrealShaderWorkingDir/CD00B4A242F0FECCE17A108FC33DDCF4/'.
+[2021.11.30-15.17.02:810][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.11.30-15.17.05:021][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2021.11.30-15.17.05:256][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2021.11.30-15.17.05:436][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2021.11.30-15.17.05:643][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2021.11.30-15.17.05:829][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2021.11.30-15.17.06:014][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2021.11.30-15.17.06:178][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2021.11.30-15.17.06:373][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2021.11.30-15.17.06:536][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2021.11.30-15.17.06:722][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2021.11.30-15.17.06:901][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2021.11.30-15.17.07:059][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2021.11.30-15.17.07:254][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2021.11.30-15.17.07:421][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2021.11.30-15.17.07:897][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2021.11.30-15.17.07:898][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2021.11.30-15.17.08:084][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2021.11.30-15.17.08:220][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2021.11.30-15.17.08:478][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2021.11.30-15.17.08:583][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2021.11.30-15.17.08:732][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2021.11.30-15.17.08:928][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2021.11.30-15.17.09:096][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2021.11.30-15.17.09:294][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2021.11.30-15.17.09:294][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.11.30-15.17.10:915][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.11.30-15.17.11:082][  0]LogDerivedDataCache: Loaded boot cache 0.17s 78MB C:/Users/marin/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2021.11.30-15.17.11:083][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/marin/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2021.11.30-15.17.11:083][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.11.30-15.17.11:083][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.11.30-15.17.11:083][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.11.30-15.17.11:083][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.11.30-15.17.11:134][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.11.30-15.17.11:148][  0]LogDerivedDataCache: Using Local data cache path C:/Users/marin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.11.30-15.17.11:185][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.11.30-15.17.11:186][  0]LogSlate: Using Freetype 2.6.0
+[2021.11.30-15.17.11:187][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.11.30-15.17.11:187][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.11.30-15.17.12:319][  0]LogInit: Selected Device Profile: [Windows]
+[2021.11.30-15.17.13:114][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2021.11.30-15.17.13:239][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2021.11.30-15.17.13:239][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.11.30-15.17.13:239][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2021.11.30-15.17.13:239][  0]LogMeshReduction: No automatic mesh merging module available
+[2021.11.30-15.17.13:239][  0]LogMeshMerging: No automatic mesh merging module available
+[2021.11.30-15.17.13:536][  0]LogNetVersion: Projecte_final , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4128612215)
+[2021.11.30-15.17.14:023][  0]LogAssetRegistry: FAssetRegistry took 0.0415 seconds to start up
+[2021.11.30-15.17.15:706][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 1 prioritized culture(s) in 0.184948 seconds
+[2021.11.30-15.17.15:722][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2021.11.30-15.17.15:722][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2021.11.30-15.17.15:722][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.11.30-15.17.15:918][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2021.11.30-15.17.24:600][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.11.30-15.17.24:718][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.11.30-15.17.26:950][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2021.11.30-15.17.28:355][  0]SourceControl: Source control is disabled
+[2021.11.30-15.17.28:356][  0]SourceControl: Source control is disabled
+[2021.11.30-15.17.28:529][  0]SourceControl: Source control is disabled
+[2021.11.30-15.17.28:690][  0]SourceControl: Source control is disabled
+[2021.11.30-15.17.31:349][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.11.30-15.17.32:139][  0]LogOcInput: OculusInput pre-init called
+[2021.11.30-15.17.33:059][  0]LogEngine: Initializing Engine...
+[2021.11.30-15.17.33:066][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.11.30-15.17.33:782][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.11.30-15.17.33:881][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2021.11.30-15.17.34:592][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.11.30-15.17.34:638][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.11.30-15.17.36:133][  0]LogInit: FAudioDevice initialized.
+[2021.11.30-15.17.36:248][  0]LogDerivedDataCache: Saved boot cache 0.11s 78MB C:/Users/marin/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2021.11.30-15.17.36:264][  0]LogInit: Texture streaming: Enabled
+[2021.11.30-15.17.36:437][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.11.30-15.17.37:334][  0]LogInit: Transaction tracking system initialized
+[2021.11.30-15.17.37:955][  0]BlueprintLog: New page: Editor Load
+[2021.11.30-15.17.39:175][  0]LocalizationService: Localization service is disabled
+[2021.11.30-15.17.40:651][  0]LogConsoleResponse: Display: 
+[2021.11.30-15.17.41:498][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.11.30-15.17.41:498][  0]LogCook: Display: Mobile HDR setting 1
+[2021.11.30-15.17.41:498][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2021.11.30-15.17.42:660][  0]LogFileCache: Scanning file cache for directory 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/' took 0.38s
+[2021.11.30-15.17.43:208][  0]SourceControl: Source control is disabled
+[2021.11.30-15.17.43:208][  0]Cmd: MAP LOAD FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.30-15.17.43:424][  0]LightingResults: New page: Lighting Build
+[2021.11.30-15.17.43:551][  0]MapCheck: New page: Map Check
+[2021.11.30-15.17.43:551][  0]LightingResults: New page: Lighting Build
+[2021.11.30-15.17.51:117][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2021.11.30-15.17.51:621][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.30-15.17.51:685][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.30-15.17.51:790][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 105.541ms to complete.
+[2021.11.30-15.17.51:790][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 8.583
+[2021.11.30-15.17.52:962][  0]LogCollectionManager: Loaded 0 collections in 0.001646 seconds
+[2021.11.30-15.17.53:245][  0]LogFileCache: Scanning file cache for directory 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Collections/' took 0.01s
+[2021.11.30-15.17.53:245][  0]LogFileCache: Scanning file cache for directory 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Developers/marin/Collections/' took 0.01s
+[2021.11.30-15.17.53:245][  0]LogFileCache: Scanning file cache for directory 'D:/Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Collections/' took 0.01s
+[2021.11.30-15.17.53:245][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2021.11.30-15.17.53:281][  0]LogContentBrowser: Native class hierarchy populated in 0.0195 seconds. Added 2363 classes and 519 folders.
+[2021.11.30-15.17.53:510][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.11.30-15.17.55:843][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.11.30-15.17.56:030][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2021.11.30-15.17.56:526][  0]LogSlate: Took 0.000413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.11.30-15.17.56:535][  0]LogSlate: Took 0.000510 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.11.30-15.17.56:609][  0]LogSlate: Took 0.021469 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.11.30-15.17.57:472][  0]LogRenderer: Reallocating scene render targets to support 864x384 Format 10 NumSamples 1 (Frame:1).
+[2021.11.30-15.17.58:276][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2021.11.30-15.17.58:276][  0]LogLoad: (Engine Initialization) Total time: 65.70 seconds
+[2021.11.30-15.17.58:276][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.11.30-15.17.58:276][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2021.11.30-15.17.58:857][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.11.30-15.18.00:882][  6]LogAssetRegistry: Asset discovery search completed in 46.8843 seconds
+[2021.11.30-15.18.00:890][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2021.11.30-15.18.00:890][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000093 seconds (updated 0 objects)
+[2021.11.30-15.18.03:737][ 14]LogSlate: Took 0.036501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.11.30-15.18.44:497][531]LogAIModule: Creating AISystem for world Nivell2
+[2021.11.30-15.18.50:971][531]LogAIModule: Creating AISystem for world Nivell2_2
+[2021.11.30-15.18.51:193][531]LogSlate: Took 0.000548 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.11.30-15.18.52:121][531]LogSlate: Took 0.000449 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.11.30-15.18.56:646][531]LogAIModule: Creating AISystem for world Nivell1
+[2021.11.30-15.19.05:640][531]LogSavePackage: Save=1955.30ms
+[2021.11.30-15.19.05:640][531]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2_26CE3177F4BA5326663F4548AF2A9059A.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_2.umap'
+[2021.11.30-15.19.05:642][531]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_2.umap
+[2021.11.30-15.19.05:743][531]LogFileHelpers: Saving map 'Nivell2_2' took 2.400
+[2021.11.30-15.19.05:835][531]Cmd: MAP LOAD FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.30-15.19.05:835][531]LightingResults: New page: Lighting Build
+[2021.11.30-15.19.05:836][531]LoadErrors: New page: Loading map: Nivell1.umap
+[2021.11.30-15.19.05:837][531]MapCheck: New page: Map Check
+[2021.11.30-15.19.05:837][531]LightingResults: New page: Lighting Build
+[2021.11.30-15.19.06:360][531]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.30-15.19.06:411][531]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.30-15.19.06:529][531]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 118.206ms to complete.
+[2021.11.30-15.19.06:531][531]LogFileHelpers: Loading map 'Nivell1' took 0.788
+[2021.11.30-15.19.13:106][798]LogLinker: Warning: Can't find file '/Game/Levels/Nivell2_2_BuiltData'
+[2021.11.30-15.19.13:106][798]LogLinker: Warning: Can't find file for asset '/Game/Levels/Nivell2_2_BuiltData' while loading ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_2.umap.
+[2021.11.30-15.19.13:187][798]LoadErrors: Error: /Game/Levels/Nivell2_2 : Can't find file for asset. /Game/Levels/Nivell2_2_BuiltData
+[2021.11.30-15.19.13:273][798]LogLinker: Warning: Can't find file '/Game/Levels/Nivell2_2_BuiltData'
+[2021.11.30-15.19.13:274][798]LogLinker: Warning: Can't find file for asset '/Game/Levels/Nivell2_2_BuiltData' while loading ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2_2.umap.
+[2021.11.30-15.19.13:342][798]LogLinker: Warning: Can't find file '/Game/Levels/Nivell2_2_BuiltData'
+[2021.11.30-15.19.13:342][798]LogLinker: Warning: Can't find file for asset '/Game/Levels/Nivell2_2_BuiltData' while loading NULL.
+[2021.11.30-15.19.13:342][798]LogLinker: Warning: Can't find file '/Game/Levels/Nivell2_2_BuiltData'
+[2021.11.30-15.19.13:343][798]LogLinker: Warning: Can't find file for asset '/Game/Levels/Nivell2_2_BuiltData' while loading NULL.
+[2021.11.30-15.19.13:412][798]LogLinker: Warning: Can't find file '/Game/Levels/Nivell2_2_BuiltData'
+[2021.11.30-15.19.13:412][798]LoadErrors: Failed to load /Game/Levels/Nivell2_2_BuiltData.Nivell2_2_BuiltData Referenced by PersistentLevel
+[2021.11.30-15.19.13:412][798]LogLinker: Warning: Can't find file for asset '/Game/Levels/Nivell2_2_BuiltData' while loading NULL.
+[2021.11.30-15.19.13:442][798]LogAIModule: Creating AISystem for world Nivell2_2
+[2021.11.30-15.19.21:604][150]LogMetaData: Removing '/Game/Levels/Nivell3.Nivell3_C' ref from Metadata '/Game/Levels/Nivell2_2.PackageMetaData'
+[2021.11.30-15.19.21:604][150]LogMetaData: Removing '/Game/Levels/Nivell3.SKEL_Nivell3_C' ref from Metadata '/Game/Levels/Nivell2_2.PackageMetaData'
+[2021.11.30-15.19.22:071][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell3" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.30-15.19.23:123][150]LogSavePackage: Save=984.21ms
+[2021.11.30-15.19.23:124][150]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell3E603A7CD478B4FE3C66BF8A10CE562AA.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap'
+[2021.11.30-15.19.23:125][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap
+[2021.11.30-15.19.23:153][150]LogFileHelpers: Saving map 'Nivell3' took 1.200
+[2021.11.30-15.21.27:720][648]Cmd: MAP LOAD FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.30-15.21.27:720][648]LightingResults: New page: Lighting Build
+[2021.11.30-15.21.27:722][648]LoadErrors: New page: Loading map: Nivell3.umap
+[2021.11.30-15.21.27:838][648]MapCheck: New page: Map Check
+[2021.11.30-15.21.27:838][648]LightingResults: New page: Lighting Build
+[2021.11.30-15.21.27:984][648]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.30-15.21.28:120][648]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.30-15.21.28:266][648]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 145.615ms to complete.
+[2021.11.30-15.21.28:267][648]LogFileHelpers: Loading map 'Nivell3' took 0.548
+[2021.11.30-15.22.13:798][586]LogAIModule: Creating AISystem for world Nivell2
+[2021.11.30-15.22.13:858][586]Cmd: MAP LOAD FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.30-15.22.13:858][586]LightingResults: New page: Lighting Build
+[2021.11.30-15.22.13:859][586]LoadErrors: New page: Loading map: Nivell2.umap
+[2021.11.30-15.22.13:864][586]MapCheck: New page: Map Check
+[2021.11.30-15.22.13:864][586]LightingResults: New page: Lighting Build
+[2021.11.30-15.22.13:927][586]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.30-15.22.13:967][586]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.30-15.22.14:084][586]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 117.354ms to complete.
+[2021.11.30-15.22.14:085][586]LogFileHelpers: Loading map 'Nivell2' took 0.229
+[2021.11.30-15.22.21:567][949]LogEditorViewport: Clicking on Actor (LMB): Victory_C (Victory2)
+[2021.11.30-15.22.30:610][274]LogAIModule: Creating AISystem for world Nivell3
+[2021.11.30-15.22.32:503][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell2" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.30-15.22.33:687][274]LogSavePackage: Save=1058.26ms
+[2021.11.30-15.22.33:687][274]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell2190699DE44E831D4684738A457C93824.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap'
+[2021.11.30-15.22.33:929][274]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell2.umap
+[2021.11.30-15.22.33:991][274]LogFileHelpers: Saving map 'Nivell2' took 1.682
+[2021.11.30-15.22.33:993][274]Cmd: MAP LOAD FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.11.30-15.22.33:993][274]LightingResults: New page: Lighting Build
+[2021.11.30-15.22.33:996][274]LoadErrors: New page: Loading map: Nivell3.umap
+[2021.11.30-15.22.34:004][274]MapCheck: New page: Map Check
+[2021.11.30-15.22.34:004][274]LightingResults: New page: Lighting Build
+[2021.11.30-15.22.34:158][274]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.11.30-15.22.34:284][274]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.11.30-15.22.34:413][274]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 129.292ms to complete.
+[2021.11.30-15.22.34:416][274]LogFileHelpers: Loading map 'Nivell3' took 0.425
+[2021.11.30-15.22.39:368][528]LogEditorViewport: Clicking on Actor (LMB): Victory_C (Victory2)
+[2021.11.30-15.23.10:139][715]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block87)
+[2021.11.30-15.23.36:857][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block100)
+[2021.11.30-15.23.40:660][808]Cmd: TRANSACTION UNDO
+[2021.11.30-15.23.40:661][808]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-15.23.40:750][808]LogSlate: Took 0.000522 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.11.30-15.23.41:327][823]Cmd: TRANSACTION UNDO
+[2021.11.30-15.23.41:327][823]LogEditorTransaction: Undo Move Actors
+[2021.11.30-15.23.45:128][973]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block31)
+[2021.11.30-15.24.59:781][408]Cmd: TRANSACTION UNDO
+[2021.11.30-15.24.59:781][408]LogEditorTransaction: Undo Rotate Actors
+[2021.11.30-15.24.59:810][408]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Nivell3.Nivell3:PersistentLevel.SM_Exo_Decos_Door04_604.StaticMeshComponent0) Component already registered.
+[2021.11.30-15.25.24:538][168]Cmd: TRANSACTION UNDO
+[2021.11.30-15.25.24:538][168]LogEditorTransaction: Undo Move Actors
+[2021.11.30-15.25.24:558][168]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Nivell3.Nivell3:PersistentLevel.SM_Exo_Decos_Door04_604.StaticMeshComponent0) Component already registered.
+[2021.11.30-15.25.26:982][283]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Door_Frame_Column8)
+[2021.11.30-15.25.28:994][363]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Door_Frame_Column7)
+[2021.11.30-15.25.30:522][426]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Exo_Decos_Door_Frame_Column6)
+[2021.11.30-15.26.39:657][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block82)
+[2021.11.30-15.26.42:879][678]Cmd: DELETE
+[2021.11.30-15.26.42:879][678]Cmd: ACTOR DELETE
+[2021.11.30-15.26.43:569][678]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.26.43:642][678]LogEditorActor: Deleted 1 Actors (0.154 secs)
+[2021.11.30-15.26.47:200][841]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block83)
+[2021.11.30-15.26.48:778][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block50)
+[2021.11.30-15.26.50:455][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block51)
+[2021.11.30-15.26.51:522][  6]Cmd: DELETE
+[2021.11.30-15.26.51:523][  6]Cmd: ACTOR DELETE
+[2021.11.30-15.26.51:551][  6]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.26.51:603][  6]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2021.11.30-15.26.52:343][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block50)
+[2021.11.30-15.26.52:591][ 43]Cmd: DELETE
+[2021.11.30-15.26.52:592][ 43]Cmd: ACTOR DELETE
+[2021.11.30-15.26.52:622][ 43]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.26.52:671][ 43]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2021.11.30-15.26.59:154][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block38)
+[2021.11.30-15.27.00:923][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block83)
+[2021.11.30-15.27.01:609][445]Cmd: DELETE
+[2021.11.30-15.27.01:609][445]Cmd: ACTOR DELETE
+[2021.11.30-15.27.01:637][445]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.27.01:687][445]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2021.11.30-15.27.18:738][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block72)
+[2021.11.30-15.27.25:447][490]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block68)
+[2021.11.30-15.27.27:208][561]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block69)
+[2021.11.30-15.27.28:074][590]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block73)
+[2021.11.30-15.27.28:754][610]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block70)
+[2021.11.30-15.27.29:765][642]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block39)
+[2021.11.30-15.27.31:043][688]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block93)
+[2021.11.30-15.27.31:872][714]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block89)
+[2021.11.30-15.27.32:805][748]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block88)
+[2021.11.30-15.27.35:902][861]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block95)
+[2021.11.30-15.27.37:226][905]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block94)
+[2021.11.30-15.27.38:061][934]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block92)
+[2021.11.30-15.27.39:155][973]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block85)
+[2021.11.30-15.27.40:076][  6]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block84)
+[2021.11.30-15.27.49:586][376]Cmd: TRANSACTION UNDO
+[2021.11.30-15.27.49:586][376]LogEditorTransaction: Undo Move Actors
+[2021.11.30-15.27.49:606][376]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Nivell3.Nivell3:PersistentLevel.SM_Plains_Floors_Block94.StaticMeshComponent0) Component already registered.
+[2021.11.30-15.27.49:607][376]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Nivell3.Nivell3:PersistentLevel.SM_Plains_Floors_Block93.StaticMeshComponent0) Component already registered.
+[2021.11.30-15.28.05:961][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block78)
+[2021.11.30-15.28.07:027][695]Cmd: DELETE
+[2021.11.30-15.28.07:027][695]Cmd: ACTOR DELETE
+[2021.11.30-15.28.07:060][695]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.07:111][695]LogEditorActor: Deleted 1 Actors (0.083 secs)
+[2021.11.30-15.28.07:719][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleWall_Ruin_19)
+[2021.11.30-15.28.07:883][721]Cmd: DELETE
+[2021.11.30-15.28.07:883][721]Cmd: ACTOR DELETE
+[2021.11.30-15.28.07:910][721]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.07:940][721]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2021.11.30-15.28.08:618][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleWall_Ruin_22)
+[2021.11.30-15.28.08:764][759]Cmd: DELETE
+[2021.11.30-15.28.08:764][759]Cmd: ACTOR DELETE
+[2021.11.30-15.28.08:784][759]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.08:805][759]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2021.11.30-15.28.09:513][796]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleWall_Ruin_21)
+[2021.11.30-15.28.09:813][803]Cmd: DELETE
+[2021.11.30-15.28.09:813][803]Cmd: ACTOR DELETE
+[2021.11.30-15.28.09:841][803]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.09:885][803]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2021.11.30-15.28.10:576][841]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block64)
+[2021.11.30-15.28.10:738][842]Cmd: DELETE
+[2021.11.30-15.28.10:738][842]Cmd: ACTOR DELETE
+[2021.11.30-15.28.10:766][842]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.10:796][842]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2021.11.30-15.28.11:421][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush23)
+[2021.11.30-15.28.11:597][876]Cmd: DELETE
+[2021.11.30-15.28.11:598][876]Cmd: ACTOR DELETE
+[2021.11.30-15.28.11:623][876]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.11:647][876]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2021.11.30-15.28.12:196][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush26)
+[2021.11.30-15.28.12:349][907]Cmd: DELETE
+[2021.11.30-15.28.12:349][907]Cmd: ACTOR DELETE
+[2021.11.30-15.28.12:376][907]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.12:427][907]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2021.11.30-15.28.12:990][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush25)
+[2021.11.30-15.28.13:155][935]Cmd: DELETE
+[2021.11.30-15.28.13:155][935]Cmd: ACTOR DELETE
+[2021.11.30-15.28.13:186][935]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.13:238][935]LogEditorActor: Deleted 1 Actors (0.083 secs)
+[2021.11.30-15.28.14:267][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush22)
+[2021.11.30-15.28.14:590][996]Cmd: DELETE
+[2021.11.30-15.28.14:590][996]Cmd: ACTOR DELETE
+[2021.11.30-15.28.14:619][996]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.14:668][996]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2021.11.30-15.28.15:368][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block61)
+[2021.11.30-15.28.15:599][ 36]Cmd: DELETE
+[2021.11.30-15.28.15:599][ 36]Cmd: ACTOR DELETE
+[2021.11.30-15.28.15:629][ 36]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.15:679][ 36]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2021.11.30-15.28.16:424][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleTower_8)
+[2021.11.30-15.28.16:961][ 91]Cmd: DELETE
+[2021.11.30-15.28.16:961][ 91]Cmd: ACTOR DELETE
+[2021.11.30-15.28.16:989][ 91]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.17:040][ 91]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2021.11.30-15.28.18:223][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block79)
+[2021.11.30-15.28.18:493][158]Cmd: DELETE
+[2021.11.30-15.28.18:493][158]Cmd: ACTOR DELETE
+[2021.11.30-15.28.18:524][158]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.18:573][158]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2021.11.30-15.28.19:403][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleTower_Ruin_02_Supports3)
+[2021.11.30-15.28.19:637][201]Cmd: DELETE
+[2021.11.30-15.28.19:637][201]Cmd: ACTOR DELETE
+[2021.11.30-15.28.19:672][201]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.19:719][201]LogEditorActor: Deleted 1 Actors (0.082 secs)
+[2021.11.30-15.28.20:852][256]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item5)
+[2021.11.30-15.28.21:161][257]Cmd: DELETE
+[2021.11.30-15.28.21:161][257]Cmd: ACTOR DELETE
+[2021.11.30-15.28.21:185][257]LogEditorActor: Deleted Actor: Pickup_item_C
+[2021.11.30-15.28.21:235][257]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2021.11.30-15.28.26:005][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block98)
+[2021.11.30-15.28.26:193][504]Cmd: DELETE
+[2021.11.30-15.28.26:193][504]Cmd: ACTOR DELETE
+[2021.11.30-15.28.26:222][504]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.26:254][504]LogEditorActor: Deleted 1 Actors (0.060 secs)
+[2021.11.30-15.28.26:942][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block100)
+[2021.11.30-15.28.27:133][537]Cmd: DELETE
+[2021.11.30-15.28.27:133][537]Cmd: ACTOR DELETE
+[2021.11.30-15.28.27:163][537]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.27:216][537]LogEditorActor: Deleted 1 Actors (0.082 secs)
+[2021.11.30-15.28.28:235][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block99)
+[2021.11.30-15.28.28:546][596]Cmd: DELETE
+[2021.11.30-15.28.28:546][596]Cmd: ACTOR DELETE
+[2021.11.30-15.28.28:577][596]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.28:627][596]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2021.11.30-15.28.29:575][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD16)
+[2021.11.30-15.28.30:600][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block108)
+[2021.11.30-15.28.31:242][703]Cmd: DELETE
+[2021.11.30-15.28.31:242][703]Cmd: ACTOR DELETE
+[2021.11.30-15.28.31:273][703]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.31:323][703]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2021.11.30-15.28.31:986][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD16)
+[2021.11.30-15.28.32:750][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleTower_10)
+[2021.11.30-15.28.33:564][785]Cmd: DELETE
+[2021.11.30-15.28.33:564][785]Cmd: ACTOR DELETE
+[2021.11.30-15.28.33:596][785]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.33:645][785]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2021.11.30-15.28.34:370][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_TrimFlat01)
+[2021.11.30-15.28.34:567][821]Cmd: DELETE
+[2021.11.30-15.28.34:568][821]Cmd: ACTOR DELETE
+[2021.11.30-15.28.34:594][821]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.34:620][821]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2021.11.30-15.28.37:457][984]Cmd: TRANSACTION UNDO
+[2021.11.30-15.28.37:457][984]LogEditorTransaction: Undo Delete Actors
+[2021.11.30-15.28.39:216][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block101)
+[2021.11.30-15.28.40:357][ 95]Cmd: DELETE
+[2021.11.30-15.28.40:357][ 95]Cmd: ACTOR DELETE
+[2021.11.30-15.28.40:382][ 95]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.40:429][ 95]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2021.11.30-15.28.41:158][130]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.11.30-15.28.42:268][164]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item7)
+[2021.11.30-15.28.43:015][199]Cmd: DELETE
+[2021.11.30-15.28.43:015][199]Cmd: ACTOR DELETE
+[2021.11.30-15.28.43:040][199]LogEditorActor: Deleted Actor: Pickup_item_C
+[2021.11.30-15.28.43:091][199]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2021.11.30-15.28.45:467][321]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block17)
+[2021.11.30-15.28.46:476][362]Cmd: DELETE
+[2021.11.30-15.28.46:476][362]Cmd: ACTOR DELETE
+[2021.11.30-15.28.46:502][362]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.46:549][362]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2021.11.30-15.28.47:281][401]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item4)
+[2021.11.30-15.28.47:782][417]Cmd: DELETE
+[2021.11.30-15.28.47:782][417]Cmd: ACTOR DELETE
+[2021.11.30-15.28.47:807][417]LogEditorActor: Deleted Actor: Pickup_item_C
+[2021.11.30-15.28.47:856][417]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2021.11.30-15.28.48:513][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD9)
+[2021.11.30-15.28.48:889][463]Cmd: DELETE
+[2021.11.30-15.28.48:889][463]Cmd: ACTOR DELETE
+[2021.11.30-15.28.48:917][463]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.48:968][463]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2021.11.30-15.28.49:796][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Ruin_BuildingLOD3)
+[2021.11.30-15.28.50:005][510]Cmd: DELETE
+[2021.11.30-15.28.50:005][510]Cmd: ACTOR DELETE
+[2021.11.30-15.28.50:031][510]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.50:081][510]LogEditorActor: Deleted 1 Actors (0.076 secs)
+[2021.11.30-15.28.50:910][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleArch_16)
+[2021.11.30-15.28.51:564][572]Cmd: DELETE
+[2021.11.30-15.28.51:564][572]Cmd: ACTOR DELETE
+[2021.11.30-15.28.51:592][572]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.51:641][572]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2021.11.30-15.28.58:773][929]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cherry_Tree13)
+[2021.11.30-15.28.59:092][934]Cmd: DELETE
+[2021.11.30-15.28.59:092][934]Cmd: ACTOR DELETE
+[2021.11.30-15.28.59:120][934]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.28.59:169][934]LogEditorActor: Deleted 1 Actors (0.076 secs)
+[2021.11.30-15.28.59:939][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleArch_18)
+[2021.11.30-15.29.00:274][989]Cmd: DELETE
+[2021.11.30-15.29.00:274][989]Cmd: ACTOR DELETE
+[2021.11.30-15.29.00:298][989]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.29.00:347][989]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2021.11.30-15.29.01:201][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleArch_17)
+[2021.11.30-15.29.01:376][ 38]Cmd: DELETE
+[2021.11.30-15.29.01:376][ 38]Cmd: ACTOR DELETE
+[2021.11.30-15.29.01:400][ 38]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.29.01:446][ 38]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2021.11.30-15.29.02:395][ 94]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cherry_Tree11)
+[2021.11.30-15.29.02:577][ 98]Cmd: DELETE
+[2021.11.30-15.29.02:577][ 98]Cmd: ACTOR DELETE
+[2021.11.30-15.29.02:604][ 98]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.29.02:650][ 98]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2021.11.30-15.29.03:452][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleArch_22)
+[2021.11.30-15.29.03:601][137]Cmd: DELETE
+[2021.11.30-15.29.03:601][137]Cmd: ACTOR DELETE
+[2021.11.30-15.29.03:626][137]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.29.03:673][137]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2021.11.30-15.29.04:512][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleArch_21)
+[2021.11.30-15.29.04:578][175]Cmd: DELETE
+[2021.11.30-15.29.04:578][175]Cmd: ACTOR DELETE
+[2021.11.30-15.29.04:603][175]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.29.04:654][175]LogEditorActor: Deleted 1 Actors (0.076 secs)
+[2021.11.30-15.29.05:297][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cherry_Tree10)
+[2021.11.30-15.29.05:540][210]Cmd: DELETE
+[2021.11.30-15.29.05:541][210]Cmd: ACTOR DELETE
+[2021.11.30-15.29.05:571][210]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.29.05:621][210]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2021.11.30-15.29.06:528][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleArch_19)
+[2021.11.30-15.29.06:704][261]Cmd: DELETE
+[2021.11.30-15.29.06:704][261]Cmd: ACTOR DELETE
+[2021.11.30-15.29.06:732][261]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.29.06:778][261]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2021.11.30-15.29.07:448][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleArch_20)
+[2021.11.30-15.29.07:609][295]Cmd: DELETE
+[2021.11.30-15.29.07:609][295]Cmd: ACTOR DELETE
+[2021.11.30-15.29.07:632][295]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.29.07:650][295]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2021.11.30-15.29.08:304][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleArch_15)
+[2021.11.30-15.29.08:481][333]Cmd: DELETE
+[2021.11.30-15.29.08:481][333]Cmd: ACTOR DELETE
+[2021.11.30-15.29.08:507][333]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.29.08:559][333]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2021.11.30-15.29.09:203][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Cherry_Tree12)
+[2021.11.30-15.29.09:473][372]Cmd: DELETE
+[2021.11.30-15.29.09:473][372]Cmd: ACTOR DELETE
+[2021.11.30-15.29.09:500][372]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.29.09:548][372]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2021.11.30-15.29.21:047][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block95)
+[2021.11.30-15.29.22:673][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block94)
+[2021.11.30-15.29.24:727][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block46)
+[2021.11.30-15.29.25:924][109]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block68)
+[2021.11.30-15.29.26:754][133]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block69)
+[2021.11.30-15.29.27:595][160]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block73)
+[2021.11.30-15.29.28:355][186]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block70)
+[2021.11.30-15.29.29:022][209]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block39)
+[2021.11.30-15.29.30:682][270]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block95)
+[2021.11.30-15.29.31:647][300]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block94)
+[2021.11.30-15.29.32:544][330]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block92)
+[2021.11.30-15.29.33:428][361]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block93)
+[2021.11.30-15.29.34:048][381]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block89)
+[2021.11.30-15.29.34:619][403]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block85)
+[2021.11.30-15.30.07:586][594]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2021.11.30-15.30.13:528][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block42)
+[2021.11.30-15.30.15:895][910]Cmd: DELETE
+[2021.11.30-15.30.15:895][910]Cmd: ACTOR DELETE
+[2021.11.30-15.30.15:925][910]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.30.15:961][910]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2021.11.30-15.30.17:195][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block28)
+[2021.11.30-15.30.17:702][984]Cmd: DELETE
+[2021.11.30-15.30.17:702][984]Cmd: ACTOR DELETE
+[2021.11.30-15.30.17:725][984]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.30.17:745][984]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2021.11.30-15.30.18:618][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block72)
+[2021.11.30-15.30.18:814][ 32]Cmd: DELETE
+[2021.11.30-15.30.18:814][ 32]Cmd: ACTOR DELETE
+[2021.11.30-15.30.18:841][ 32]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.30.18:890][ 32]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2021.11.30-15.30.19:518][ 61]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block47)
+[2021.11.30-15.30.19:793][ 71]Cmd: DELETE
+[2021.11.30-15.30.19:793][ 71]Cmd: ACTOR DELETE
+[2021.11.30-15.30.19:818][ 71]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.30.19:841][ 71]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2021.11.30-15.30.20:344][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block43)
+[2021.11.30-15.30.20:648][109]Cmd: DELETE
+[2021.11.30-15.30.20:648][109]Cmd: ACTOR DELETE
+[2021.11.30-15.30.20:673][109]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.30.20:724][109]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2021.11.30-15.30.21:430][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block35)
+[2021.11.30-15.30.21:634][148]Cmd: DELETE
+[2021.11.30-15.30.21:634][148]Cmd: ACTOR DELETE
+[2021.11.30-15.30.21:658][148]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.30.21:707][148]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2021.11.30-15.30.22:275][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Grass01)
+[2021.11.30-15.30.23:039][207]Cmd: DELETE
+[2021.11.30-15.30.23:040][207]Cmd: ACTOR DELETE
+[2021.11.30-15.30.23:064][207]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.30.23:086][207]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2021.11.30-15.30.23:720][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_CliffEdge)
+[2021.11.30-15.30.23:915][240]Cmd: DELETE
+[2021.11.30-15.30.23:915][240]Cmd: ACTOR DELETE
+[2021.11.30-15.30.23:941][240]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.30.23:991][240]LogEditorActor: Deleted 1 Actors (0.076 secs)
+[2021.11.30-15.30.24:692][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock120)
+[2021.11.30-15.30.24:934][277]Cmd: DELETE
+[2021.11.30-15.30.24:934][277]Cmd: ACTOR DELETE
+[2021.11.30-15.30.24:959][277]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.30.24:980][277]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2021.11.30-15.30.26:148][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.30.26:544][348]Cmd: DELETE
+[2021.11.30-15.30.26:544][348]Cmd: ACTOR DELETE
+[2021.11.30-15.30.26:572][348]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.30.26:623][348]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2021.11.30-15.30.27:937][414]Cmd: TRANSACTION UNDO
+[2021.11.30-15.30.27:937][414]LogEditorTransaction: Undo Delete Actors
+[2021.11.30-15.30.28:590][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.30.29:348][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Grass2)
+[2021.11.30-15.30.30:406][494]Cmd: DELETE
+[2021.11.30-15.30.30:406][494]Cmd: ACTOR DELETE
+[2021.11.30-15.30.30:431][494]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.30.30:474][494]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2021.11.30-15.30.31:100][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD4)
+[2021.11.30-15.30.31:319][526]Cmd: DELETE
+[2021.11.30-15.30.31:319][526]Cmd: ACTOR DELETE
+[2021.11.30-15.30.31:348][526]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.30.31:397][526]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2021.11.30-15.30.32:187][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block44)
+[2021.11.30-15.30.32:644][581]Cmd: DELETE
+[2021.11.30-15.30.32:644][581]Cmd: ACTOR DELETE
+[2021.11.30-15.30.32:670][581]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.30.32:722][581]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2021.11.30-15.30.33:385][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block40)
+[2021.11.30-15.30.33:645][618]Cmd: DELETE
+[2021.11.30-15.30.33:645][618]Cmd: ACTOR DELETE
+[2021.11.30-15.30.33:670][618]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.30.33:720][618]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2021.11.30-15.30.38:250][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block04)
+[2021.11.30-15.30.39:768][906]Cmd: EDIT COPY
+[2021.11.30-15.30.45:414][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block95)
+[2021.11.30-15.30.47:539][223]Cmd: EDIT COPY
+[2021.11.30-15.30.47:877][238]Cmd: EDIT PASTE
+[2021.11.30-15.30.57:434][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block46)
+[2021.11.30-15.31.05:680][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.31.07:296][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block48)
+[2021.11.30-15.31.08:471][ 68]Cmd: DELETE
+[2021.11.30-15.31.08:471][ 68]Cmd: ACTOR DELETE
+[2021.11.30-15.31.08:495][ 68]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.31.08:541][ 68]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2021.11.30-15.31.10:039][154]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block27)
+[2021.11.30-15.31.10:628][174]Cmd: DELETE
+[2021.11.30-15.31.10:628][174]Cmd: ACTOR DELETE
+[2021.11.30-15.31.10:655][174]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.31.10:703][174]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2021.11.30-15.31.19:462][566]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block39)
+[2021.11.30-15.31.29:894][841]Cmd: EDIT COPY
+[2021.11.30-15.31.30:190][853]Cmd: EDIT PASTE
+[2021.11.30-15.31.56:316][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block68)
+[2021.11.30-15.31.59:500][ 43]Cmd: DELETE
+[2021.11.30-15.31.59:500][ 43]Cmd: ACTOR DELETE
+[2021.11.30-15.31.59:525][ 43]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.31.59:575][ 43]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2021.11.30-15.32.00:565][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block98)
+[2021.11.30-15.32.01:632][137]Cmd: DELETE
+[2021.11.30-15.32.01:633][137]Cmd: ACTOR DELETE
+[2021.11.30-15.32.01:659][137]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.32.01:710][137]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2021.11.30-15.32.02:236][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block94)
+[2021.11.30-15.32.02:645][171]Cmd: DELETE
+[2021.11.30-15.32.02:645][171]Cmd: ACTOR DELETE
+[2021.11.30-15.32.02:669][171]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.32.02:687][171]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2021.11.30-15.32.03:208][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block92)
+[2021.11.30-15.32.03:365][199]Cmd: DELETE
+[2021.11.30-15.32.03:366][199]Cmd: ACTOR DELETE
+[2021.11.30-15.32.03:391][199]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.32.03:441][199]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2021.11.30-15.32.04:419][252]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block85)
+[2021.11.30-15.32.04:594][254]Cmd: DELETE
+[2021.11.30-15.32.04:594][254]Cmd: ACTOR DELETE
+[2021.11.30-15.32.04:620][254]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.32.04:671][254]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2021.11.30-15.32.05:667][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD16)
+[2021.11.30-15.32.06:135][320]Cmd: DELETE
+[2021.11.30-15.32.06:135][320]Cmd: ACTOR DELETE
+[2021.11.30-15.32.06:171][320]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.32.06:224][320]LogEditorActor: Deleted 1 Actors (0.088 secs)
+[2021.11.30-15.32.06:981][354]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block69)
+[2021.11.30-15.32.07:121][355]Cmd: DELETE
+[2021.11.30-15.32.07:121][355]Cmd: ACTOR DELETE
+[2021.11.30-15.32.07:142][355]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.32.07:162][355]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2021.11.30-15.32.07:725][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block39)
+[2021.11.30-15.32.07:892][387]Cmd: DELETE
+[2021.11.30-15.32.07:892][387]Cmd: ACTOR DELETE
+[2021.11.30-15.32.07:917][387]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.32.07:967][387]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2021.11.30-15.32.08:497][413]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block40)
+[2021.11.30-15.32.08:614][414]Cmd: DELETE
+[2021.11.30-15.32.08:614][414]Cmd: ACTOR DELETE
+[2021.11.30-15.32.08:638][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.32.08:685][414]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2021.11.30-15.32.11:143][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block89)
+[2021.11.30-15.32.12:046][581]Cmd: EDIT COPY
+[2021.11.30-15.32.12:508][598]Cmd: EDIT PASTE
+[2021.11.30-15.32.16:413][755]Cmd: DELETE
+[2021.11.30-15.32.16:414][755]Cmd: ACTOR DELETE
+[2021.11.30-15.32.16:438][755]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.32.16:486][755]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2021.11.30-15.32.18:661][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block88)
+[2021.11.30-15.32.20:437][942]Cmd: DELETE
+[2021.11.30-15.32.20:438][942]Cmd: ACTOR DELETE
+[2021.11.30-15.32.20:463][942]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.32.20:510][942]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2021.11.30-15.32.21:178][973]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block91)
+[2021.11.30-15.32.21:326][974]Cmd: DELETE
+[2021.11.30-15.32.21:326][974]Cmd: ACTOR DELETE
+[2021.11.30-15.32.21:351][974]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.32.21:399][974]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2021.11.30-15.32.22:725][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block87)
+[2021.11.30-15.32.23:261][ 52]Cmd: DELETE
+[2021.11.30-15.32.23:261][ 52]Cmd: ACTOR DELETE
+[2021.11.30-15.32.23:285][ 52]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.32.23:302][ 52]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2021.11.30-15.32.24:036][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block84)
+[2021.11.30-15.32.37:010][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.32.58:139][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block72)
+[2021.11.30-15.33.01:188][163]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block04)
+[2021.11.30-15.33.02:744][228]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block99)
+[2021.11.30-15.33.03:979][274]Cmd: EDIT COPY
+[2021.11.30-15.33.04:758][306]Cmd: EDIT PASTE
+[2021.11.30-15.33.42:946][888]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.34.07:225][900]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block72)
+[2021.11.30-15.34.08:168][931]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block6)
+[2021.11.30-15.34.09:130][963]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block100)
+[2021.11.30-15.34.10:133][998]Cmd: EDIT COPY
+[2021.11.30-15.34.10:567][ 15]Cmd: EDIT PASTE
+[2021.11.30-15.34.13:294][123]Cmd: TRANSACTION UNDO
+[2021.11.30-15.34.13:294][123]LogEditorTransaction: Undo Move Actors
+[2021.11.30-15.34.23:719][532]Cmd: TRANSACTION UNDO
+[2021.11.30-15.34.23:719][532]LogEditorTransaction: Undo Move Actors
+[2021.11.30-15.34.24:236][546]Cmd: TRANSACTION UNDO
+[2021.11.30-15.34.24:236][546]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-15.34.24:999][573]Cmd: TRANSACTION UNDO
+[2021.11.30-15.34.24:999][573]LogEditorTransaction: Undo Paste
+[2021.11.30-15.34.25:778][598]Cmd: TRANSACTION UNDO
+[2021.11.30-15.34.25:778][598]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-15.34.27:219][656]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block100)
+[2021.11.30-15.34.28:585][703]Cmd: EDIT COPY
+[2021.11.30-15.34.28:968][717]Cmd: EDIT PASTE
+[2021.11.30-15.34.31:218][807]Cmd: TRANSACTION UNDO
+[2021.11.30-15.34.31:218][807]LogEditorTransaction: Undo Move Actors
+[2021.11.30-15.34.31:994][833]Cmd: TRANSACTION UNDO
+[2021.11.30-15.34.31:994][833]LogEditorTransaction: Undo Paste
+[2021.11.30-15.34.32:567][854]Cmd: TRANSACTION UNDO
+[2021.11.30-15.34.32:568][854]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-15.34.34:400][923]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block100)
+[2021.11.30-15.34.37:159][ 35]Cmd: TRANSACTION UNDO
+[2021.11.30-15.34.37:159][ 35]LogEditorTransaction: Undo Move Actors
+[2021.11.30-15.34.37:998][ 67]Cmd: EDIT COPY
+[2021.11.30-15.34.39:045][114]Cmd: EDIT PASTE
+[2021.11.30-15.34.53:300][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block100)
+[2021.11.30-15.34.54:951][799]Cmd: TRANSACTION UNDO
+[2021.11.30-15.34.54:951][799]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-15.35.09:099][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.35.13:402][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block101)
+[2021.11.30-15.35.21:993][895]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block7)
+[2021.11.30-15.35.22:994][929]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block77)
+[2021.11.30-15.35.23:701][959]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block100)
+[2021.11.30-15.35.24:443][982]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block6)
+[2021.11.30-15.35.25:185][  5]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block72)
+[2021.11.30-15.35.26:076][ 33]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block70)
+[2021.11.30-15.35.26:687][ 51]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block73)
+[2021.11.30-15.35.27:458][ 76]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block46)
+[2021.11.30-15.35.28:236][100]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block99)
+[2021.11.30-15.35.29:106][127]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block95)
+[2021.11.30-15.35.29:815][155]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block93)
+[2021.11.30-15.35.30:424][176]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block89)
+[2021.11.30-15.35.31:410][209]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block84)
+[2021.11.30-15.35.32:826][259]Cmd: EDIT COPY
+[2021.11.30-15.35.50:572][605]Cmd: TRANSACTION UNDO
+[2021.11.30-15.35.50:572][605]LogEditorTransaction: Undo Rotate Actors
+[2021.11.30-15.35.50:589][605]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Nivell3.Nivell3:PersistentLevel.SM_Plains_Floors_Block100_11.StaticMeshComponent0) Component already registered.
+[2021.11.30-15.35.50:594][605]LogActorComponent: ~FComponentReregisterContext: (/Game/Levels/Nivell3.Nivell3:PersistentLevel.SM_Plains_Floors_Block73.StaticMeshComponent0) Component already registered.
+[2021.11.30-15.35.51:679][647]Cmd: EDIT COPY
+[2021.11.30-15.35.52:926][693]Cmd: EDIT PASTE
+[2021.11.30-15.37.13:010][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.37.38:729][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block77)
+[2021.11.30-15.37.54:090][807]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block100)
+[2021.11.30-15.38.01:893][134]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Exo_Decos_Set01_Facade4)
+[2021.11.30-15.38.07:204][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block33)
+[2021.11.30-15.38.11:884][544]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block30)
+[2021.11.30-15.38.13:523][604]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block29)
+[2021.11.30-15.38.14:539][641]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block32)
+[2021.11.30-15.38.15:228][665]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block34)
+[2021.11.30-15.38.15:977][691]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block31)
+[2021.11.30-15.38.17:573][756]Cmd: EDIT COPY
+[2021.11.30-15.38.19:503][832]Cmd: EDIT PASTE
+[2021.11.30-15.38.34:449][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block77)
+[2021.11.30-15.38.39:907][681]Cmd: TRANSACTION UNDO
+[2021.11.30-15.38.39:907][681]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-15.38.50:098][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block77)
+[2021.11.30-15.38.57:917][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block42)
+[2021.11.30-15.38.59:342][383]Cmd: DELETE
+[2021.11.30-15.38.59:343][383]Cmd: ACTOR DELETE
+[2021.11.30-15.38.59:370][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.38.59:423][383]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2021.11.30-15.38.59:985][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block37)
+[2021.11.30-15.39.00:168][412]Cmd: DELETE
+[2021.11.30-15.39.00:169][412]Cmd: ACTOR DELETE
+[2021.11.30-15.39.00:194][412]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.39.00:239][412]LogEditorActor: Deleted 1 Actors (0.071 secs)
+[2021.11.30-15.39.01:079][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block36)
+[2021.11.30-15.39.01:271][456]Cmd: DELETE
+[2021.11.30-15.39.01:272][456]Cmd: ACTOR DELETE
+[2021.11.30-15.39.01:297][456]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.39.01:349][456]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2021.11.30-15.39.01:975][486]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block40)
+[2021.11.30-15.39.02:145][487]Cmd: DELETE
+[2021.11.30-15.39.02:146][487]Cmd: ACTOR DELETE
+[2021.11.30-15.39.02:170][487]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.39.02:199][487]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2021.11.30-15.39.03:874][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fire_Fort_Bricks_15)
+[2021.11.30-15.39.04:063][579]Cmd: DELETE
+[2021.11.30-15.39.04:063][579]Cmd: ACTOR DELETE
+[2021.11.30-15.39.04:089][579]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.39.04:140][579]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2021.11.30-15.39.04:841][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Rubble_60)
+[2021.11.30-15.39.05:010][612]Cmd: DELETE
+[2021.11.30-15.39.05:010][612]Cmd: ACTOR DELETE
+[2021.11.30-15.39.05:033][612]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.39.05:084][612]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2021.11.30-15.39.05:603][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Grass23)
+[2021.11.30-15.39.06:079][651]Cmd: DELETE
+[2021.11.30-15.39.06:079][651]Cmd: ACTOR DELETE
+[2021.11.30-15.39.06:105][651]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.39.06:154][651]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2021.11.30-15.39.12:007][862]Cmd: TRANSACTION UNDO
+[2021.11.30-15.39.12:007][862]LogEditorTransaction: Undo Delete Actors
+[2021.11.30-15.39.12:617][875]Cmd: TRANSACTION UNDO
+[2021.11.30-15.39.12:617][875]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-15.39.12:995][894]Cmd: TRANSACTION UNDO
+[2021.11.30-15.39.12:996][894]LogEditorTransaction: Undo Delete Actors
+[2021.11.30-15.39.13:356][900]Cmd: TRANSACTION UNDO
+[2021.11.30-15.39.13:357][900]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-15.39.13:710][918]Cmd: TRANSACTION UNDO
+[2021.11.30-15.39.13:710][918]LogEditorTransaction: Undo Delete Actors
+[2021.11.30-15.39.14:043][929]Cmd: TRANSACTION UNDO
+[2021.11.30-15.39.14:044][929]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-15.39.14:370][946]Cmd: TRANSACTION UNDO
+[2021.11.30-15.39.14:370][946]LogEditorTransaction: Undo Delete Actors
+[2021.11.30-15.39.14:694][951]Cmd: TRANSACTION UNDO
+[2021.11.30-15.39.14:694][951]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-15.39.15:178][977]Cmd: TRANSACTION UNDO
+[2021.11.30-15.39.15:178][977]LogEditorTransaction: Undo Delete Actors
+[2021.11.30-15.39.17:628][ 74]Cmd: TRANSACTION UNDO
+[2021.11.30-15.39.17:628][ 74]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-15.39.18:053][100]Cmd: TRANSACTION UNDO
+[2021.11.30-15.39.18:053][100]LogEditorTransaction: Undo Delete Actors
+[2021.11.30-15.39.18:396][111]Cmd: TRANSACTION UNDO
+[2021.11.30-15.39.18:396][111]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-15.39.18:772][130]Cmd: TRANSACTION UNDO
+[2021.11.30-15.39.18:773][130]LogEditorTransaction: Undo Delete Actors
+[2021.11.30-15.39.22:912][301]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block37)
+[2021.11.30-15.39.23:886][338]Cmd: DELETE
+[2021.11.30-15.39.23:886][338]Cmd: ACTOR DELETE
+[2021.11.30-15.39.23:915][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.39.23:916][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.39.23:970][338]LogEditorActor: Deleted 2 Actors (0.084 secs)
+[2021.11.30-15.39.31:886][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block39)
+[2021.11.30-15.39.33:036][675]Cmd: DELETE
+[2021.11.30-15.39.33:036][675]Cmd: ACTOR DELETE
+[2021.11.30-15.39.33:065][675]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.39.33:115][675]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2021.11.30-15.39.34:157][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block40)
+[2021.11.30-15.39.34:545][742]Cmd: DELETE
+[2021.11.30-15.39.34:545][742]Cmd: ACTOR DELETE
+[2021.11.30-15.39.34:574][742]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.39.34:623][742]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2021.11.30-15.39.35:210][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block35)
+[2021.11.30-15.39.35:466][772]Cmd: DELETE
+[2021.11.30-15.39.35:466][772]Cmd: ACTOR DELETE
+[2021.11.30-15.39.35:492][772]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.39.35:543][772]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2021.11.30-15.39.36:104][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Rubble_60)
+[2021.11.30-15.39.36:368][802]Cmd: DELETE
+[2021.11.30-15.39.36:368][802]Cmd: ACTOR DELETE
+[2021.11.30-15.39.36:396][802]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.39.36:445][802]LogEditorActor: Deleted 1 Actors (0.076 secs)
+[2021.11.30-15.39.36:907][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block36)
+[2021.11.30-15.39.37:091][828]Cmd: DELETE
+[2021.11.30-15.39.37:091][828]Cmd: ACTOR DELETE
+[2021.11.30-15.39.37:117][828]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.39.37:165][828]LogEditorActor: Deleted 1 Actors (0.074 secs)
+[2021.11.30-15.39.37:869][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fire_Fort_Bricks_15)
+[2021.11.30-15.39.38:259][873]Cmd: DELETE
+[2021.11.30-15.39.38:259][873]Cmd: ACTOR DELETE
+[2021.11.30-15.39.38:283][873]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.39.38:334][873]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2021.11.30-15.39.38:825][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Grass23)
+[2021.11.30-15.39.39:009][899]Cmd: DELETE
+[2021.11.30-15.39.39:009][899]Cmd: ACTOR DELETE
+[2021.11.30-15.39.39:034][899]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-15.39.39:084][899]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2021.11.30-15.39.40:227][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block77)
+[2021.11.30-15.39.41:719][ 16]Cmd: EDIT COPY
+[2021.11.30-15.39.42:199][ 34]Cmd: EDIT PASTE
+[2021.11.30-15.40.10:019][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.40.15:193][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block87)
+[2021.11.30-15.40.16:436][394]Cmd: EDIT COPY
+[2021.11.30-15.40.16:877][413]Cmd: EDIT PASTE
+[2021.11.30-15.40.29:823][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.40.38:395][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block87)
+[2021.11.30-15.40.39:661][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block77)
+[2021.11.30-15.40.41:491][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block100)
+[2021.11.30-15.40.45:563][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block31)
+[2021.11.30-15.41.48:953][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block87)
+[2021.11.30-15.41.58:986][406]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.11.30-15.42.00:570][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block33)
+[2021.11.30-15.42.01:578][511]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block32)
+[2021.11.30-15.42.03:662][591]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block34)
+[2021.11.30-15.42.04:762][630]Cmd: EDIT COPY
+[2021.11.30-15.42.05:280][650]Cmd: EDIT PASTE
+[2021.11.30-15.42.17:141][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.42.23:979][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block35)
+[2021.11.30-15.42.53:795][441]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item)
+[2021.11.30-15.42.54:826][481]Cmd: DELETE
+[2021.11.30-15.42.54:826][481]Cmd: ACTOR DELETE
+[2021.11.30-15.42.54:852][481]LogEditorActor: Deleted Actor: Pickup_item_C
+[2021.11.30-15.42.54:905][481]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2021.11.30-15.42.56:028][530]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item6)
+[2021.11.30-15.42.56:233][534]Cmd: DELETE
+[2021.11.30-15.42.56:233][534]Cmd: ACTOR DELETE
+[2021.11.30-15.42.56:259][534]LogEditorActor: Deleted Actor: Pickup_item_C
+[2021.11.30-15.42.56:303][534]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2021.11.30-15.42.58:172][633]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Scrap_Bridge02)
+[2021.11.30-15.42.59:976][702]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Scrap_Bridge4)
+[2021.11.30-15.43.01:521][762]Cmd: EDIT COPY
+[2021.11.30-15.43.02:390][795]Cmd: EDIT PASTE
+[2021.11.30-15.43.17:165][369]Cmd: TRANSACTION UNDO
+[2021.11.30-15.43.17:165][369]LogEditorTransaction: Undo Move Actors
+[2021.11.30-15.43.19:579][462]Cmd: TRANSACTION UNDO
+[2021.11.30-15.43.19:579][462]LogEditorTransaction: Undo Move Actors
+[2021.11.30-15.44.12:208][659]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.44.17:810][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Scrap_Bridge5)
+[2021.11.30-15.44.22:007][ 45]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.11.30-15.44.24:866][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Scrap_Bridge5)
+[2021.11.30-15.44.33:537][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.44.38:739][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Scrap_Bridge5)
+[2021.11.30-15.44.50:158][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.45.05:835][843]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item2)
+[2021.11.30-15.45.13:435][ 98]Cmd: DELETE
+[2021.11.30-15.45.13:435][ 98]Cmd: ACTOR DELETE
+[2021.11.30-15.45.13:461][ 98]LogEditorActor: Deleted Actor: Pickup_item_C
+[2021.11.30-15.45.13:511][ 98]LogEditorActor: Deleted 1 Actors (0.076 secs)
+[2021.11.30-15.45.30:079][709]Cmd: TRANSACTION UNDO
+[2021.11.30-15.45.30:079][709]LogEditorTransaction: Undo Create Actors
+[2021.11.30-15.46.12:771][133]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item)
+[2021.11.30-15.46.25:480][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell3" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.30-15.46.26:548][653]LogSavePackage: Save=899.38ms
+[2021.11.30-15.46.26:548][653]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell35F1BAFA14CB153DF430D1188EE1A7577.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap'
+[2021.11.30-15.46.26:550][653]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap
+[2021.11.30-15.46.43:480][250]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2021.11.30-15.46.44:554][277]Cmd: EDIT COPY
+[2021.11.30-15.46.44:971][293]Cmd: EDIT PASTE
+[2021.11.30-15.47.47:824][ 87]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item)
+[2021.11.30-15.47.48:789][126]Cmd: EDIT COPY
+[2021.11.30-15.47.49:231][146]Cmd: EDIT PASTE
+[2021.11.30-15.48.15:208][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell3" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.30-15.48.16:379][ 21]LogSavePackage: Save=1140.46ms
+[2021.11.30-15.48.16:379][ 21]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell3EBBD725D49FB25075C05E6BE0B44069E.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap'
+[2021.11.30-15.48.16:381][ 21]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap
+[2021.11.30-15.49.49:751][965]Cmd: EDIT COPY
+[2021.11.30-15.49.50:086][977]Cmd: EDIT PASTE
+[2021.11.30-15.51.34:798][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block101)
+[2021.11.30-15.51.55:361][249]Cmd: TRANSACTION UNDO
+[2021.11.30-15.51.55:361][249]LogEditorTransaction: Undo Move Actors
+[2021.11.30-15.51.56:253][279]Cmd: EDIT COPY
+[2021.11.30-15.51.56:740][299]Cmd: EDIT PASTE
+[2021.11.30-15.52.47:529][919]Cmd: EDIT COPY
+[2021.11.30-15.52.48:453][959]Cmd: EDIT PASTE
+[2021.11.30-15.52.49:948][ 13]Cmd: TRANSACTION UNDO
+[2021.11.30-15.52.49:948][ 13]LogEditorTransaction: Undo Paste
+[2021.11.30-15.52.51:797][ 70]Cmd: EDIT COPY
+[2021.11.30-15.52.52:174][ 85]Cmd: EDIT PASTE
+[2021.11.30-15.54.23:621][820]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block7)
+[2021.11.30-15.54.28:122][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block109)
+[2021.11.30-15.54.29:163][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block10)
+[2021.11.30-15.54.30:176][ 80]Cmd: EDIT COPY
+[2021.11.30-15.54.30:558][ 98]Cmd: EDIT PASTE
+[2021.11.30-15.54.56:137][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block108)
+[2021.11.30-15.55.14:580][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.55.23:468][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block108)
+[2021.11.30-15.55.45:849][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.55.52:841][941]Cmd: TRANSACTION UNDO
+[2021.11.30-15.55.52:841][941]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-15.56.01:406][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.56.05:320][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block108)
+[2021.11.30-15.56.14:274][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block11)
+[2021.11.30-15.56.28:000][ 36]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-15.56.41:568][762]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item4)
+[2021.11.30-15.56.42:703][828]Cmd: EDIT COPY
+[2021.11.30-15.56.43:103][852]Cmd: EDIT PASTE
+[2021.11.30-15.57.22:459][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell3" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.30-15.57.23:130][873]LogSavePackage: Save=643.71ms
+[2021.11.30-15.57.23:130][873]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell3928974C04B4DFCDBBD65E18EB9366431.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap'
+[2021.11.30-15.57.23:131][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap
+[2021.11.30-16.00.31:597][900]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block108)
+[2021.11.30-16.00.51:003][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block11)
+[2021.11.30-16.00.59:135][462]Cmd: EDIT COPY
+[2021.11.30-16.00.59:503][484]Cmd: EDIT PASTE
+[2021.11.30-16.01.08:418][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block11)
+[2021.11.30-16.01.19:200][658]Cmd: DELETE
+[2021.11.30-16.01.19:200][658]Cmd: ACTOR DELETE
+[2021.11.30-16.01.19:209][658]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.01.19:223][658]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2021.11.30-16.01.20:599][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block10)
+[2021.11.30-16.01.21:375][785]Cmd: EDIT COPY
+[2021.11.30-16.01.23:050][885]Cmd: EDIT PASTE
+[2021.11.30-16.01.27:666][159]Cmd: TRANSACTION UNDO
+[2021.11.30-16.01.27:666][159]LogEditorTransaction: Undo Move Actors
+[2021.11.30-16.01.28:232][177]Cmd: TRANSACTION UNDO
+[2021.11.30-16.01.28:232][177]LogEditorTransaction: Undo Paste
+[2021.11.30-16.01.28:740][205]Cmd: TRANSACTION UNDO
+[2021.11.30-16.01.28:740][205]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-16.01.29:718][263]Cmd: TRANSACTION UNDO
+[2021.11.30-16.01.29:718][263]LogEditorTransaction: Undo Delete Actors
+[2021.11.30-16.01.33:822][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.01.36:007][635]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block11)
+[2021.11.30-16.01.43:571][ 83]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block11)
+[2021.11.30-16.01.44:302][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.01.48:519][375]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item5)
+[2021.11.30-16.02.10:126][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block11)
+[2021.11.30-16.02.22:480][ 70]Cmd: TRANSACTION UNDO
+[2021.11.30-16.02.22:480][ 70]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-16.02.22:843][ 90]Cmd: TRANSACTION UNDO
+[2021.11.30-16.02.22:843][ 90]LogEditorTransaction: Undo Move Actors
+[2021.11.30-16.02.23:188][110]Cmd: TRANSACTION UNDO
+[2021.11.30-16.02.23:188][110]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-16.02.23:449][123]Cmd: TRANSACTION UNDO
+[2021.11.30-16.02.23:449][123]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-16.02.23:675][135]Cmd: TRANSACTION UNDO
+[2021.11.30-16.02.23:675][135]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-16.02.23:875][147]Cmd: TRANSACTION UNDO
+[2021.11.30-16.02.23:875][147]LogEditorTransaction: Undo Move Actors
+[2021.11.30-16.02.24:063][158]Cmd: TRANSACTION UNDO
+[2021.11.30-16.02.24:063][158]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-16.02.24:244][166]Cmd: TRANSACTION UNDO
+[2021.11.30-16.02.24:244][166]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-16.02.24:406][174]Cmd: TRANSACTION UNDO
+[2021.11.30-16.02.24:406][174]LogEditorTransaction: Undo Move Actors
+[2021.11.30-16.02.24:608][186]Cmd: TRANSACTION UNDO
+[2021.11.30-16.02.24:608][186]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-16.02.24:769][194]Cmd: TRANSACTION UNDO
+[2021.11.30-16.02.24:769][194]LogEditorTransaction: Undo Move Actors
+[2021.11.30-16.02.24:971][206]Cmd: TRANSACTION UNDO
+[2021.11.30-16.02.24:972][206]LogEditorTransaction: Undo Paste
+[2021.11.30-16.02.25:159][215]Cmd: TRANSACTION UNDO
+[2021.11.30-16.02.25:159][215]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-16.02.25:362][225]Cmd: TRANSACTION UNDO
+[2021.11.30-16.02.25:362][225]LogEditorTransaction: Undo Move Actors
+[2021.11.30-16.02.26:986][322]Cmd: TRANSACTION UNDO
+[2021.11.30-16.02.26:986][322]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-16.02.35:826][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block108)
+[2021.11.30-16.02.38:064][657]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block11)
+[2021.11.30-16.02.38:881][703]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block10)
+[2021.11.30-16.02.42:564][885]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block109)
+[2021.11.30-16.02.44:035][ 46]LogEditorViewport: Clicking on Actor (CTRL LMB): Pickup_item_C (Pickup_item5)
+[2021.11.30-16.02.45:264][187]Cmd: EDIT COPY
+[2021.11.30-16.02.46:819][367]Cmd: EDIT PASTE
+[2021.11.30-16.04.49:275][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block111)
+[2021.11.30-16.04.51:123][551]Cmd: EDIT COPY
+[2021.11.30-16.04.51:530][596]Cmd: EDIT PASTE
+[2021.11.30-16.05.04:488][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD_97)
+[2021.11.30-16.05.16:092][341]Cmd: TRANSACTION UNDO
+[2021.11.30-16.05.16:092][341]LogEditorTransaction: Undo Move Actors
+[2021.11.30-16.05.16:955][400]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block112)
+[2021.11.30-16.05.23:242][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block8)
+[2021.11.30-16.05.28:376][573]Cmd: TRANSACTION UNDO
+[2021.11.30-16.05.28:376][573]LogEditorTransaction: Undo Move Actors
+[2021.11.30-16.05.33:215][ 61]Cmd: TRANSACTION UNDO
+[2021.11.30-16.05.33:215][ 61]LogEditorTransaction: Undo Move Actors
+[2021.11.30-16.05.35:350][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.05.37:639][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block112)
+[2021.11.30-16.05.44:183][231]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.11.30-16.06.04:704][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Rubble_61)
+[2021.11.30-16.06.06:354][666]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block12)
+[2021.11.30-16.06.08:566][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block12)
+[2021.11.30-16.06.09:245][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Rubble_61)
+[2021.11.30-16.06.09:788][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Grass25)
+[2021.11.30-16.06.11:490][209]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Rubble_61)
+[2021.11.30-16.06.23:898][559]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item6)
+[2021.11.30-16.06.30:530][ 85]Cmd: TRANSACTION UNDO
+[2021.11.30-16.06.30:530][ 85]LogEditorTransaction: Undo Move Actors
+[2021.11.30-16.06.33:647][394]Cmd: TRANSACTION UNDO
+[2021.11.30-16.06.33:648][394]LogEditorTransaction: Undo Move Actors
+[2021.11.30-16.06.34:738][503]Cmd: EDIT COPY
+[2021.11.30-16.06.35:752][616]Cmd: EDIT PASTE
+[2021.11.30-16.06.40:567][126]Cmd: TRANSACTION UNDO
+[2021.11.30-16.06.40:567][126]LogEditorTransaction: Undo Paste
+[2021.11.30-16.06.41:433][207]Cmd: TRANSACTION UNDO
+[2021.11.30-16.06.41:433][207]LogEditorTransaction: Undo Clicking on Actors
+[2021.11.30-16.06.43:576][424]Cmd: TRANSACTION UNDO
+[2021.11.30-16.06.43:577][424]LogEditorTransaction: Undo Move Actors
+[2021.11.30-16.06.45:645][635]Cmd: TRANSACTION UNDO
+[2021.11.30-16.06.45:645][635]LogEditorTransaction: Undo Move Actors
+[2021.11.30-16.06.50:770][178]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item6)
+[2021.11.30-16.06.51:841][295]Cmd: EDIT COPY
+[2021.11.30-16.06.52:798][404]Cmd: EDIT PASTE
+[2021.11.30-16.06.55:570][681]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block13)
+[2021.11.30-16.06.56:336][762]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item6)
+[2021.11.30-16.07.05:228][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block112)
+[2021.11.30-16.07.08:172][837]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item7)
+[2021.11.30-16.07.18:029][897]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item6)
+[2021.11.30-16.07.23:015][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.07.29:125][144]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item6)
+[2021.11.30-16.08.04:631][521]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.08.08:237][892]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.11.30-16.08.49:997][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block73)
+[2021.11.30-16.09.12:560][456]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.11.30-16.10.40:900][342]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Fire_Fort_Pillar_2b_4)
+[2021.11.30-16.10.44:539][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block10)
+[2021.11.30-16.10.45:905][836]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.11.30-16.11.22:231][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block72)
+[2021.11.30-16.11.34:054][488]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block73)
+[2021.11.30-16.11.35:953][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block70)
+[2021.11.30-16.11.51:871][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell3" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.30-16.11.52:702][233]LogSavePackage: Save=787.85ms
+[2021.11.30-16.11.52:702][233]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell37A59C52D40397F67A0CA82B81FF75ABD.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap'
+[2021.11.30-16.11.52:704][233]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap
+[2021.11.30-16.12.13:430][991]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block110)
+[2021.11.30-16.12.14:578][103]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_Block13)
+[2021.11.30-16.12.15:668][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block110)
+[2021.11.30-16.12.17:034][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block112)
+[2021.11.30-16.12.19:116][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block110)
+[2021.11.30-16.12.20:876][762]Cmd: EDIT COPY
+[2021.11.30-16.12.21:296][804]Cmd: EDIT PASTE
+[2021.11.30-16.12.35:215][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.12.38:115][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block113)
+[2021.11.30-16.12.39:040][721]Cmd: EDIT COPY
+[2021.11.30-16.12.39:478][769]Cmd: EDIT PASTE
+[2021.11.30-16.13.09:094][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block113)
+[2021.11.30-16.13.14:476][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block12)
+[2021.11.30-16.13.16:028][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block113)
+[2021.11.30-16.13.17:506][ 72]Cmd: EDIT COPY
+[2021.11.30-16.13.18:640][198]Cmd: EDIT PASTE
+[2021.11.30-16.14.15:657][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block113)
+[2021.11.30-16.14.33:354][115]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item2)
+[2021.11.30-16.14.49:491][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block115)
+[2021.11.30-16.15.01:512][308]Cmd: DELETE
+[2021.11.30-16.15.01:512][308]Cmd: ACTOR DELETE
+[2021.11.30-16.15.01:522][308]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.15.01:536][308]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2021.11.30-16.15.02:410][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block04)
+[2021.11.30-16.15.03:303][502]Cmd: EDIT COPY
+[2021.11.30-16.15.03:722][546]Cmd: EDIT PASTE
+[2021.11.30-16.15.23:972][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.15.30:518][944]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block114)
+[2021.11.30-16.15.32:894][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block88)
+[2021.11.30-16.15.34:263][163]Cmd: DELETE
+[2021.11.30-16.15.34:263][163]Cmd: ACTOR DELETE
+[2021.11.30-16.15.34:269][163]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.15.34:283][163]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2021.11.30-16.15.35:852][257]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2021.11.30-16.15.40:237][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.15.42:972][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block114)
+[2021.11.30-16.15.43:899][729]Cmd: EDIT COPY
+[2021.11.30-16.15.44:281][752]Cmd: EDIT PASTE
+[2021.11.30-16.16.06:489][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.16.10:645][969]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item6)
+[2021.11.30-16.16.11:579][ 23]Cmd: EDIT COPY
+[2021.11.30-16.16.12:082][ 53]Cmd: EDIT PASTE
+[2021.11.30-16.16.22:021][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_TrimFlat01)
+[2021.11.30-16.16.27:297][873]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Plains_Floors_TrimFlat01)
+[2021.11.30-16.16.31:942][149]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_TrimFlat01)
+[2021.11.30-16.16.33:746][255]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.16.35:311][344]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.16.37:648][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.16.38:347][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.16.39:206][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.16.39:553][593]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2021.11.30-16.16.40:211][631]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2021.11.30-16.16.41:420][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_TrimFlat01)
+[2021.11.30-16.16.43:553][829]LogEditorViewport: Clicking on Actor (CTRL LMB): TriggerBox (TriggerBox2)
+[2021.11.30-16.17.47:955][685]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item8)
+[2021.11.30-16.18.04:724][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.18.05:606][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.18.20:362][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.18.21:484][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.18.22:087][691]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WaterPlain2)
+[2021.11.30-16.18.22:988][744]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2021.11.30-16.19.13:014][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell3" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.30-16.19.13:815][712]LogSavePackage: Save=780.08ms
+[2021.11.30-16.19.13:815][712]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell386A718534C700770753CF085A410B513.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap'
+[2021.11.30-16.19.13:816][712]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap
+[2021.11.30-16.19.24:131][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell3" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.30-16.19.24:853][320]LogSavePackage: Save=704.50ms
+[2021.11.30-16.19.24:853][320]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell37C39DEA24B1A571866CC0AACA42B843B.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap'
+[2021.11.30-16.19.24:855][320]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap
+[2021.11.30-16.19.42:636][380]LogEditorViewport: Clicking on Actor (LMB): Pickup_item_C (Pickup_item3)
+[2021.11.30-16.19.43:826][450]Cmd: DELETE
+[2021.11.30-16.19.43:826][450]Cmd: ACTOR DELETE
+[2021.11.30-16.19.43:833][450]LogEditorActor: Deleted Actor: Pickup_item_C
+[2021.11.30-16.19.43:846][450]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2021.11.30-16.19.48:501][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block105)
+[2021.11.30-16.19.49:005][756]Cmd: DELETE
+[2021.11.30-16.19.49:005][756]Cmd: ACTOR DELETE
+[2021.11.30-16.19.49:012][756]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.19.49:026][756]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2021.11.30-16.19.49:442][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block103)
+[2021.11.30-16.19.49:500][782]Cmd: DELETE
+[2021.11.30-16.19.49:500][782]Cmd: ACTOR DELETE
+[2021.11.30-16.19.49:508][782]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.19.49:522][782]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2021.11.30-16.19.50:039][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD10)
+[2021.11.30-16.19.50:108][814]Cmd: DELETE
+[2021.11.30-16.19.50:108][814]Cmd: ACTOR DELETE
+[2021.11.30-16.19.50:117][814]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.19.50:133][814]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2021.11.30-16.19.50:856][857]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD11)
+[2021.11.30-16.19.50:987][862]Cmd: DELETE
+[2021.11.30-16.19.50:987][862]Cmd: ACTOR DELETE
+[2021.11.30-16.19.50:995][862]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.19.51:009][862]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2021.11.30-16.19.51:429][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block107)
+[2021.11.30-16.19.51:457][887]Cmd: DELETE
+[2021.11.30-16.19.51:457][887]Cmd: ACTOR DELETE
+[2021.11.30-16.19.51:465][887]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.19.51:477][887]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2021.11.30-16.19.52:963][976]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleTower_7)
+[2021.11.30-16.19.53:097][981]Cmd: DELETE
+[2021.11.30-16.19.53:097][981]Cmd: ACTOR DELETE
+[2021.11.30-16.19.53:104][981]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.19.53:118][981]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2021.11.30-16.19.54:244][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_CastleTower_Ruin_02_Supports)
+[2021.11.30-16.19.54:453][ 59]Cmd: DELETE
+[2021.11.30-16.19.54:453][ 59]Cmd: ACTOR DELETE
+[2021.11.30-16.19.54:460][ 59]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.19.54:473][ 59]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2021.11.30-16.19.55:331][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Grass10)
+[2021.11.30-16.19.55:418][113]Cmd: DELETE
+[2021.11.30-16.19.55:418][113]Cmd: ACTOR DELETE
+[2021.11.30-16.19.55:427][113]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.19.55:444][113]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2021.11.30-16.19.56:298][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Grass9)
+[2021.11.30-16.19.56:626][181]Cmd: DELETE
+[2021.11.30-16.19.56:626][181]Cmd: ACTOR DELETE
+[2021.11.30-16.19.56:634][181]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.19.56:650][181]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2021.11.30-16.19.59:611][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Scrap_Bridge4)
+[2021.11.30-16.19.59:927][375]Cmd: DELETE
+[2021.11.30-16.19.59:927][375]Cmd: ACTOR DELETE
+[2021.11.30-16.19.59:935][375]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.19.59:949][375]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2021.11.30-16.20.00:534][410]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Scrap_Bridge02)
+[2021.11.30-16.20.00:599][411]Cmd: DELETE
+[2021.11.30-16.20.00:599][411]Cmd: ACTOR DELETE
+[2021.11.30-16.20.00:608][411]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.20.00:626][411]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2021.11.30-16.20.01:747][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD9)
+[2021.11.30-16.20.01:848][481]Cmd: DELETE
+[2021.11.30-16.20.01:848][481]Cmd: ACTOR DELETE
+[2021.11.30-16.20.01:855][481]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.20.01:869][481]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2021.11.30-16.20.03:713][592]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock8)
+[2021.11.30-16.20.03:812][595]Cmd: DELETE
+[2021.11.30-16.20.03:812][595]Cmd: ACTOR DELETE
+[2021.11.30-16.20.03:819][595]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.20.03:833][595]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2021.11.30-16.20.05:093][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock117)
+[2021.11.30-16.20.05:338][683]Cmd: DELETE
+[2021.11.30-16.20.05:338][683]Cmd: ACTOR DELETE
+[2021.11.30-16.20.05:346][683]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.20.05:358][683]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2021.11.30-16.20.06:019][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock_SpireLOD15)
+[2021.11.30-16.20.06:538][751]Cmd: DELETE
+[2021.11.30-16.20.06:538][751]Cmd: ACTOR DELETE
+[2021.11.30-16.20.06:546][751]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.20.06:559][751]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2021.11.30-16.20.07:321][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_LargeRock9)
+[2021.11.30-16.20.07:415][800]Cmd: DELETE
+[2021.11.30-16.20.07:416][800]Cmd: ACTOR DELETE
+[2021.11.30-16.20.07:423][800]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.20.07:436][800]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2021.11.30-16.20.07:913][829]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block45)
+[2021.11.30-16.20.08:138][840]Cmd: DELETE
+[2021.11.30-16.20.08:138][840]Cmd: ACTOR DELETE
+[2021.11.30-16.20.08:146][840]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.20.08:158][840]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2021.11.30-16.20.08:997][890]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block71)
+[2021.11.30-16.20.09:289][905]Cmd: DELETE
+[2021.11.30-16.20.09:290][905]Cmd: ACTOR DELETE
+[2021.11.30-16.20.09:297][905]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.20.09:310][905]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2021.11.30-16.20.12:120][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block63)
+[2021.11.30-16.20.15:229][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block97)
+[2021.11.30-16.20.15:566][274]Cmd: DELETE
+[2021.11.30-16.20.15:567][274]Cmd: ACTOR DELETE
+[2021.11.30-16.20.15:573][274]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.20.15:587][274]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2021.11.30-16.20.16:116][306]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Plains_Floors_Block96)
+[2021.11.30-16.20.16:175][307]Cmd: DELETE
+[2021.11.30-16.20.16:175][307]Cmd: ACTOR DELETE
+[2021.11.30-16.20.16:182][307]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.11.30-16.20.16:197][307]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2021.11.30-16.20.20:017][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell3" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.30-16.20.20:743][534]LogSavePackage: Save=710.31ms
+[2021.11.30-16.20.20:743][534]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell3BFDDA61849DC3E5D02070DBD585585A0.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap'
+[2021.11.30-16.20.20:745][534]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap
+[2021.11.30-16.20.22:627][613]LogTemp: Repeating last play command: Selected Viewport
+[2021.11.30-16.20.23:139][613]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Nivell3.Nivell3:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell3.Nivell3:PersistentLevel.Nivell3' with GeneratedClass '/Game/Levels/Nivell3.Nivell3_C' with ClassGeneratedBy '/Game/Levels/Nivell3.Nivell3:PersistentLevel.Nivell3'
+[2021.11.30-16.20.23:151][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.11.30-16.20.23:212][613]PIE: New page: PIE session: Nivell3 (Nov 30, 2021, 6:20:23 PM)
+[2021.11.30-16.20.23:220][613]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Nivell3
+[2021.11.30-16.20.23:237][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016502s)
+[2021.11.30-16.20.23:238][613]LogAIModule: Creating AISystem for world Nivell3
+[2021.11.30-16.20.23:238][613]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2021.11.30-16.20.23:245][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Nivell3.Nivell3 to /Game/Levels/UEDPIE_0_Nivell3.Nivell3 (0.024101s)
+[2021.11.30-16.20.23:281][613]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.11.30-16.20.23:302][613]LogInit: FAudioDevice initialized.
+[2021.11.30-16.20.23:353][613]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.30-16.20.23:505][613]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell3.Nivell3 up for play (max tick rate 60) at 2021.11.30-17.20.23
+[2021.11.30-16.20.23:590][613]LogWorld: Bringing up level for play took: 0.148604
+[2021.11.30-16.20.23:700][613]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2021.11.30-16.20.23:761][613]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Nivell3 0.423
+[2021.11.30-16.20.23:761][613]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Nivell3.Nivell3:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell3.Nivell3:PersistentLevel.Nivell3' with GeneratedClass '/Game/Levels/Nivell3.Nivell3_C' with ClassGeneratedBy '/Game/Levels/Nivell3.Nivell3:PersistentLevel.Nivell3'
+[2021.11.30-16.20.23:918][614]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.095164 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_67', movement 'Walking'
+[2021.11.30-16.20.23:918][614]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.095164 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter2', movement 'Walking'
+[2021.11.30-16.20.28:167][859]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
+[2021.11.30-16.20.32:382][110]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 2/7
+[2021.11.30-16.20.39:410][502]LogNet: Browse: /Game/Levels/Nivell3
+[2021.11.30-16.20.39:421][502]LogLoad: LoadMap: /Game/Levels/Nivell3
+[2021.11.30-16.20.39:457][502]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Nivell3
+[2021.11.30-16.20.39:475][502]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018138s)
+[2021.11.30-16.20.39:475][502]LogAIModule: Creating AISystem for world Nivell3
+[2021.11.30-16.20.39:475][502]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2021.11.30-16.20.39:475][502]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Nivell3.Nivell3 to /Game/Levels/UEDPIE_0_Nivell3.Nivell3 (0.019108s)
+[2021.11.30-16.20.39:475][502]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.30-16.20.39:482][502]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell3.Nivell3 up for play (max tick rate 60) at 2021.11.30-17.20.39
+[2021.11.30-16.20.39:483][502]LogWorld: Bringing up level for play took: 0.007563
+[2021.11.30-16.20.39:494][502]LogLoad: Took 0.073386 seconds to LoadMap(/Game/Levels/UEDPIE_0_Nivell3)
+[2021.11.30-16.20.43:381][731]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
+[2021.11.30-16.20.46:779][935]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 2/7
+[2021.11.30-16.20.51:697][230]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 3/7
+[2021.11.30-16.20.57:097][554]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 4/7
+[2021.11.30-16.22.13:288][124]LogNet: Browse: /Game/Levels/Nivell3
+[2021.11.30-16.22.13:289][124]LogLoad: LoadMap: /Game/Levels/Nivell3
+[2021.11.30-16.22.13:308][124]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Nivell3
+[2021.11.30-16.22.13:327][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018421s)
+[2021.11.30-16.22.13:327][124]LogAIModule: Creating AISystem for world Nivell3
+[2021.11.30-16.22.13:328][124]LogPlayLevel: PIE: World Init took: (0.000661s)
+[2021.11.30-16.22.13:328][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Nivell3.Nivell3 to /Game/Levels/UEDPIE_0_Nivell3.Nivell3 (0.019424s)
+[2021.11.30-16.22.13:328][124]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.30-16.22.13:335][124]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell3.Nivell3 up for play (max tick rate 60) at 2021.11.30-17.22.13
+[2021.11.30-16.22.13:336][124]LogWorld: Bringing up level for play took: 0.007038
+[2021.11.30-16.22.13:338][124]LogLoad: Took 0.049147 seconds to LoadMap(/Game/Levels/UEDPIE_0_Nivell3)
+[2021.11.30-16.22.18:524][435]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
+[2021.11.30-16.22.22:027][645]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 2/7
+[2021.11.30-16.22.27:632][981]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 3/7
+[2021.11.30-16.23.02:191][ 54]LogAudio: Warning: Detected orphaned looping sound 'Light01_Cue'.
+[2021.11.30-16.23.05:190][234]LogNet: Browse: /Game/Levels/Nivell3
+[2021.11.30-16.23.05:190][234]LogLoad: LoadMap: /Game/Levels/Nivell3
+[2021.11.30-16.23.05:208][234]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Nivell3
+[2021.11.30-16.23.05:226][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018056s)
+[2021.11.30-16.23.05:227][234]LogAIModule: Creating AISystem for world Nivell3
+[2021.11.30-16.23.05:227][234]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2021.11.30-16.23.05:227][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Nivell3.Nivell3 to /Game/Levels/UEDPIE_0_Nivell3.Nivell3 (0.018992s)
+[2021.11.30-16.23.05:227][234]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.30-16.23.05:234][234]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell3.Nivell3 up for play (max tick rate 60) at 2021.11.30-17.23.05
+[2021.11.30-16.23.05:235][234]LogWorld: Bringing up level for play took: 0.006923
+[2021.11.30-16.23.05:237][234]LogLoad: Took 0.047122 seconds to LoadMap(/Game/Levels/UEDPIE_0_Nivell3)
+[2021.11.30-16.23.08:540][432]LogAudio: Warning: Detected orphaned looping sound 'Clock-ticking-loop'.
+[2021.11.30-16.23.13:459][727]LogBlueprintUserMessages: [FirstPersonCharacter_C_0] 2/7
+[2021.11.30-16.23.20:192][131]LogNet: Browse: /Game/Levels/Nivell3
+[2021.11.30-16.23.20:193][131]LogLoad: LoadMap: /Game/Levels/Nivell3
+[2021.11.30-16.23.20:210][131]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Nivell3
+[2021.11.30-16.23.20:229][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019363s)
+[2021.11.30-16.23.20:230][131]LogAIModule: Creating AISystem for world Nivell3
+[2021.11.30-16.23.20:230][131]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2021.11.30-16.23.20:230][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Nivell3.Nivell3 to /Game/Levels/UEDPIE_0_Nivell3.Nivell3 (0.020664s)
+[2021.11.30-16.23.20:231][131]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.11.30-16.23.20:238][131]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Nivell3.Nivell3 up for play (max tick rate 60) at 2021.11.30-17.23.20
+[2021.11.30-16.23.20:239][131]LogWorld: Bringing up level for play took: 0.007608
+[2021.11.30-16.23.20:241][131]LogLoad: Took 0.048611 seconds to LoadMap(/Game/Levels/UEDPIE_0_Nivell3)
+[2021.11.30-16.23.22:157][245]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Nivell3.Nivell3:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell3.Nivell3:PersistentLevel.Nivell3' with GeneratedClass '/Game/Levels/Nivell3.Nivell3_C' with ClassGeneratedBy '/Game/Levels/Nivell3.Nivell3:PersistentLevel.Nivell3'
+[2021.11.30-16.23.22:286][245]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Nivell3.Nivell3:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Nivell3.Nivell3:PersistentLevel.Nivell3' with GeneratedClass '/Game/Levels/Nivell3.Nivell3_C' with ClassGeneratedBy '/Game/Levels/Nivell3.Nivell3:PersistentLevel.Nivell3'
+[2021.11.30-16.23.23:912][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Nivell3" FILE="../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.11.30-16.23.24:584][336]LogSavePackage: Save=656.18ms
+[2021.11.30-16.23.24:584][336]LogSavePackage: Moving '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Saved/Nivell34D7DDCFC4F3FA1BB6B51F4AF83303991.tmp' to '../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap'
+[2021.11.30-16.23.24:586][336]LogSavePackage: Display: Finished SavePackage ../../../../../../Multimedia 2021-22/motors de joc/Marvia/Projecte_final/Content/Levels/Nivell3.umap
